@@ -15,11 +15,11 @@ OSPF METRIC (Cost)
 
 FastEthernet COST
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/453258a2-e724-4bf5-b07c-6c533dcef46c)
 
 Gigabit Ethernet COST
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/17adfd0e-8944-4016-93bd-98b82ceb8a66)
 
 You can (and SHOULD) change the REFERENCE BANDWIDTH with this command:
 
@@ -42,7 +42,7 @@ THE OSPF COST to a DESTINATION is the TOTAL COST of the ‘outgoing/exit INTERFA
 
 LOOPBACK INTERFACES have a COST of 1
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/ef8de0f8-c22d-4259-bf4c-6fc9894bae29)
 
 To CHANGE the OSPF COST of an INTERFACE, you use the command :
 
@@ -70,7 +70,7 @@ It is RECOMMENDED that you CHANGE the REFERENCE BANDWIDTH
 
 THEN use the **“ip ospf cost”** command to change the COST of the individual INTERFACES, if you want.
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/00196380-4452-4ec9-8cd9-b1949665a5d8)
 
 ---
 
@@ -96,7 +96,7 @@ THREE WAYS to modify the OSPF COST:
 💡 R1(config-router)# **bandwidth <***kilobits-per-second>*
 </aside>
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/aba02fbc-174c-41a1-a8e3-0ffdda3a6cbd)
 
 ---
 
@@ -115,7 +115,7 @@ DOWN STATE
 - It sends an OSPF “hello” message to 224.0.0.5
 - It doesn’t know about any OSPF neighbors yet, so the current neighbor state is DOWN
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/fa9b91da-e0c3-42d9-8c0a-eb47991b1894)
 
 INIT STATE
 
@@ -123,7 +123,7 @@ INIT STATE
 - In R2’s neighbor table, the relationship with R1 is now in the INIT state
 - INIT state = “hello” packet received, but own ROUTER ID is not in the “hello” packet
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/70f3474f-f4bf-4194-b479-d7a65ad82505)
 
 2-WAY STATE
 
@@ -132,7 +132,7 @@ INIT STATE
 - R1 will send another “hello” message, this time containing R2’s RID
 - Both ROUTERS are now in the 2-WAY state
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/4d5e5310-4680-4176-94ab-2d8015032d18)
 
 - The 2-WAY state means the ROUTER has received a “hello” packet with its own RID in it
 - If both ROUTERS reach the 2-WAY state, it means that ALL of the conditions have been met for them to become OSPF neighbors.
@@ -148,7 +148,7 @@ EXSTART STATE
     - The ROUTER with the lower RID will become the SLAVE
 - To decide the MASTER and SLAVE, they exchange DBD (Database Description) packets
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/34fa7cca-f837-432b-9296-d1be69a8869c)
 
 EXCHANGE STATE
 
@@ -156,7 +156,7 @@ EXCHANGE STATE
 - These DBDs do NOT include detailed information about the LSAs, just BASIC INFORMATION
 - The ROUTERS compare the information in the DBD they received to the information in their OWN LSDB to determine which LSAs they must receive from their neighbor
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/600722df-4737-4a69-867e-662c03a6b4b4)
 
 LOADING STATE
 
@@ -164,7 +164,7 @@ LOADING STATE
 - LSAs are sent in **Link State Update (LSU)** messages
 - The ROUTERS send **LSAck** messages to acknowledge that they received the LSAs
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/4fc0fc23-ce00-4381-afef-259091b8f8ef)
 
 FULL STATE
 
@@ -174,13 +174,13 @@ FULL STATE
 - If the DEAD timer counts down to 0 and no “hello” message is received, the neighbor is REMOVED
 - The ROUTERS will continue to share LSAs as the network changes to make sure each ROUTER has a COMPLETE and ACCURATE map of the NETWORK (LSDB)
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/daaa3a7b-ddd0-4ad0-ace7-056cbf2fbe32)
 
 ---
 
 OSPF NEIGHBORS SUMMARY:
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/0d9f9d7e-04fd-472c-8449-a4f12172c055)
 
 1 ) BECOME NEIGHBORS
 
@@ -199,7 +199,7 @@ OSPF NEIGHBORS SUMMARY:
 
 SUMMARY OF OSPF MESSAGE TYPES
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/05b6d3ee-8fdb-4f25-9214-557eeb9a53a6)
 
 ---
 
@@ -212,7 +212,7 @@ Activate OSPF DIRECTLY on an INTERFACE with this command:
 
 </aside>
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/ad7aafd6-9cd8-4259-bd32-aff7b5893b46)
 
 Configure ALL INTERFACES as OSPF Passive Interfaces
 
@@ -221,7 +221,7 @@ Configure ALL INTERFACES as OSPF Passive Interfaces
 
 </aside>
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/e953696d-283f-4676-8df2-9aff0418d78d)
 
 Can then REMOVE specific INTERFACES from being passive using:
 
@@ -232,10 +232,10 @@ Can then REMOVE specific INTERFACES from being passive using:
 
 Activating OSPF DIRECTLY on INTERFACES will show a different output in “show ip protocols”
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/915e31ee-4fee-455b-a947-229e0af4b182)
 
 They will appear under “Routing on Interfaces Configured Explicitly (Area #) :” (as above)
 
 Showing the OSPF LSDB of a Device
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/75c941ca-b6bd-45f0-9a85-c7e5baff4654)

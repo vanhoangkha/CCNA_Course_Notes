@@ -15,7 +15,7 @@ INTRO TO LAYER 2 DISCOVERY PROTOCOLS
 
 - Because they SHARE INFORMATION about the DEVICES in the NETWORK, they can be considered a security risk and are often NOT used. It is up to the NETWORK ENGINEER / ADMIN to decide if they want to use them in the NETWORK or not.
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/65f39e9f-ae1a-42c6-8afb-5e79f939fe5d)
 
 ---
 
@@ -35,15 +35,15 @@ CISCO DISCOVERY PROTOCOL (CDP)
 - By DEFAULT, the CDP hold-time is **180 seconds.** If a message isn’t received from a neighbor for 180 seconds, the neighbor is REMOVED from the CDP Neighbor Table
 - CDPv2 messages are sent by DEFAULT
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/8a0552be-dbc7-4c7b-b011-e32dff75a57e)
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/26e180ec-da08-44d2-bb55-325fdc0c234f)
 
 ---
 
 CDP NEIGHBOR TABLES
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/00cd814e-0255-4fac-ac71-3e50054f813c)
 
 “Device ID” = What devices were DISCOVERED by CDP
 
@@ -61,7 +61,7 @@ CDP NEIGHBOR TABLES
 
 MORE DETAILED OUTPUT
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/cd4fbedb-c12f-4e1e-8582-8db16985121f)
 
 “Version” = shows what version of Cisco’s IOS is running on the device
 
@@ -69,13 +69,13 @@ MORE DETAILED OUTPUT
 
 SHOW SPECIFIC CDP NEIGHBOR ENTRY
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/83ef9488-e82c-4453-ae6e-02575039d0f9)
 
 ---
 
 CDP CONFIGURATION COMMANDS
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/393b2680-2304-4c8e-9180-88cc5fefbfd8)
 
 - CDP is GLOBALLY ENABLED, by DEFAULT
 - CDP is also ENABLED on each INTERFACE, by DEFAULT
@@ -126,24 +126,24 @@ YOU NEED TO ENABLE BOTH TO SEND AND RECEIVE (Unless you want to only enable SEND
 - Configure the LLDP holdtime: `R1(config)# lldp holdtime *seconds*`
 - Configure the LLDP reinit timer: `R1(config)# lldp reinit *seconds*`
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/25afc5ad-4d82-4472-b282-31ed2a65eae7)
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/78fab926-9fda-4c83-91eb-eda4bf4ec005)
 
 SHOW LLDP STATUS
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/32b11d7b-4050-422e-afd4-bec23e8db3a1)
 
 SHOW ALL LLDP NEIGHBORS
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/85a46d24-5574-4400-bc03-6b0568294940)
 
 SHOW LLDP NEIGHBORS in DETAIL
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/26751ca8-ed54-4e5c-9927-8c6eb0e2e3f7)
 
 SHOW SPECIFIC LLDP DEVICE ENTRY
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/b5332838-d112-4556-bee0-c3716a3d4f89)
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/2dd16e33-75a9-4e11-91aa-b507ed490e9b)

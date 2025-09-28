@@ -67,14 +67,14 @@ DoS (Denial of Service) Attacks
     - The ATTACKER continues sending SYN messages
     - The TARGET is no longer able to make legitimate TCP connections
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/5b04eea4-c53a-48b7-9683-952c9b27c9db)
 
 - In a DDoS (Distributed Denial of Service) Attack, the ATTACKER infects many computers with MALWARE and uses them to initiate a Denial-of-Service Attack.
 - This group of infected computers is called a BOTNET
 
 Example : A TCP SYN Flood Attack
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/fc394c8d-33f4-4fd4-84a0-3e49caa9c158)
 
 ---
 
@@ -86,7 +86,7 @@ SPOOFING ATTACKS
 - An ATTACKER uses spoofed MAC ADDRESSES to flood DHCP Discover messages
 - The TARGET server’s DHCP POOL becomes full, resulting in a Denial-of-Service to other DEVICES
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/c539c50b-1be0-42f9-8ce3-fbeb47ea2034)
 
 ---
 
@@ -98,7 +98,7 @@ REFLECTION / AMPLIFICATION ATTACKS
 
 - A REFLECTION attack becomes an AMPLIFICATION attack when the amount of traffic sent by the ATTACKER is small but it triggers a LARGE amount of traffic to be sent from the *reflector* to the TARGET
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/34ca977d-9884-4aeb-b99a-9f3677ba17fa)
 
 ---
 
@@ -110,7 +110,7 @@ MAN-IN-THE-MIDDLE ATTACKS
 - The TARGET of the request sends an ARP REPLY, informing the requester of it’s MAC ADDRESS
 - The ATTACKER waits and sends another ARP REPLY after it’s legitimate replier
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/86cee6cd-845a-4732-bfec-4cfe18101322)
 
 - In PC1’s ARP table, the entry for 10.0.0.1 will have the ATTACKER’S MAC ADDRESS
 - When PC1 tries to send traffic to SRV1, it will be forwarded to the ATTACKER instead
@@ -118,7 +118,7 @@ MAN-IN-THE-MIDDLE ATTACKS
 - The ATTACKER can also modify the messages before forwarding them to SRV1
 - This compromises the CONFIDENTIALITY and INTEGRITY of communication between PC1 and SRV1
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/07ebfebd-0686-436a-8990-853e3fee4377)
 
 ---
 
@@ -128,7 +128,7 @@ RECONNAISSANCE ATTACKS
 - This is often publicly available information
 - IE: nslookup to learn the IP ADDRESS of a site
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/6e63b09d-a768-4cb3-ac06-87ad41d45c38)
 
 - Or a WHOIS query to learn email addresses, phone numbers, physical addresses, etc.
 

@@ -7,7 +7,7 @@ DATA SERIALIZATION
 
 - DATA SERIALIZATION languages allow us to represent *variables* with text
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/f09eeeba-7779-40c8-af18-f1227bf0cf47)
 
 ---
 
@@ -62,19 +62,19 @@ JSON STRUCTURED DATA TYPES:
     - The *key* and *value* are separated by a colon :
     - If there are multiple key-value pairs, each pair is separated by a comma
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/24a15571-bb9f-43b4-889f-69f23ffb91bc)
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/b66f041d-2449-43f0-8a04-2c0da5391411)
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/54d69eed-4369-4ef6-a437-6b5ecce14586)
 
 - An ARRAY is a series of *values* separated by commas
     - Not *key-value pairs*
     - The values do NOT have to be the same DATA Type
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/3212f472-f966-49e5-9b9a-7bedcfe47487)
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/f8075e93-2be7-4b2e-a2af-968961bbc5a7)
 
 ---
 
@@ -87,9 +87,9 @@ XML (EXTENSIBLE MARKUP LANGUAGE)
     - Often used by REST APIs
     - <key> value </key> (similar to HTML)
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/f954b0ef-f563-4536-94c8-334b6d8f97c6)
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/948dae9e-b59b-4607-8e6d-b39837baba70)
 
 ---
 
@@ -104,8 +104,8 @@ YAML (YAML AIN’T MARKUP LANGUAGE)
 - - is used to indicate a list
 - Keys and Values are represented as key : value
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/ecfa3659-4bc3-4596-9f11-10d2644eac1a)
 
 COMPARISON BETWEEN JSON and YAML using the same DATA
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/16e0e98b-5653-4f8a-a388-1706f91a30d4)

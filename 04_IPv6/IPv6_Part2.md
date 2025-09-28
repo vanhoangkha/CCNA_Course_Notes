@@ -6,7 +6,7 @@ IPv6 ADDRESS CONFIGURATION (EUI-64)
 - (Modified) EUI-64 is a method of converting a MAC address (48-bits) into a 64-bit INTERFACE identifier
 - This INTERFACE identifier can then become the “HOST portion” of a /64 IPv6 ADDRESS
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/bee8f7bf-3877-4307-9ca7-863af19aae6c)
 
 EUI-64 PRACTICE:
 ```
@@ -19,16 +19,16 @@ EUI-64 PRACTICE:
 so the EUI-64 Interface Identifier is :  7A2B CBFF FEAC 0867
 ```
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/d4e90146-8c71-4c6c-b5aa-a9077bde2caf)
 
 ---
 CONFIGURING IPv6 ADDRESSES with EUI-64
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/e6c6da0b-def4-4764-a0a1-3f64855f319f)
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/bff1b2bc-9944-451a-972a-f8b3bd5f76ea)
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/4c69d97a-a611-4a94-9e11-9016ec456819)
 
 NOTE the “2001:DB8…” Address has “E” changed to “c”. This is the 7th bit getting flipped (1110 to 1100 = 12 = hex ‘C’)
 
@@ -65,7 +65,7 @@ IPv6 ADDRESS TYPES
 
 Remember THESE THREE PARTS of a GLOBAL UNICAST ADDRESS
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/c5552f0e-eca2-4069-a656-611b5c196402)
 
 ---
 
@@ -87,7 +87,7 @@ Remember THESE THREE PARTS of a GLOBAL UNICAST ADDRESS
 
 (*) The GLOBAL ID should be UNIQUE so that ADDRESSES don’t overlap when companies MERGE
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/6e6f8af9-ee53-4e0d-90ec-9e137b10c851)
 
 ---
 
@@ -113,7 +113,7 @@ Remember THESE THREE PARTS of a GLOBAL UNICAST ADDRESS
     
     Network using Link-Local Addresses for “next-hop” routing
     
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/7d74c4fb-ef52-4436-8285-77ab571f2964)
     
 
 ---
@@ -139,7 +139,7 @@ YOU MUST KNOW THE MULTICAST ADDRESS FOR EACH ROUTER TYPE
 
 NOTE that the IPv6 and IPv4 Addresses share the same last digit
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/e5efcdd7-5d7d-4020-a179-07ba267bf5ab)
 
 MULTICAST ADDRESS SCOPES
 
@@ -165,7 +165,7 @@ MULTICAST ADDRESS SCOPES
     - No boundaries
     - Possible to be ROUTED over the INTERNET
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/5d5f2d6e-3e21-4ab7-bf8e-dec5d12b6eed)
 
 5) ANYCAST ADDRESS
 
@@ -178,7 +178,7 @@ MULTICAST ADDRESS SCOPES
     - Use a regular UNICAST (Global Unicast, Unique Local) and specify THAT as an ANYCAST ADDRESS
     - `R1(config-if)# ipv6 address 2000:db8:1:1::99/128 anycast`
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/71729af9-6c02-49bd-b290-af7f5009bd6e)
 
 6) OTHER IPv6 ADDRESSES
 

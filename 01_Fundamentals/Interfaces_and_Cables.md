@@ -59,7 +59,7 @@ Most use 8 wires (4 pairs) however ...
 
 10/100BASE-T = 2 pairs (4 wires)
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/00b27997-a78a-4e81-a878-7f8ab7e3279e)
 
 
 ---
@@ -68,7 +68,7 @@ How do devices communicate via their connections?
 
 Each ethernet cable has a RJ-45 plug with 8 pins on the ends.
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/323930c9-3387-4bf9-aae1-f61db0fd9c04)
 
 
 - PCs Transmit(TX) data on Pins #1-2
@@ -82,7 +82,7 @@ This allows Full-Duplex transmission of data.
 
 What if a Router / Switch connect?
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/907259d9-1837-4d53-8f45-a42934fb66f2)
 
 
 - Routers Transmit(TX) data on Pins #1-2
@@ -103,7 +103,7 @@ We MUST use a "Crossover" cable.
 
 This cable swaps the pins on one end to allow connection to work.
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/d98646ad-366f-4e96-8c6f-f6b5f32f9bdc)
 
 
 PIN#1 -----> PIN#3
@@ -129,7 +129,7 @@ Most modern equipment now has AUTO MDI-X which **automatically detects** which p
 
 Each wire pair is **bidirectional** so can transmit/receive much faster than 10/100BASE-T.
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/763c841a-d7b5-4e87-8500-b54d623af620)
 
 
 ---
@@ -144,14 +144,14 @@ SFP Transceiver (Small Form-Factor Pluggable) allows fiber-optic cables to conne
 
 4 parts to a fiber-optic cable.
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/70b81cde-265f-413b-815b-3e7184ea0586)
 
 
 There are TWO types of fiberoptic cable.
 
 Single-Mode:
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/d9a4b633-44c2-491d-92e4-329dd3b9074b)
 
 
 - Narrower than multimode
@@ -161,7 +161,7 @@ Single-Mode:
 
 Multimode:
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/e73ec4d0-9aa1-4a75-848c-3af70e770dce)
 
 
 - Core is wider than Single-mode

@@ -14,7 +14,7 @@ Networking models categorize and provide a structure for networking protocols an
 - Functions are divided into 7 "Layers"
 - These layers work together to make the network work.
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/bbf46de2-e025-4ddd-b52b-614b280598da)
 
 As data moves from the top layer, downward, the process is called “encapsulation”
 
@@ -22,11 +22,11 @@ As data moves from the bottom layer, upward, the process is called “de-encapsu
 
 When interactions occur on the same layer, it’s called “same-layer interaction”
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/b7cf4900-993c-49f0-b6ea-70f4f0719633)
 
 Mnemonic to help remember the Data Layer Names / Order
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/01f532f6-b636-4b7c-99d0-a67f7e483a99)
 
 
 ### The layers are :
@@ -120,7 +120,7 @@ When the frame is sent to the receiver, it then goes through the reverse process
 
 ### OSI MODEL - PDU's
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/9b885a51-91cd-4fe6-b1be-e7fa7aa220b5)
 
 A PDU is a Protocol Data Unit. Each step of the process is a PDU.
 
@@ -145,14 +145,14 @@ A PDU is a Protocol Data Unit. Each step of the process is a PDU.
 - THIS is the model actually in use in modern networks.
 - * Note : The OSI Model still influences how network engineers think and talk about networks.
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/e9593c06-46a3-4ff9-aa01-863e0aeb5df3)
 
 
 ---
 
 ### Layer Interactions
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/372c45a0-bb3e-4342-af2b-79d3606384ec)
 
 
 Adjacent-Layer Interactions:

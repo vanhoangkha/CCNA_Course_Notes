@@ -3,7 +3,7 @@
 THE PURPOSE OF FHRPS
 
  
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/32c286ce-e042-4cda-9067-c232a210ec81)
 
 What happens when the configured DEFAULT GATEWAY for network HOSTS goes down ?
 
@@ -38,11 +38,11 @@ HOW DOES FHRP WORK?
     - Source MAC (HOST MAC ADDRESS)
     - Destination MAC (GATEWAY VIP MAC ADDRESS)
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/2a1c5df8-d4fa-44fa-b850-a8fd6bb69388)
 
 IF R1 goes down, R2 will switch from STANDY to ACTIVE after not receiving “Hello” messages from R1
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/5e54ee53-09bd-42a7-b89e-69892590913d)
 
 The HOST ARP TABLE doesn’t need to change since the MAC ADDRESS of the VIP is already known and traffic flows externally via R2
 
@@ -51,9 +51,9 @@ R2 DOES need to update the SWITCHES with a GRATUITOUS ARP
 - GRATUITOUS ARP is an ARP REPLY sent without being REQUESTED (no ARP REQUEST received)
 - GRATUITOUS ARP uses BROADCAST (FFFF.FFFF.FFFF) - Normal ARP REPLY is Unicast
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/6a47dc71-544e-4e33-99cd-b6a8db90f56f)
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/6f36cdf9-d002-48d6-ae5b-6fb899431b46)
 
 What happens is R1 comes back ONLINE again?
 
@@ -88,7 +88,7 @@ HSRP (HOT STANDBY ROUTER PROTOCOL)
 
 - In a situation with MULTIPLE SUBNETS / VLANS, you can configure a DIFFERENT ACTIVE ROUTER in EACH SUBNET / VLAN to LOAD BALANCE
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/a5795fa0-d57b-4037-8945-a39da7fb2d15)
 
 ---
 
@@ -107,7 +107,7 @@ VRRP (VIRTUAL ROUTER REDUNDANCY PROTOCOL)
 
 - In a situation with MULTIPLE SUBNETS / VLANS, you can configure a DIFFERENT MASTER ROUTER in EACH SUBNET / VLAN to LOAD BALANCE
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/4bd45dbc-fc51-4c45-818e-5274530accde)
 
 ---
 
@@ -129,7 +129,7 @@ GLBP (GATEWAY LOAD BALANCING PROTOCOL)
 
 MEMORIZE THIS CHART and the differences between the FHRPs
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/a5b5ee87-4c92-4b3e-9b98-3d0c09a1732d)
 
 ---
 
@@ -137,18 +137,18 @@ BASIC HSRP CONFIGURATION
 
 R1s configuration
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/028b13d4-b258-4551-96ae-068adb931356)
 
 NOTE : group number has to match ALL ROUTERS being configured in a given SUBNET
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/d2e5eb5f-d105-4788-a869-d9e65f53eca7)
 
 R2’s configuration
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/65b999f6-eed8-45c3-89fe-bff749f40f11)
 
 NOTE : HSRP versions are not cross-compatible. All ROUTERS must use the same HSRP Version
 
 Output of the “show standby” command
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/99107301-2619-4454-b104-8aed3780924d)

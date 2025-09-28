@@ -13,39 +13,39 @@ THE PURPOSE OF DNS
 
 BASIC FUNCTIONS OF DNS
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/059c6fa4-674c-47ce-a08e-0714b21cb39e)
 
 Command `ipconfig /all` (Show local IP configuration on current DEVICE)
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/b43b1d98-b510-4d05-be96-f706a3d090d1)
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/7f56b6f1-12c6-4096-9f73-28c9f8cfd570)
 
 Command `nslookup` (Shows IP information for a given DNS entry)
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/71e5cd97-528c-435f-86d3-29d6ad2808b6)
 
 WIRESHARK CAPTURE of above  COMMANDS
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/9d9cd65c-8a8b-45b3-8914-28a53013618f)
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/469431b3-e981-47cf-994d-642f737e79a0)
 
 Command `ipconfig /displaydns` (Displays DNS cache)
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/da36bc07-d834-4c5e-b7ab-71da025b912f)
 
 Command `ipconfig /flushdns` (Clears DNS cache)
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/f8608c2f-840c-477d-9284-7060838f1f3e)
 
 HOSTS Files
 
 WINDOWS HOSTS location
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/771b6bd4-abe4-41b7-afc2-3984ccc23407)
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/ff56876a-3b80-482f-b73b-caa86e5d972f)
 
 ---
 
@@ -59,22 +59,22 @@ CONFIGURING DNS IN CISCO IOS
 
 Command `ip dns server` and `ip host <hostname> <ip address>`
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/f65a4118-ae59-4db5-8fc4-c83d39c3072d)
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/59743697-6347-41de-9359-ca7ef327af01)
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/8e9c34c4-1a53-4ce4-a268-8a6d801d45e9)
 
 Command `show hosts`
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/306aa507-1523-43e5-ac48-251e8a75b5f8)
 
 Command `ip name-server` and `ip domain lookup`
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/cf0deb90-f8be-4f11-9373-2b7ef4715baf)
 
 ---
 
 COMMAND REVIEW:
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/6c3e7873-04c4-407e-a851-cb74a9f78eb9)

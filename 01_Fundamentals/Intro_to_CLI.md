@@ -13,7 +13,7 @@ A GUI is a "Graphical User Interface"
 
 You can use a "Rollover cable" : DB9 serial connector to RJ45 OR a DB9 Serial to USB
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/0527c007-d607-4bef-8ce1-7b18a177614d)
 
 ### How do you actually access the CLI?
 
@@ -54,7 +54,7 @@ PRIVILEGED EXEC MODE:
 
 USE a Question Mark (?) to view the available commands in ANY mode. Combining ? with a letter or partial command will list all the commands with those letters.
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/52454e6f-d5b1-45f0-9a50-e412d356f6d2)
 
 
 USE the TAB key to complete partially entered commands IF the command exists.
@@ -159,7 +159,7 @@ Future passwords will ALSO be *encrypted*
 
 “Enable secret” will not be effected (it’s ALWAYS encrypted)
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/09c841fe-b5c0-4683-9082-baf060e24c03)
 
 
 Now you will see that the password is no longer in plaintext.
@@ -170,7 +170,7 @@ Now you will see that the password is no longer in plaintext.
 
 For BETTER / STRONGER encryption, use “enable secret”
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/346f3015-9211-47a9-888f-4e02a013a728)
 
 
 “5” refers to MD5 encryption.
@@ -183,7 +183,7 @@ Once you use “enable secret” command, this will override “enable password�
 
 To CANCEL or delete a command you entered, use the “no” keyword
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/2978d101-08d4-4ee3-8995-f36aa1c47d15)
 
 
 In this instance, disabling “service password-encryption”:
@@ -194,12 +194,12 @@ In this instance, disabling “service password-encryption”:
 
 ---
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/e16966a3-674a-4376-bdab-2c06e3659e5f)
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/e449e074-bf4c-40f1-a61e-0442ad83f284)
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/4c1bdf58-7de6-4074-8189-1573a174474c)
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/e7771e65-5ed5-406d-9751-76520713210c)
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/5f7357d4-f44b-4a61-a24c-86f3368f30f7)

@@ -142,7 +142,7 @@ Protocol (Layer 2 Status)
 
 - Cannot operate if Status (Layer 1) is down
   
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/fa113ff0-a8ee-410b-ab3e-64684654cac6)
 
 
 ---
@@ -157,7 +157,7 @@ R1(config)# interface gigabitethernet 0/0
 
 This can be shortened to 'g0/0' like they are listed in physical network maps.
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/df83bf09-c391-45b7-b1b4-41db061b84f4)
 
 
 // This sets the IP ADDRESS and SUBNET MASK of device
@@ -182,7 +182,7 @@ Good to confirm that the device/interface you have configured is up and running.
 
 More 'show' CLI Commands
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/bdc1152e-1946-4ddb-ae72-1e23b9c9defa)
 
 
 'show interfaces <interface name>'

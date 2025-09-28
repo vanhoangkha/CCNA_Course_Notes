@@ -8,13 +8,13 @@ A LAYER 2 ETHERCHANNEL is a group of SWITCH PORTS which operate as a SINGLE INTE
 
 A LAYER 3 ETHERCHANNEL is a group of ROUTED PORTS which operate as a SINGLE INTERFACE which you assign an IP ADDRESS to.
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/86cecd4a-1554-4ece-8a88-6f97e24788f1)
 
 When the bandwidth of the INTERFACES connected to END HOSTS is greater than the bandwidth of the connection to the DISTRIBUTION SWITCH(es), this is called **OVERSUBSCRIPTION.** 
 
 Some OVERSUBSCRIPTION is acceptable, but too much will cause congestion.
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/6ada996f-8fd4-4339-9ad7-d52e51a3553e)
 
 - If you connect TWO SWITCHES together with multiple links, ALL except ONE will be DISABLED by SPANNING TREE PROTOCOL (Green Lights vs. Orange Lights above on ASW1)
 
@@ -25,12 +25,12 @@ WHY?
 
 An ETHERCHANNEL (in network topology diagrams) is represented like THIS (circle around multi-connections)
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/4c2cfcf8-57f2-4907-8322-2f26cc7dc7e4)
 
 - ETHERCHANNEL groups multiple channels together to act as a SINGLE INTERFACE
 - STP will treat this GROUP as a SINGLE INTERFACE
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/a48bed14-11b4-42ba-965a-9724598d3b69)
 
 (All INTERFACES Green!)
 
@@ -47,7 +47,7 @@ Some other names for an ETHERCHANNEL are:
 
 HOW DOES AN ETHERCHANNEL LOAD-BALANCE?
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/bc257ff8-bf91-4744-a6cb-8f603ee9d294)
 
 - ETHERCHANNEL load-balances based on **“flows”**
 - A “flow” is a communication between TWO NODES in the NETWORK
@@ -64,13 +64,13 @@ HOW DOES AN ETHERCHANNEL LOAD-BALANCE?
 
 How to see the configuration for LOAD-BALANCING method
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/571623bf-b96b-4382-ada5-f14f93ec1a6a)
 
 How to CHANGE the LOAD-BALANCING method
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/5919f2fd-80bb-4b10-bfa0-ce403f52c710)
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/bc30e17e-716a-41cd-a57a-69a661b5d58e)
 
 ---
 
@@ -100,11 +100,11 @@ Up to 8 INTERFACES can be formed into a single ETHERCHANNEL (LACP allows up to 1
 
 PAgP CONFIGURATION
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/d0c734e2-79ad-43ad-a50b-c17ced608021)
 
 💡 NOTE that “auto” and “desirable” are the ONLY available modes for PAgP
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/9eabb76a-1846-48d3-abb1-bd6898a432e7)
 
 PAgP negotiations to form an ETHERCHANNEL
 
@@ -114,7 +114,7 @@ Creating a port-channel interface Port-channel1
 
 Shows up in the interface as “Port-channel1”
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/bc0c1190-9e39-4ea2-923c-b29e03e9d40a)
 
 The “channel-group” number has to MATCH for member INTERFACES on the same SWITCH.
 
@@ -126,11 +126,11 @@ It DOESN’T have to MATCH the “channel-group” number on the OTHER SWITCH!
 
 LACP CONFIGURATION
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/ba4adcf6-dec5-456f-b8d7-ab4e6b722cbf)
 
 💡 NOTE that “active” and “passive” are the ONLY available modes for LACP
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/0a314613-d398-49f1-a4d3-1b50fb96ab7d)
 
 LACP negotiations for form an ETHERCHANNEL
 
@@ -144,7 +144,7 @@ It DOESN’T have to MATCH the “channel-group” number on the OTHER SWITCH!
 
 STATIC ETHERCHANNEL CONFIGURATION
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/92db26e7-21ae-40c6-89ee-abe0197ed8ad)
 
 💡 NOTE that “on” is the ONLY available mode for STATIC ETHERCHANNEL
 
@@ -158,7 +158,7 @@ ON + active = DOES NOT WORK
 
 HOW TO MANUALLY CONFIGURE THE NEGOTIATION PROTOCOL
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/83ef9bc8-4bd4-4dd3-b28e-83439ba96860)
 
 TWO OPTIONS: 
 
@@ -175,11 +175,11 @@ AFTER CONFIGURING THE ETHERCHANNEL MODE
 
 CONFIGURING THE PORT INTERFACE
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/c485cdf1-f0ed-44b8-8c91-c0553bf6d82d)
 
 “show running-config” shows “interface Port-channel1” in the configuration
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/6adda3dd-6408-445f-bb3f-61847b3920b6)
 
 💡 NOTE the PHYSICAL INTERFACES (g0/0-g0/3) were auto-configured by the Port-channel1 configuration!
 
@@ -201,7 +201,7 @@ VERIFYING STATUS OF ETHERCHANNEL
 
 💡 “show etherchannel summary”
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/9e0edb15-2806-4d51-afc9-ad67ed465a97)
 
 NOTE information at bottom. (”SU” means S - Layer2 + U - in use)
 
@@ -211,11 +211,11 @@ Protocol = What protocol the Etherchannel is using (in this case, LACP)
 
 OTHER FLAGS
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/23d92ae1-9cc6-4f3a-9ddf-2ead59705c1c)
 
 “D” = Down
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/b1b3ce70-d9a6-4bd2-be4d-976077438c85)
 
 Changing one of the Member interfaces using “switchport mode access” has made it different than the other members so it is now appearing as “s” = suspended
 
@@ -223,37 +223,37 @@ Another useful command
 
 💡 “show etherchannel port-channel”
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/61731b0c-1cc5-4a7e-b92c-d0afbea0ac2d)
 
 💡 “show spanning-tree” will show the single EtherChannel port interface
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/df0b9cc8-0448-4bbd-aefa-62fadf2b6089)
 
 ---
 
 LAYER 3 ETHERCHANNELS
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/c553ad64-1d8e-4a2a-a741-3102c89dc030)
 
 HOW TO CONFIGURE A LAYER 3 ETHERCHANNEL (from a clean configuration)
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/c4520b2f-1e3b-49b8-85b1-458cdb6fc865)
 
 💡 “show running-config”
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/8638f32d-47c3-4c64-b68e-a9e2e0070ac9)
 
 NOTE : No SWITCHPORT and NO IP INTERFACE.
 
 Where do we configure the IP Address?  Directly on the PORT INTERFACE !
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/3ec55a24-1de5-44a7-926c-f85500042115)
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/f99ea2a6-82fb-494a-b80d-a171732d5786)
 
 (”RU” - “R” = Layer 3, “U” = in use)
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/acfe62c5-6908-4782-9440-1f75f842c2c9)
 
 ---
 
@@ -279,4 +279,4 @@ SW# show etherchannel port-channel
 ```
 Displays information about the virtual port-channel interfaces on a SWITCH
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/6cae87f0-0226-40cc-92ba-b839c7a5ff53)

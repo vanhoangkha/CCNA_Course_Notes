@@ -4,17 +4,17 @@ ANOTHER WAY TO CONFIGURE NUMBERED ACLs
 
 - In DAY 34, you learned that numbered ACLs are configured in Global Config mode:
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/d5bbb9d7-5499-43e0-9ac8-b173e5bb5c50)
 
 - You learned that named ACLs are configured with subcommands in a separate config mode:
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/73104e31-0630-4b2a-a328-29adc5ceb418)
 
 - However, in modern IOS you can also configure numbered ACLs in the exact same way as named ACLs:
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/724638f3-1044-4476-96de-cda39fb51315)
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/a72df84e-262b-467c-a87e-b70699033076)
 
 ---
 
@@ -23,15 +23,15 @@ ADVANTAGES OF NAMED ACL CONFIG MODE
 - You can easily DELETE individual entries in the ACL with NO *entry-number*
 - You can easily DELETE individual entries in the ACL with NO *sequence-number*
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/f7f85684-6300-495d-bde9-1e1ffcead85e)
 
 This doesn’t work with NUMBERED access lists
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/8e27f6f1-794b-45be-ac67-20b3f563f551)
 
 - You can insert NEW entries in-between other entries by specifying the SEQUENCE NUMBER
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/41fb1df8-b368-4349-b33a-ba0f8c768435)
 
 ---
 
@@ -40,7 +40,7 @@ RESEQUENCING ACLs
 - There is a *resequencing* function that helps edit ACLs
 - The command is  `R1(config)#ip access-list resequence *acl-id starting-seq-num increment*`
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/1c5e3f13-900a-4be4-99ba-db86b0128f57)
 
 ---
 
@@ -81,7 +81,7 @@ EXTENDED NAMED ACL
 
 MATCHING THE PROTOCOL
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/f6337620-5eb1-4ddc-837c-ae242a718f29)
 
 IP Protocol Number is the number used in the IPv4 Header Protocol field
 
@@ -89,7 +89,7 @@ Examples: (1) ICMP, (6) TCP, (17) UDP, (88) EIGRP, (89) OSPF
 
 MATCHING THE SOURCE / DESTINATION IP ADDRESS
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/bbb38418-3276-485b-ba6b-5c4c7097d56f)
 
 This command:
 
@@ -120,7 +120,7 @@ MATCHING THE TCP /  UDP PORT NUMBERS
 
 - When matching TCP / UDP, you can optionally specify the SOURCE and/or DESTINATION PORT NUMBERS to match
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/c059d148-b685-49b2-81e0-518a6d66c25b)
 
 eq = equal than
 
@@ -134,9 +134,9 @@ range = range of ports
 
 You can use either the PORT NUMBER or the specific TYPE (that has a KNOWN PORT NUMBER)
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/03dd80be-1f0f-41ac-ae1a-bdb851579bb4)
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/f7a11d7b-aeb6-4528-b5cc-62ff515fe33c)
 
 ---
 
@@ -156,9 +156,9 @@ PRACTICE QUESTIONS 2:
 
 EXAMPLE NETWORK
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/ddb40c27-b195-49fe-a12a-49e078166e30)
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/692f4a58-13d3-4c0a-8513-3dc76b014b65)
 
 REQUIREMENTS:
 
@@ -207,8 +207,8 @@ EXTENDED ACL #3 (APPLIED at R1 g0/0 OUTBOUND interface)
 
 What the EXTENDED ACLs look like
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/cda064f2-b1ce-45ee-a660-04cdceb3514b)
 
 HOW TO SEE WHICH EXTENDED ACL’s ARE APPLIED TO AN INTERFACE
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/f596bca6-c06a-445e-84a3-8f8eb0c6baaf)

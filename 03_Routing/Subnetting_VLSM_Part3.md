@@ -32,11 +32,11 @@ VARIABLE-LENGTH SUBNET MASKS (VLSM)
 - VLSM (Variable-Length Subnet Masks) is the process of creating subnets of different sizes, to make your use of network addresses more efficient.
 - VLSM is more complicated than FLSM, BUT it's easy if you follow the steps correctly.
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/30a08f93-796a-4fe9-854e-58af0bcbd69b)
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/ad7d7ac0-5e00-4662-8192-f7f9db86f1d9)
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/dc006342-4bd9-40d4-b1c5-9ac7a670ed96)
 
 
 So, in order:

@@ -10,14 +10,14 @@ THE IPv4 HEADER is used to ENCAPSULATE a TCP or UDP Segment.
 
 To Review:
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/64906e3c-0bae-4c2c-96ca-4e6850f3844a)
 
 
 ---
 
 FIELDS OF THE IPv4 HEADER
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/f2667488-2769-4e62-bee7-eddbf9e00058)
 
 
 | FIELD | # OF BITS |

@@ -26,7 +26,7 @@ RFC 1067 - A simple network management protocol
 
 SMNP OPERATIONS
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/bfa13793-5bc7-4344-8592-f38ef3a64784)
 
 ---
 
@@ -34,21 +34,21 @@ SMNP COMPONENTS
 
 OVERVIEW
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/632a83c5-27c8-4adc-8b08-079030c5f52c)
 
 NMS
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/aa59534d-01d5-404c-bdf6-e0fd92cf9d98)
 
 MANAGED DEVICES
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/656e27b1-86a4-42c7-a1a1-94309aa19610)
 
 SNMP OIDs
 
 - SNMP Object IDs are ORGANIZED in a HIERARCHICAL STRUCTURE
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/79180299-7d9a-4607-a592-7e7d8d090cd1)
 
 ---
 
@@ -74,37 +74,37 @@ SNMP VERSIONS
 
 SNMP MESSAGES
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/25b15c81-931a-41a6-8033-dff07bfb5f15)
 
 1) SNMP READ
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/e7d671f6-f2b0-468a-95a2-6678a52945c4)
 
 2) SMNP WRITE
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/d8679ff7-5103-4e01-8f2e-25bb1bd25734)
 
 
 3) SNMP NOTIFICATION
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/fe9266fc-12b8-41d3-8d8f-95f3f7b52ef6)
 
 
 SNMP AGENT listens for MESSAGES on UDP Port 161
 
 SNMP MANAGER listens for MESSAGES on UDP Port 162
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/23e6fd0a-ed1e-441b-b7b0-457a4e55f645)
 
 ---
 
 SNMPv2c CONFIGURATION (Basic)
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/caf4624e-9ca2-4c8e-82fe-53db2499a38f)
 
 WHAT HAPPENS WITH R1’s G0/1 INTERFACE GOES DOWN?
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/96341ab3-1ed3-4dd4-903c-fa57ab1f83be)
 
 NOTE:
 

@@ -14,18 +14,18 @@ IP PHONES
     - 1 PORT is the “DOWNLINK” to the PC
     - 1 PORT connects internally to the PHONE itself
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/0bba51c0-af57-49e4-ae29-fca2a1079a34)
 
 - This allows the PC and the IP PHONE to share a single SWITCH PORT. Traffic from the PC passes through the IP PHONE to the SWITCH
 - It is RECOMMENDED to separate “VOICE” traffic (from IP PHONE) and “DATA TRAFFIC” (from the PC) by placing them into SEPARATE VLANS (!)
     - This can be accomplished using a VOICE VLAN
     - Traffic from the PC will be UNTAGGED - but traffic from the PHONE will be tagged with a VLAN ID
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/12a1bfa5-036a-4eb6-b165-23fc8209a1f8)
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/b7c5b7e6-fa79-4405-b72f-b609ab56f216)
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/fc26e9dd-e19e-43cc-9f2a-4022b47f98b4)
 
 ---
 
@@ -35,7 +35,7 @@ POWER OVER ETHERNET (PoE)
 - Typically, the PSE is a SWITCH and the PDs are IP PHONES, IP CAMERAS, WIRELESS ACCESS POINTS, etc.
 - The PSE receives AC POWER from the outlet, converts it to DC POWER, and supplies that DC POWER to the PDs
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/4229e398-a50e-487c-adf3-66b235ea9189)
 
 - TOO much electrical current can damage electrical DEVICES
 - PoE has a process to determine if a CONNECTED DEVICE needs power and how much it needs.
@@ -47,12 +47,12 @@ POWER OVER ETHERNET (PoE)
         - Equivalent to 'power inline police action err-disable'
         - The INTERFACE will be put in an ‘error-disabled’ state and can be re-enabled with 'shutdown' followed by 'no shutdown'
     
-    📊 **[Diagram]** - *Network diagram illustrating the concept*
+    ![image](https://github.com/psaumur/CCNA/assets/106411237/59914c0d-2c0e-4952-a4af-1f7ada02002d)
     -  'power inline police action log' does NOT shut down the INTERFACE if the PD draws too much power. It WILL restart the INTERFACE and send a SYSLOG message
     
-    📊 **[Diagram]** - *Network diagram illustrating the concept*
+    ![image](https://github.com/psaumur/CCNA/assets/106411237/9717fb1e-9129-41f9-90bb-613c2bdee460)
     
-    📊 **[Diagram]** - *Network diagram illustrating the concept*
+    ![image](https://github.com/psaumur/CCNA/assets/106411237/8fe2eb15-49be-4f63-9f6f-79c0d5fe052f)
     
 
 ---
@@ -64,14 +64,14 @@ INTRO TO QUALITY OF SERVICE (QoS)
     - DATA TRAFFIC used the IP NETWORK (Enterprise WAN, Internet, etc)
 - QoS wasn’t necessary as the different kinds of TRAFFIC didn’t compete for BANDWIDTH
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/8a21a767-5a93-42bd-a8d4-52453f8a7341)
 
 - Modern NETWORKS are typically *converged networks* in which IP PHONES, VIDEO TRAFFIC, REGULAR TRAFFIC, etc. all share the same IP NETWORK
 - This enables COST SAVINGS as well as more ADVANCED FEATURES for VOICE and VIDEO TRAFFIC (Example : Collaboration Software like Cisco WebEx, MS Teams, etc)
 - HOWEVER, the different kinds of TRAFFIC now have to compete for BANDWIDTH
 - **QoS** is a set of TOOLS used by NETWORK DEVICES to apply different TREATMENT to different PACKETS
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/8909efdb-bbbd-4f50-b412-7abe12a3bcef)
 
 QUALITY OF SERVICE (QoS)
 
@@ -83,7 +83,7 @@ QUALITY OF SERVICE (QoS)
         - One-Way Delay = Time it takes traffic to go from SOURCE to DESTINATION
         - Two-Way Delay = Time it takes traffic to go from SOURCE to DESTINATION and return
         
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/29ed6306-a6aa-46ba-af2f-5ebcd383d1d7)
         
     
     - JITTER
@@ -111,16 +111,16 @@ QoS QUEUING
 - If the QUEUE is FULL, new PACKETS will be DROPPED
 - The is called *tail drop*
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/15de2fcd-5711-4014-8185-9975b2ce8a0d)
 
 - TAIL DROP is harmful because it can lead to TCP GLOBAL SYNCHRONIZATION
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/1d22afa7-91aa-4e86-9c5f-ad9506dcb44c)
 
 - When the QUEUE fills UP and TAIL DROP occurs, ALL TCP HOSTS sending traffic will SLOW DOWN the rate at which they SEND TRAFFIC
 - They will ALL then INCREASE the RATE at which they send TRAFFIC, which rapidly leads to MORE CONGESTION, dropped PACKETS, and the process REPEATS…
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/b75c2cac-043c-4df6-a1d6-f26d9110630a)
 
 - A SOLUTION to prevent TAIL DROP and TCP GLOBAL SYNCHRONIZATION is RANDOM EARLY DETECTION (RED)
 

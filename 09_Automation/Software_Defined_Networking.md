@@ -11,7 +11,7 @@ SD REVIEW
 
 SDN ARCHITECTURE
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/9d7e1a89-3537-48cc-a410-cef352b6a2cb)
 
 ---
 
@@ -22,20 +22,20 @@ CISCO SD-ACCESS
     - SD-WAN is their SDN solution for automating WANs
 - Cisco DNA (Digital Network Architecture) Center is the controller at the center of SD-Access
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/4c1662ee-490c-4eee-8970-550ca60feabb)
 
 - The UNDERLAY is the underlying physical network of devices and connections (including wired and wireless) which provide IP connectivity (ie: using IS-IS)
     - Multilayer Switches and their connections
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/41bb11dd-31c9-493e-9fec-af847f0732dc)
 
 - The OVERLAY is the virtual network built on top of the physical underlay network
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/99f48b9e-ed68-4c11-b456-d0f6ccf13fed)
 
 - The FABRIC is the combination of the OVERLAY and UNDERLAY; the physical and virtual network as a whole
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/35cf981c-337d-4117-9124-9f210e85bff3)
 
 ---
 
@@ -56,9 +56,9 @@ SD-ACCESS UNDERLAY
     - All Links between Switches are ROUTED PORTS. This means STP is not needed
     - EDGE NODES (ACCESS SWITCHES) act as the the DEFAULT GATEWAY of END HOSTS *(Routed Access Layer)*
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/0315f1e5-d9c6-47ce-acf2-1de6f14ac89c)
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/84d48992-30f9-45cf-856a-089ce00d0641)
 
 ---
 
@@ -74,11 +74,11 @@ SD-ACCESS OVERLAY
 
 - VXLAN provides the DATA PLANE of SD-ACCESS
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/8fd0bb65-31df-4db5-a79c-044c68c37b01)
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/b4c017b1-cc59-4305-9924-f25a5445a36b)
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/5adcaf16-4caf-4de2-9b8f-3e777c841bc6)
 
 ---
 
@@ -103,7 +103,7 @@ CISCO DNA CENTER
         - THIS group can access THIS server but not THAT server
     - DNA CENTER will take care of the exact details of implementing this policy
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/30773f46-3564-4d66-a175-20962d1569dd)
 
 ---
 
@@ -129,4 +129,4 @@ DNA CENTER-based Network Management :
 - Software versions are also centrally managed. DNA CENTER can monitor cloud servers for new versions and then update the managed devices
 - New network deployments are much quicker. New devices can automatically receive their configurations from DNA CENTER without manual configuration
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/cb9e0184-6b45-4dcc-85ae-cef3245c1629)

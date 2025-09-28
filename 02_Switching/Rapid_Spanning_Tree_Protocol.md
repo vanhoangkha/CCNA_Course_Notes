@@ -2,7 +2,7 @@
 
 *COMPARISON OF STP VERSIONS (Standard vs. Cisco)*
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/ca5ff85c-842e-4ed3-9b6a-f9d6ed546a78)
 
 
 We are only concerned with 802.1w for MOST use cases.
@@ -28,14 +28,14 @@ DIFFERENCES BETWEEN STP AND RSTP:
 
 **PORT COSTS**
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/b250c6da-2579-4576-8e93-5a8f8e66d873)
 
 
 (STUDY AND MEMORIZE PORT COSTS OF STP AND RSTP)
 
 RSTP PORT STATES
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/054d5037-a60e-478e-986b-6f43825a0d1a)
 
 - If a PORT has been ADMINISTRATIVELY DISABLED (”shutdown” command) = DISCARDING STATE
 - If a PORT is ENABLED but BLOCKING traffic to prevent LAYER 2 LOOPS = DISCARDING STATE
@@ -58,18 +58,18 @@ RSTP ROLES
 - The RSTP ALTERNATE PORT ROLE is a DISCARDING PORT that receives a superior BPDU from another SWITCH
 - This is the same as what you’ve learned about BLOCKING PORTS in classic STP
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/7d81e70c-3b31-4448-9d45-9aadb738c74d)
 
 - An ALTERNATE PORT (labelled “A” above) functions as a backup to the ROOT PORT
 - If the ROOT PORT fails, the SWITCH can immediately move it’s best alternate port to FORWARDING
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/41f3be85-6225-4749-83b4-f76952c5756a)
 
 💡 This immediate move to FORWARDING STATE functions like a classic STP optional feature called **UplinkFast.** Because it is built into RSTP, you do not need to activate UplinkFast when using RSTP/Rapid PVST+
 
 One more STP optional feature that was built into RSTP is **BackboneFast**
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/c4cea7b7-599f-4ec8-b9d3-a5acba71a5f5)
 
 - **BackboneFast** allows SW3 to expire the MAX AGE TIMERS on it’s INTERFACE and rapidly FORWARD the superior BPDUs to SW2
 - This FUNCTIONALITY is built into RSTP, so it does not need to be configured.
@@ -93,16 +93,16 @@ UPLINKFAST and BACKBONE FAST (SUMMARY)
 
 💡 The INTERFACE with the LOWERS PORT ID will be selected as the DESIGNATED PORT, and the other will be the BACKUP port.
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/61aefc04-b3a9-484a-bbfa-1efe792c73c7)
 
 WHICH Switch will be ROOT BRIDGE?
 What about the OTHER ports ?
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/be4d404d-829d-41ab-ba39-34e918ed7ea9)
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/b5dec396-d5fc-486b-9110-5dcc2c4dc4aa)
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/1930a17b-6c74-4756-b89d-4148008f586b)
 
 💡 RAPID STP *is* compatible with CLASSIC STP.
 💡 The INTERFACE(S) on the RAPID STP-enabled SWITCH connected to the CLASSIC STP-enabled SWITCH will operate in CLASSIC STP MODE (Timers, BLOCKING >>> LISTENING >>> LEARNING >>> FORWARDING, etc.)
@@ -113,7 +113,7 @@ RAPID STP BPDU
 
 CLASSIC RSTP (LEFT) vs RAPID STP BPDU (RIGHT)
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/2d2deb45-3f81-4c60-b9fa-0f6c3fe7c060)
 
 
 💡 NOTE:
@@ -144,13 +144,13 @@ RAPID SPANNING TREE PROTOCOL
     - In CLASSIC STP, a SWITCH waits 10 “hello” intervals (20 seconds)
     - In RAPID STP, a SWITCH considers a neighbour lost if it misses 3 BPDUs (6 seconds). It will then “flush” ALL MAC ADDRESSES learned on that interface
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/c03d2645-42d8-4d95-b486-999e82ac12a8)
 
 ---
 
 RSTP LINK TYPES
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/e837a271-ad13-4d6a-a800-434a0eff2576)
 
 ```
 <E> = EDGE
@@ -194,7 +194,7 @@ SHARED PORTS
 
 QUIZ:
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/a7314f6f-55f0-4e62-bd24-b311b090afe8)
 
 SW1 :
 
@@ -235,4 +235,4 @@ Connections from SW2 to HUB = SHARED
 
 ANSWER
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/b76eb7be-897a-4617-990e-f399ceaea5f2)

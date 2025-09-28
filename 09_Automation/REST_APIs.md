@@ -33,7 +33,7 @@ CRUD OPERATIONS AND HTTP VERBS
 - HTTP uses *verbs* (aka. methods) that map to these CRUD operations
 - REST APIs typically use HTTP
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/b25ca0c6-5a79-4dcc-afde-096b1868219b)
 
 ---
 
@@ -43,17 +43,17 @@ HTTP REQUEST :
     - An HTTP Verb (ie: GET)
     - A URI (Uniform Resource Identifier) indicating the resource it is trying to access
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/e859d701-50bc-475a-89ca-5267efaeaf87)
 
 An example of a URI (demonstrated later)
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/23dc6233-ce58-44c6-805b-05f1cbc7b933)
 
 - The HTTP request can include additional headers which pass additional information to the server.
 
 Check the list at  https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/010f553f-971d-49d8-be1b-dd0eff5854ac)
 
 - An example would be an ACCEPT header, which informs the server about the types(s) of data that can be sent back to the client.
     - Example: **Accept: application/json** or **Accept: application/xml**
@@ -76,7 +76,7 @@ HTTP RESPONSE :
     - 4xx : Client Error - request contains bad syntax or cannot be fulfilled
     - 5xx : Server Error - server failed to fulfill an apparently valid request
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/1ab2d4c3-11c1-4189-9a44-ae0f6405536c)
 
 Examples of each HTTP Response class:
 
@@ -125,7 +125,7 @@ REST: Client-Server
 - The separation between the client and server means they can both change and evolve independently of each other
     - When the client application changes or the server application changes, the interface between them must not break
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/e39d0588-8e4c-441b-97b9-c2345bf09342)
 
 ---
 
@@ -152,7 +152,7 @@ REST: Cacheable or Non-Cacheable
 
 FOR THE CCNA
 
-📊 **[Diagram]** - *Network diagram illustrating the concept*
+![image](https://github.com/psaumur/CCNA/assets/106411237/d3747417-a936-498c-99d3-f508d436d451)
 
 ---
 
