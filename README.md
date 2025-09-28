@@ -155,16 +155,6 @@ cd CCNA_Course_Notes
 
 </details>
 
-## 🤝 Contributing
-
-Contributions are welcome! If you find any errors or have suggestions for improvements:
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/improvement`)
-3. Commit your changes (`git commit -am 'Add improvement'`)
-4. Push to the branch (`git push origin feature/improvement`)
-5. Open a Pull Request
-
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
