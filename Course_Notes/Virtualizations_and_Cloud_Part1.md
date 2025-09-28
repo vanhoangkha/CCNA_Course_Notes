@@ -9,7 +9,7 @@ VIRTUAL SERVERS
 
 SERVERS BEFORE VIRTUALIZATION
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 - Before VIRTUALIZATION, there was a one-to-one relationship between a PHYSICAL SERVER and OPERATION SYSTEM
 - In that OPERATING SYSTEM, apps providing SERVICES (such as a WEB SERVER, EMAIL SERVER, etc) would run
@@ -22,7 +22,7 @@ SERVERS BEFORE VIRTUALIZATION
 
 VIRTUALIZATION (TYPE 1 HYPERVISOR)
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 - VIRTUALIZATION allows us to break the one-to-one relationships of HARDWARE to OS, allowing multiple OS’s to run on a single PHYSICAL SERVER
 - Each INSTANCE is called a VM (Virtual Machine)
@@ -38,7 +38,7 @@ VIRTUALIZATION (TYPE 1 HYPERVISOR)
 
 VIRTUALIZATION (TYPE 2 HYPERVISOR)
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 - TYPE 2 HYPERVISORS run as a program on an OS like a regular computer program
     - Examples: VMware Workstation, Oracle Virtualbox, etc
@@ -65,13 +65,13 @@ WHY VIRTUALIZATION?
 - HARDWARE INDEPENDENCE :
     - Provision or migrate any virtual machine to any physical server
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 ---
 
 VIRTUAL NETWORKS
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 - VMs are connected to each other and the EXTERNAL NETWORK via a VIRTUAL SWITCH running on the HYPERVISOR
 - Just like a regular PHYSICAL SWITCH, the vSWITCH’s INTERFACES can operate as ACCESS PORTS or TRUNK PORTS and use VLANs to separate the VMs at LAYER 2
@@ -101,7 +101,7 @@ CLOUD SERVICES
 
 - The American NIST (National Institute of Standards and Technology) defined cloud computing in SP (Special Publication) 800-145
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 - To understand what the CLOUD is, let’s look at the following outlined in SP 800-145:
     - FIVE ESSENTIAL CHARACTERISTICS
@@ -128,7 +128,7 @@ THE FIVE ESSENTIAL CHARACTERISTICS OF CLOUD
 
 THE THREE SERVICE MODELS OF THE CLOUD
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 - In CLOUD COMPUTING, everything is provided on a “SERVICE” model
 - For example: rather than the END USER buying a PHYSICAL SERVER, mounting it on a rack, installing the hypervisor, creating the VM, etc. the SERVICE PROVIDER offers all of this as a SERVICE
@@ -137,15 +137,15 @@ THE THREE SERVICE MODELS OF THE CLOUD
     
     SOFTWARE as a SERVICE (SaaS) - Example : MS Office 365
     
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
     
     PLATFORM as a SERVICE (PaaS) - Examples : AWS Lambda and Google App Engine 
     
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
     
     INFRASTRUCTURE as a SERVICE (Iaas) - Examples: Amazon EC2 and Google Compute Engine
     
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
     
 
 ---
@@ -158,7 +158,7 @@ DEPLOYMENT MODELS
 
 - PRIVATE CLOUD
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 - PRIVATE CLOUDS are generally only used by large enterprises
 - Although the CLOUD is PRIVATE, it may be owned by a THIRD PARTY
@@ -169,14 +169,14 @@ DEPLOYMENT MODELS
 
 - COMMUNITY CLOUD
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 - Least common CLOUD deployment
 - Similar to PRIVATE CLOUD, but the INFRASTRUCTURE is reserved for use by a SPECIFIC GROUP or ORGANIZATION
 
 - PUBLIC CLOUD
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 - The most common CLOUD deployment
 - Popular PUBLIC CLOUD service providers include:
@@ -189,7 +189,7 @@ DEPLOYMENT MODELS
 
 - HYBRID CLOUD
     
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
     
     - Basically ANY combination of the preview THREE DEPLOYMENT TYPES
     - Example: A PRIVATE CLOUD which can offload to a PUBLIC CLOUD when necessary
@@ -215,4 +215,4 @@ BENEFITS OF CLOUD COMPUTING
 
 CONNECTION TO PUBLIC CLOUDS
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)

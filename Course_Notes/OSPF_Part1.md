@@ -1,6 +1,6 @@
 # 26.  OSPF : PART 1 (IGP : LINK STATE)
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 LINK STATE ROUTING PROTOCOLS
 
@@ -28,7 +28,7 @@ THREE Versions:
 - Routers store information about the NETWORK in LSAs (Link State Advertisements), which are organized in a structure called the LSDB (Link State Database)
 - Routers will **FLOOD** LSAs until all ROUTERS in the OSPF *area* develop the same map of the network (LSDB)
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 💡 LSA’s have an AGING TIMER of 30 Minutes, by Default). The LSA will be FLOODED again after the timer expires
 
@@ -55,7 +55,7 @@ OSPF AREAS
 
 WHAT IS AN OSPF AREA?
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 - An **AREA is** a set of ROUTERS and LINKS that share the same LSDB
 - The **BACKBONE AREA** (Area 0) is an AREA that all other AREAS must connect to
@@ -86,11 +86,11 @@ BASIC OSPF CONFIGURATION
 
 OSPF AREA 0
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 Commands for configuring an OSPF 
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 - The OSPF **Process ID** is **locally significant.** ROUTERS with different Process IDs can become OSPF Neighbors
 - The OSPF “network” command requires you to specify the AREA (in this case, it’s “area 0”)
@@ -102,25 +102,25 @@ The “network” command tells OSPF to:
 - Activate OSPF on the INTERFACE in the specified AREA
 - The ROUTER will then try to become OSPF neighbors with other OSPF-Activated neighbor ROUTERS
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 - Know this command from RIP and EIGRP
 - The “passive-interface” command tells the ROUTERS to stop sending OSFP ‘hello’ messages out of the INTERFACE
 - However, the ROUTER will continue to send LSA’s informing it’s neighbors about the SUBNET configured on the INTERFACE
 - You should ALWAYS USE this command on neighbors which don’t have any OSPF neighbors
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 “show ip protocols”
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 NOTE the "no" in square brackets - this indicates this is the DEFAULT choice
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 DISTANCE (AD) for OSPF is 110 (DEFAULT) but can be changed with the “distance” command
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)

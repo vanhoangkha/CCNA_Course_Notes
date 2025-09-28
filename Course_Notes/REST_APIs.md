@@ -33,7 +33,7 @@ CRUD OPERATIONS AND HTTP VERBS
 - HTTP uses *verbs* (aka. methods) that map to these CRUD operations
 - REST APIs typically use HTTP
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 ---
 
@@ -43,17 +43,17 @@ HTTP REQUEST :
     - An HTTP Verb (ie: GET)
     - A URI (Uniform Resource Identifier) indicating the resource it is trying to access
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 An example of a URI (demonstrated later)
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 - The HTTP request can include additional headers which pass additional information to the server.
 
 Check the list at  https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 - An example would be an ACCEPT header, which informs the server about the types(s) of data that can be sent back to the client.
     - Example: **Accept: application/json** or **Accept: application/xml**
@@ -76,7 +76,7 @@ HTTP RESPONSE :
     - 4xx : Client Error - request contains bad syntax or cannot be fulfilled
     - 5xx : Server Error - server failed to fulfill an apparently valid request
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 Examples of each HTTP Response class:
 
@@ -125,7 +125,7 @@ REST: Client-Server
 - The separation between the client and server means they can both change and evolve independently of each other
     - When the client application changes or the server application changes, the interface between them must not break
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 ---
 
@@ -152,7 +152,7 @@ REST: Cacheable or Non-Cacheable
 
 FOR THE CCNA
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 ---
 

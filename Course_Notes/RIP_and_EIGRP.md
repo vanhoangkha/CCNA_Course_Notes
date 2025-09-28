@@ -43,7 +43,7 @@ RIPv2:
 
 CONFIGURING RIP
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 The **“network”** command tells the router to:
 
@@ -62,7 +62,7 @@ Because the RIP “network” command is CLASSFUL. It will automatically convert
 - R1 then forms ADJACENCIES with its neighbors R2 and R3
 - R1 ADVERTISES 10.0.12.0/30 and 10.0.13.0/30 (NOT 10.0.0.0/8) to it’s RIP neighbors
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 - Because the “network” command is CLASSFUL, 172.16.0.0 is assumed to be 172.16.0.0/16
 - R1 will look for ANY INTERFACES that match 172.16.0.0/16
@@ -71,7 +71,7 @@ Because the RIP “network” command is CLASSFUL. It will automatically convert
     - Although there are NO RIP neighbors, R1 will still send ADVERTISEMENTS out of G2/0.
     - This is unnecessary traffic, so G2/0 should be configured as a **passive interface**
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 - the “passive-interface” command tells the ROUTER to stop sending RIP advertisements out of the specified interface (G2/0)
 - However, the ROUTER will continue to ADVERTISE the network prefix of the interface (172.16.1.0/28) to it’s RIP neighbors (R2, R3)
@@ -82,33 +82,33 @@ Because the RIP “network” command is CLASSFUL. It will automatically convert
 
 HOW TO ADVERTISE A DEFAULT ROUTE INTO RIP
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 To SHARE this DEFAULT ROUTE with R1’s RIP neighbors, using this command:
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 RIP doesn’t care about interface AD cost (RIP cost is 120), only “hops”.
 
 Since both have an equal number of “hops”, both paths appear in the DEFAULT ROUTE (Gateway of Last Resort)
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 ---
 
 “show ip protocols” (for RIP)
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 “Maximum path: 4” is the DEFAULT but can be changed with this command:
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 “Distance” (AD) can be changed with this command (DEFAULT is 120)
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 ---
 
@@ -127,7 +127,7 @@ ENHANCED INTERIOR GATEWAY ROUTING PROTOCOL (EIGRP)
 
 CONFIGURATION OF EIGRP
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 “router eigrp <Autonomous System number>”
 
@@ -141,23 +141,23 @@ A WILDCARD MASK is an “inverted” SUBNET MASK
 - All 1’s in the SUBNET MASK are 0 in the equivalent WILDCARD MASK.
 - All 0s in the SUBNET MASK are 1 in the equivalent WILDCARD MASK.
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 “0” in the WILDCARD MASK = BITS MUST MATCH !
 
 “1” in the WILDCARD MASK = Do not have to match
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 ---
 
 “show ip protocols” (for EIGRP)
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 “Router ID”
 
@@ -167,7 +167,7 @@ ROUTER ID order of priority:
 - Highest IP ADDRESS on a LOOPBACK INTERFACE
 - Highest IP ADDRESS on a PHYSICAL INTERFACE
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 “Distance” (AD)
 
@@ -180,7 +180,7 @@ MEMORIZE THESE VALUES!
 
 “show ip route” (for EIGRP)
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 NOTE the large METRIC numbers. This is a DOWNSIDE to EIGRP - even on small networks!
 
@@ -201,26 +201,26 @@ EIGRP TERMINOLOGY
 - **Feasible Distance** = This ROUTER’s METRIC value to the ROUTE’s DESTINATION
 - **Reported Distance** (aka **Advertised Distance**) = The neighbor’s METRIC value to the ROUTE’s DESTINATION
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 - **Successor =** the ROUTE with the LOWEST METRIC to the DESTINATION (the best route)
 - **Feasible Successor** = An alternate ROUTE to the DESTINATION (not the best route) which meets the *feasibility condition*
 
 **FEASIBILITY CONDITION** : A ROUTE is considered a ***Feasible Successor*** if it’s ***Reported Distance*** is LOWER than the Successor ROUTE’s ***Feasible distance***
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 ---
 
 EIGRP : UNEQUAL-COST LOAD-BALANCED
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 “maximum metric variance 1” = the DEFAULT value
 
 Variance 1 = only ECMP (Equal-Cost Multiple Path) load-balancing will be performed
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 Variance 2 = ***feasible successor*** routes with an FD up to 2x the ***successor*** route’s FD can be used to load-balance
 

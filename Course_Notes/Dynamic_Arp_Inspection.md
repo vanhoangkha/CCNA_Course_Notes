@@ -22,11 +22,11 @@ DYNAMIC ARP INSPECTION
 - All PORTS are *UNTRUSTED*, by DEFAULT
     - Typically, all PORTS connected to other NETWORK DEVICES (SWITCHES, ROUTERS) should be configured as TRUSTED, while INTERFACES connected to END HOSTS should remain UNTRUSTED
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 ---
 
@@ -36,7 +36,7 @@ ARP POISONING (MAN IN THE MIDDLE)
 - To do this, the ATTACKER can send GRATUITOUS ARP MESSAGES using another DEVICE’S IP ADDRESS
 - Other DEVICES in the NETWORK will receive the GARP and update their ARP TABLES, causing them to send TRAFFIC to the ATTACKER instead of the legitimate DESTINATION
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 DYNAMIC ARP INSPECTION OPERATIONS
 
@@ -44,7 +44,7 @@ DYNAMIC ARP INSPECTION OPERATIONS
     - If there is a MATCH, the ARP MESSAGE is FORWARDED
     - If there is NO MATCH, the ARP MESSAGE is DISCARDED
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 - DAI doesn’t inspect messages received on TRUSTED PORTS. They are FORWARDED as normal.
 
@@ -61,44 +61,44 @@ DYNAMIC ARP INSPECTION OPERATIONS
 
 DYNAMIC ARP INSPECTION CONFIGURATION
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 Command : `show ip arp inspection interfaces`
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 DAI RATE LIMITING
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 DAI OPTIONAL CHECKS
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 ARP ACLs (Beyond Scope of CCNA)
 
 CREATE AN ARP ACL FOR SRV1
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 AFTER APPLYING IT TO SWITCH 2, SRV1 is able to send ARP REQUEST to R1
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 Command: `show ip arp inspection`
 
 Shows a summary of the DAI configuration and statistics
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 ---
 
 COMMAND REVIEW
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)

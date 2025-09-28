@@ -9,14 +9,14 @@ REDUNDANCY IN NETWORKS
 
 AN EXAMPLE OF A POORLY DESIGNED NETWORK
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 
 NOTE the many single-point failures that could occur (single connections)
 
 A BETTER NETWORK DESIGN
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 
 UNFORTUNATELY : 
@@ -27,13 +27,13 @@ So HOW can all this redundancy be a BAD thing?
 
 BROADCAST STORMS
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 
 FLOODED WITH ARP REQUESTS (Red = Clockwise Loops // Purple = Counter-Clockwise Loops)
@@ -62,12 +62,12 @@ STP (SPANNING TREE PROTOCOL) : 802.1D
 
 💡 SPANNING TREE PROTOCOL still uses the term “BRIDGE”. However, when use the term “BRIDGE”, we really mean “SWITCH”. BRIDGES are not used in modern networks.
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 
 ORANGE INTERFACE is “BLOCKED” causing a break in the loops
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 
 If changes occur in the connections, the traffic will adjust the topology.
@@ -86,23 +86,23 @@ WHAT ARE BPDUs USED FOR?
 - The SWITCH with the lowest BRIDGE ID becomes the ROOT BRIDGE
 - ALL PORTS on the ROOT BRIDGE are put in a FORWARDING state, and other SWITCHES in the topology must have a path to reach the ROOT BRIDGE
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 
 To REDUCE the BRIDGE PRIORITY, we can only change it in units of 4096 !
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 
 In THIS TOPOLOGY, SW1 becomes the ROOT BRIDGE due to it’s MAC ADDRESS being LOWEST
 
 (Hex “A” = 10)
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 
 ALL INTERFACES on the ROOT BRIDGE are DESIGNATED PORTS.
@@ -145,12 +145,12 @@ STP COST CHART
 
 💡 Only OUTGOING INTERFACES toward the ROOT BRIDGE have a STP COST; not RECEIVING INTERFACES. Add up all the OUTGOING PORT costs until you reach the ROOT BRIDGE
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 
 SW1 is the ROOT BRIDGE so has a STP COST of 0 on ALL INTERFACES
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 
 The PORTS connected to another SWITCH’s ROOT PORT MUST be DESIGNATED (D). 
@@ -159,7 +159,7 @@ Because the ROOT PORT Is the SWITCH’s path to the ROOT BRIDGE, another SWITCH 
 
 STP PORT ID (in case of a tie-breaker)
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 
 NEIGHBOUR SWITCH PORT ID (in case of a tie-breaker)
@@ -168,12 +168,12 @@ NEIGHBOUR SWITCH PORT ID (in case of a tie-breaker)
 
 (R) = ROOT PORT
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 
 HOW TO DETERMINE WHICH PORT WILL BE BLOCKED TO PREVENT LAYER 2 LOOPS
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 
 QUIZ
@@ -182,7 +182,7 @@ Identify the ROOT BRIDGE and the ROLE of EACH INTERFACE on the NETWORK (ROOT / D
 
 #1
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 
 ALL SWITCHES have the same PRIORITY NUMBER (32769)
@@ -201,7 +201,7 @@ The remaining interfaces on SW2 become NON-DESIGNATED because it has the HIGHEST
 
 #2
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 
 SW4 has the LOWEST Priority Number so it is designated ROOT BRIDGE

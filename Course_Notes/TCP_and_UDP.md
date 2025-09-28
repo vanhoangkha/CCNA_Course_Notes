@@ -4,7 +4,7 @@ BASICS OF LAYER 4
 
 - Provides TRANSPARENT transfer of DATA between END HOSTS (Host To Host communication)
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 - Provides (or DOESN’T provide) various SERVICES to APPLICATIONS:
     - Reliable DATA Transfer
@@ -21,7 +21,7 @@ WHAT IS A SESSION ?
 
 - A SESSION is an EXCHANGE of DATA between TWO or MORE communicating DEVICES
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 The FOLLOWING ranges have been designated by IANA (Internet Assigned Numbers Authority) 
 
@@ -29,7 +29,7 @@ The FOLLOWING ranges have been designated by IANA (Internet Assigned Numbers Aut
 - **Registered** Port Numbers : 1024 - 49151
 - **Ephemeral** / Private / Dynamic port numbers : 49152 - 65535
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 ---
 
@@ -38,42 +38,42 @@ TCP (TRANSMISSION CONTROL PROTOCOL)
 - A CONNECTION-ORIENTED protocol
     - Before actually SENDING DATA to the DESTINATION HOST, the TWO HOSTS communicate to establish a CONNECTION. Once the CONNECTION is established, DATA exchange begins.
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 Establishing connections
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 Terminating connections
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 - TCP provides RELIABLE communication
     - The DESTINATION HOST must acknowledge that it RECEIVED each TCP SEGMENT (Layer 4 PDU)
     - If a SEGMENT isn’t ACKNOWLEDGED, it is sent again
     
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 - TCP provides SEQUENCING
     - SEQUENCE numbers in the TCP HEADER allow DESTINATION HOSTS to put SEGMENTS in the correct ORDER even if they arrive out of ORDER
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 - TCP provides FLOW CONTROL
     - The DESTINATION HOST can tell the SOURCE HOST to increase / decrease the RATE that DATA is sent
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 ---
 
 UDP (USER DATAGRAM PROTOCOL)
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 - UDP is NOT a CONNECTION-ORIENTED PROTOCOL
     - The SENDING HOST does NOT establish a CONNECTION with the DESTINATION HOST before sending DATA. The DATA is simply SENT
@@ -98,7 +98,7 @@ COMPARING TCP AND UDP
 
 Number of Fields in their Headers
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 - TCP provides MORE FEATURES than UDP but at a COST of ADDITIONAL OVERHEAD
 - For applications that require RELIABLE communications (for example, downloading a file), TCP is PREFERRED
@@ -106,8 +106,8 @@ Number of Fields in their Headers
 - There are SOME applications that use UDP, but provide RELIABILITY, etc. within the APPLICATION itself.
 - Some applications use BOTH TCP and UDP, depending on the situation.
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 IMPORTANT PORT NUMBERS
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)

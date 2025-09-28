@@ -1,6 +1,6 @@
 # 13. SUBNETTING : PART 1
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 
 HOWEVER, only Class A, B, C Addresses can be assigned to a device as an IP Address.
@@ -11,7 +11,7 @@ A 			/8
 B 			/16
 C 			/24
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 
 The IANA (Internet Assigned Numbers Authority) assigns IPv4 addresses/networks to companies based on their size.

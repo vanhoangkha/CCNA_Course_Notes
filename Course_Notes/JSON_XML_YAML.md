@@ -7,7 +7,7 @@ DATA SERIALIZATION
 
 - DATA SERIALIZATION languages allow us to represent *variables* with text
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 ---
 
@@ -62,19 +62,19 @@ JSON STRUCTURED DATA TYPES:
     - The *key* and *value* are separated by a colon :
     - If there are multiple key-value pairs, each pair is separated by a comma
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 - An ARRAY is a series of *values* separated by commas
     - Not *key-value pairs*
     - The values do NOT have to be the same DATA Type
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 ---
 
@@ -87,9 +87,9 @@ XML (EXTENSIBLE MARKUP LANGUAGE)
     - Often used by REST APIs
     - <key> value </key> (similar to HTML)
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 ---
 
@@ -104,8 +104,8 @@ YAML (YAML AIN’T MARKUP LANGUAGE)
 - - is used to indicate a list
 - Keys and Values are represented as key : value
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 COMPARISON BETWEEN JSON and YAML using the same DATA
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)

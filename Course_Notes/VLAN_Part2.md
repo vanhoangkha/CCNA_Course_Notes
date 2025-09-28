@@ -2,12 +2,12 @@
 
 Basic VLAN topology from PART 1
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 
 What about THIS Network Topology ?
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 
 Notice this one has TWO Switches (SW1 and SW2) and ENGINEERING (VLAN 10) has two separate locations on the network.
@@ -24,10 +24,10 @@ TRUNK PORTS
 
 A TRUNK PORT carrying multiple VLAN connections over single interface
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 
 How does a packet know WHICH VLAN to send traffic to over the TRUNK PORT ?
@@ -60,7 +60,7 @@ For the CCNA, you will only need to learn 802.1Q
 
 ETHERNET HEADER with 802.1Q
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 
 - The 802.1Q TAG Is inserted between the SOURCE and TYPE/LENGTH fields in the ETHERNET FRAME
@@ -70,7 +70,7 @@ ETHERNET HEADER with 802.1Q
     - Tag Control Information (TCI)
         - TCI consists of THREE sub-fields:
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 
 TPID (TAG Protocol Identifier) :
@@ -102,29 +102,29 @@ NOTE : Cisco’s ISL also had a VLAN range of 1 - 4094
 
 VLAN RANGES
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 
 ---
 
 NATIVE VLAN
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 ---
 
 TRUNK CONFIGURATION
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 Many modern switches do not support Cisco’s ISL at all. They only support 802.1Q (dot1q)
 
@@ -140,35 +140,35 @@ After you set the encapsulation type, you can then configure the interface as a 
 
 3) Use “#switchport mode trunk” to manually configure the interface to TRUNK
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 
 Use the “#show interfaces trunk” command to confirm INTERFACES on TRUNK
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 
 Commands to allow a VLAN on a given TRUNK
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 
 Command to change the NATIVE VLAN
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 
 ---
 
 Setting up our TRUNKS for this Network
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 
 We will need to configure :
@@ -179,12 +179,12 @@ SW2: g0/0, and g0/1 interface
 
 SW2 g0/0
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 
 SW2 g0/1
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 
 What about the ROUTER, R1 ? 
@@ -193,13 +193,13 @@ What about the ROUTER, R1 ?
 
 ROUTER ON A STICK (ROAS)
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 
 NOTE the Sub-Interface names (like the network diagram) of 0.10, 0.20 and 0.30
@@ -208,12 +208,12 @@ You assign them IP addresses identically like you would a regular interface (usi
 
 Sub-interfaces will appear with the “show ip interface brief” command
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 
 They also appear in the “show ip route” command (Route Table)
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 
 ROAS is used to route between multiple VLANs using a SINGLE interface on a ROUTER and SWITCH

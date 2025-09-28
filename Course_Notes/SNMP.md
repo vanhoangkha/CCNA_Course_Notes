@@ -26,7 +26,7 @@ RFC 1067 - A simple network management protocol
 
 SMNP OPERATIONS
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 ---
 
@@ -34,21 +34,21 @@ SMNP COMPONENTS
 
 OVERVIEW
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 NMS
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 MANAGED DEVICES
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 SNMP OIDs
 
 - SNMP Object IDs are ORGANIZED in a HIERARCHICAL STRUCTURE
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 ---
 
@@ -74,37 +74,37 @@ SNMP VERSIONS
 
 SNMP MESSAGES
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 1) SNMP READ
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 2) SMNP WRITE
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 
 3) SNMP NOTIFICATION
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 
 SNMP AGENT listens for MESSAGES on UDP Port 161
 
 SNMP MANAGER listens for MESSAGES on UDP Port 162
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 ---
 
 SNMPv2c CONFIGURATION (Basic)
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 WHAT HAPPENS WITH R1’s G0/1 INTERFACE GOES DOWN?
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 NOTE:
 

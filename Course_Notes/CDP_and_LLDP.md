@@ -15,7 +15,7 @@ INTRO TO LAYER 2 DISCOVERY PROTOCOLS
 
 - Because they SHARE INFORMATION about the DEVICES in the NETWORK, they can be considered a security risk and are often NOT used. It is up to the NETWORK ENGINEER / ADMIN to decide if they want to use them in the NETWORK or not.
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 ---
 
@@ -35,15 +35,15 @@ CISCO DISCOVERY PROTOCOL (CDP)
 - By DEFAULT, the CDP hold-time is **180 seconds.** If a message isn’t received from a neighbor for 180 seconds, the neighbor is REMOVED from the CDP Neighbor Table
 - CDPv2 messages are sent by DEFAULT
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 ---
 
 CDP NEIGHBOR TABLES
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 “Device ID” = What devices were DISCOVERED by CDP
 
@@ -61,7 +61,7 @@ CDP NEIGHBOR TABLES
 
 MORE DETAILED OUTPUT
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 “Version” = shows what version of Cisco’s IOS is running on the device
 
@@ -69,13 +69,13 @@ MORE DETAILED OUTPUT
 
 SHOW SPECIFIC CDP NEIGHBOR ENTRY
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 ---
 
 CDP CONFIGURATION COMMANDS
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 - CDP is GLOBALLY ENABLED, by DEFAULT
 - CDP is also ENABLED on each INTERFACE, by DEFAULT
@@ -126,24 +126,24 @@ YOU NEED TO ENABLE BOTH TO SEND AND RECEIVE (Unless you want to only enable SEND
 - Configure the LLDP holdtime: `R1(config)# lldp holdtime *seconds*`
 - Configure the LLDP reinit timer: `R1(config)# lldp reinit *seconds*`
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 SHOW LLDP STATUS
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 SHOW ALL LLDP NEIGHBORS
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 SHOW LLDP NEIGHBORS in DETAIL
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 SHOW SPECIFIC LLDP DEVICE ENTRY
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)

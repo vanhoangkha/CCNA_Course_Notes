@@ -10,7 +10,7 @@ SYSLOG OVERVIEW
     - etc…
 - The messages can be displayed in the CLI, saved in the DEVICE’S RAM or sent to an external SYSLOG SERVER
 
- [Image removed]
+ ![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 - Logs are essential when troubleshooting issues, examining the cause of incidents, etc.
 - SYSLOG and SNMP are both used for MONITORING and TROUBLESHOOTING of DEVICES. They are complementary, but their functionalities are different
@@ -41,7 +41,7 @@ Official RFC for SYSLOG severity levels
 
 </aside>
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 <aside>
 💡 MEMORIZATION MNEMONIC : 
@@ -53,7 +53,7 @@ Official RFC for SYSLOG severity levels
 
 `description` = Detailed information about the EVENT being reported
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 SYSLOG LOGGING LOCATIONS
 
@@ -73,7 +73,7 @@ SYSLOG LOGGING LOCATIONS
 
 SYSLOG CONFIGURATION
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 `level` works from the chosen level and upward toward Level 0 (EMERGENCY)
 
@@ -90,19 +90,19 @@ LOGGING SYNCHRONOUS
 
 - By default, logging messages displayed in the CLI while you are in the middle of typing a command will result in something like this:
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 - To prevent this, you should use `logging synchronous` on the appropriate *line*
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 - This will cause a new line to be printed if your typing is interrupted by a message
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 SERVICE TIMESTAMPS and SERVICE SEQUENCE-NUMBERS
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 ---
 

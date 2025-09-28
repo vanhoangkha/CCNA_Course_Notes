@@ -18,13 +18,13 @@ CLASSIFICATION / MARKING
 
 PCP / CoS
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 - PCP is also known as CoS (CLASS OF SERVICE)
 - It’s use is defined by IEEE 802.1p
 - 3 bits = 8 possible values (2^3 = 8)
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 - PCP VALUE 0:
     - “BEST EFFORT” DELIVERY means there is no guarantee that data is delivered or that it meets ANY QoS Standard. This is REGULAR TRAFFIC - NOT HIGH PRIORITY
@@ -39,15 +39,15 @@ PCP / CoS
     
 - In the diagram below, TRAFFIC between R1 and R2, or between R2 and EXTERNAL DESTINATIONS will not have a dot1q tag. So, traffic over those links PCP cannot be marked with a PCP value.
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 ---
 
 THE IP ToS BYTE
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 (6 bits for DSCP and 2 bits for ECN)
 
@@ -55,7 +55,7 @@ THE IP ToS BYTE
 
 IP PRECEDENCE (OLD)
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 - Standard IPP markings are similar to PCP:
     - 6 and 7 are reserved to ‘network control traffic’ (ie: OSPF Messages between ROUTERS)
@@ -70,7 +70,7 @@ IP PRECEDENCE (OLD)
 
 DSCP (CURRENT)
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 - RFC 2474 (1998) defines the DSCP field, and other ‘DiffServ’ RFCs elaborate on its use
 - With IPP updated to DSCP, new STANDARD MARKINGS had to be decided on
@@ -91,14 +91,14 @@ DF / EF
 
 DEFAULT FORWARDING (DF)
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 - Used for BEST EFFORT TRAFFIC
 - The DSCP marking for DF is 0
 
 EXPEDITED FORWARDING (EF)
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 - EF is used for TRAFFIC that requires Low Loss / Latency / Jitter
 - The DSCP marking for EF is 46
@@ -113,23 +113,23 @@ ASSURED FORWARDING (AF)
     - HIGHER DROP PRECEDENCE = More likely to DROP the PACKET during CONGESTION
     
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 EXAMPLES:
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 - AF41 gets the BEST TREATMENT (Highest Priority / Lowest Drop)
 - AF13 gets the WORST TREATMENT (Lowest Priority / Highest Drop)
@@ -141,7 +141,7 @@ CLASS SELECTOR (CS)
 - Defines EIGHT DSCP values for backward compatibility with IPP
 - The THREE BITS that were added for DSCP are set to 0, and the original IPP bits are used to make 8 values
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 ---
 
@@ -166,13 +166,13 @@ TRUST BOUNDARIES
 - If the MARKINGS are NOT TRUSTED:
     - DEVICE will change the MARKINGS according to configured POLICY
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 - If an IP PHONE is connected to the SWITCH PORT, it is RECOMMENDED to move the TRUST BOUNDARY to the IP PHONES
 - This is done via CONFIGURATION on the SWITCH PORT connected to the IP PHONE
 - If a user MARKS their PC’s TRAFFIC with a HIGH PRIORITY, the MARKING will be CHANGED (not trusted)
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 ---
 
@@ -182,7 +182,7 @@ QUEUING / CONGESTION MANAGEMENT
 - When a QUEUE becomes FULL, PACKETS that don’t FIT in the QUEUE are dropped (Tail Drop)
 - RED and WRED DROP PACKETS early to avoid TAIL DROP
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 - An essential part of QoS is the use of MULTIPLE QUEUES
     - This is where CLASSIFICATION plays a role.
@@ -191,7 +191,7 @@ QUEUING / CONGESTION MANAGEMENT
 - HOWEVER, the DEVICE is only able to forward one FRAME out of an INTERFACE at once SO a *SCHEDULER*, is used to decide which QUEUE TRAFFIC is FORWARDED from the next
     - *PRIORITZATION* allows the SCHEDULER to give certain QUEUES more PRIORITY than others
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 - A COMMON scheduling method is *WEIGHTED ROUND-ROBIN*
     - ROUND-ROBIN:
@@ -206,7 +206,7 @@ QUEUING / CONGESTION MANAGEMENT
     - Uses WEIGHTED ROUND-ROBIN SCHEDULER while guaranteeing each QUEUE a certain PERCENTAGE of the INTERFACE’S bandwidth during CONGESTION
     
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 - ROUND-ROBIN SCHEDULING is NOT IDEAL for VOICE / VIDEO TRAFFIC
     - Even if VOICE / VIDEO TRAFFIC receives a guaranteed MINIMUM amount of BANDWIDTH, ROUND-ROBIN can add DELAY and JITTER because even the HIGH PRIORITY QUEUES have to wait their turn in the SCHEDULER
@@ -221,7 +221,7 @@ QUEUING / CONGESTION MANAGEMENT
         - POLICING can control the AMOUNT of TRAFFIC allowed in the *STRICT PRIORITY QUEUE* so that it can’t take all of the link’s BANDWIDTH
     
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
  
 
@@ -243,4 +243,4 @@ SHAPING / POLICING
 - In BOTH cases, CLASSIFICATION can be used to ALLOW for different RATES for different KINDS of TRAFFIC
 - WHY would you want to LIMIT the RATE that TRAFFIC is SENT / RECEIVED ?
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)

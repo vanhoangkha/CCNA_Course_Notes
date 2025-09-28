@@ -16,17 +16,17 @@ WAN OVER DEDICATED CONNECTION (LEASED LINE)
 
 HUB-and-SPOKE topology
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 WAN CONNECTION VIA ETHERNET (FIBER)
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 WAN OVER SHARED INFRASTRUCTURE (INTERNET VPN)
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 ---
 
@@ -37,7 +37,7 @@ LEASED LINES
 - There are various standards that provide different speeds and different standards are available in different countries.
 - Due to the HIGHER cost, HIGHER installation lead time, and SLOWER speeds of LEASED LINES, Ethernet WAN technologies are becoming MORE popular
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 MPLS VPNs
 
@@ -49,7 +49,7 @@ MPLS VPNs
     - PE ROUTER = Provider Edge ROUTER
     - P ROUTER = Provider Core ROUTER
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 - When the PE ROUTERS receive FRAMES from the CE ROUTERS, they add a LABEL to the FRAME
 - These LABELS are used to make forwarding decisions within the SERVICE PROVIDER NETWORK - NOT the DESTINATION IP
@@ -66,7 +66,7 @@ OFFICE A’s CE will learn about OFFICE B’s ROUTES via this OSPF peering
 
 OFFICE B’s CE will learn about OFFICE A’s ROUTES as well
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 - When using a LAYER 2 MPLS VPN, the CE and PE ROUTERS do NOT form PEERINGS
 - The SERVICE PROVIDER NETWORK is entirely *transparent* to the CE ROUTERS
@@ -76,9 +76,9 @@ OFFICE B’s CE will learn about OFFICE A’s ROUTES as well
 
 CE ROUTERS connected via LAYER 2 MPLS VPN
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 ---
 
@@ -86,7 +86,7 @@ MPLS
 
 - Many different technologies can be used to connect to a SERVICE PROVIDER’s MPLS NETWORK for WAN Service
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 INTERNET CONNECTIVITY
 
@@ -106,7 +106,7 @@ DIGITAL SUBSCRIBER LINE (DSL)
 - A DSL MODEM (Modulator / Demodulator) is required to convert DATA into a format suitable to be sent over the phone lines
     - The MODEM might be a separate DEVICE or it might be incorporated in to a “HOME ROUTER”
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 CABLE INTERNET
 
@@ -114,13 +114,13 @@ CABLE INTERNET
 - Like DLS, a CABLE MODEM is required to convert DATA into a format suitable to be sent over the CATV CABLES.
     - Like a DSL MODEM, this can be a separate device or built into the HOME ROUTER
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 ---
 
 REDUNDANT INTERNET CONNECTIONS
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 ---
 
@@ -139,9 +139,9 @@ SITE-TO-SITE VPNs (IPSec)
 - A VPN “TUNNEL” is created between the TWO DEVICES by ENCAPSULATING the original IP PACKET with a VPN HEADER and a new IP HEADER
     - When using IPSec, the original PACKET is encrypted before its ENCAPSULATED with the new HEADER
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 PROCESS SUMMARY:
 
@@ -178,11 +178,11 @@ GRE over IPSec
 - To get the FLEXIBILITY of GRE with the SECURITY of IPSec, “GRE over IPSec” can be used
 - The original PACKET will be ENCAPSULATED by a GRE HEADER and a new IP HEADER, and then the GRE PACKET will be ENCRYPTED and ENCAPSULATED within an IPSec VPN HEADER and a NEW IP HEADER
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 ---
 
@@ -192,11 +192,11 @@ DMVPN
 
 1) CONFIGURE IPSec TUNNELS to a HUB SITE
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 2) The HUB ROUTER gives each ROUTER information about HOW to form an IPSec TUNNEL with the OTHER ROUTERS
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 DMVPN provides the configuration simplicity of HUB-AND-SPOKE (each SPOKE ROUTER only needs one TUNNEL configured) and the EFFICIENCY of DIRECT SPOKE-TO-SPOKE communication (SPOKE ROUTERS can communicate directly without TRAFFIC passing through the HUB)
 
@@ -212,7 +212,7 @@ REMOTE-ACCESS VPNs
 - These END DEVICES then form SECURE TUNNELS to one of the company’s ROUTERS / FIREWALLS acting as a TLS SERVER
 - This allows the END USERS to securely access RESOURCES on the company’s INTERNAL NETWORK without being directly connected to the company NETWORK
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 ---
 

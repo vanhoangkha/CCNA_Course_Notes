@@ -9,9 +9,9 @@ WHAT IS DHCP SNOOPING?
     - Usually UPLINK PORTS are configured as TRUSTED PORTS, and DOWNLINK PORTS remain UNTRUSTED
     
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 ---
 
@@ -23,7 +23,7 @@ DHCP STARVATION
 - An ATTACKER uses spoofed MAC ADDRESSES to flood DHCP DISCOVER messages
 - The TARGET server’s DHCP POOL becomes full, resulting in a DoS to other DEVICES
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 DHCP POISONING (Man-in-the-Middle)
 
@@ -35,9 +35,9 @@ DHCP POISONING (Man-in-the-Middle)
 - This will cause the CLIENT to send TRAFFIC to the ATTACKER instead of the legitimate DEFAULT GATEWAY
 - The ATTACKER can then examine / modify the TRAFFIC before forwarding it to the legitimate DEFAULT GATEWAY
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 ---
 
@@ -78,15 +78,15 @@ HOW DOES IT WORK?
 
 DHCP SNOOPING CONFIGURATION
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 SWITCH 2’s CONFIGURATION
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 SWITCH 1’s CONFIGURATION
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 DHCP SNOOPING RATE-LIMITING
 
@@ -94,13 +94,13 @@ DHCP SNOOPING RATE-LIMITING
 - If the RATE of DHCP messages crosses the configured LIMIT, the INTERFACE is `err-disabled`
 - Like with PORT SECURITY, the interface can be manually re-enabled, or automatically re-enabled with `errdisable recovery`
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 - You wouldn’t set the limit rate to 1 since it’s so low, it would shut the port immediately but this shows how RATE-LIMITING works
 
 `errdisable recovery cause dhcp-rate-limit`
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 DHCP OPTION 82 (INFORMATION OPTION)
 
@@ -110,27 +110,27 @@ DHCP OPTION 82 (INFORMATION OPTION)
 - With DHCP SNOOPING enabled, by default Cisco SWITCHES will add OPTION 82 to DHCP messages they receive from CLIENTS, even if the SWITCH isn’t acting as a DHCP RELAY AGENT
 - By DEFAULT, Cisco SWITCHES will drop DHCP MESSAGES with OPTION 82 that are received on an UNTRUSTED PORT
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 THIS command disables OPTION 82 for SW1 but NOT SW2 
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 TRAFFIC gets passed to R1 and is DROPPED because of “inconsistent relay information” (packet contains OPTION 82 but wasn’t dropped by SW2)
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 By ENABLING OPTION 82 on both SWITCHES…
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 PC1’s DHCP DISCOVER message gets passed, through SW1 and SW2, to R1.
 R1 responds with an DHCP OFFER message, as normal
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 ---
 
 COMMAND SUMMARY
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)

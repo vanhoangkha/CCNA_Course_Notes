@@ -14,7 +14,7 @@ WHAT ARE ACLs
 
 HOW ACLs WORK
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 <aside>
 💡 REQUIREMENTS:
@@ -27,7 +27,7 @@ ACLs are configured GLOBALLY on the ROUTER (Global Config Mode)
 
 - They are an ordered sequence of ACEs (Access Control Entries)
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 - Configuring an ACL in Global Config Mode will not make the ACL take effect
 - The ACL must be applied to an interface
@@ -36,9 +36,9 @@ ACLs are configured GLOBALLY on the ROUTER (Global Config Mode)
 - When a ROUTER checks a PACKET against the ACL, it processes the ACEs in order, from top to bottom
 - If the PACKET matches one of the ACEs in the ACL, the ROUTER takes the action and stops processing the ACL. All entries below the matching entry will be ignored
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 ---
 
@@ -52,7 +52,7 @@ IMPLICIT DENY
 
 ACL TYPES
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 ---
 
@@ -88,7 +88,7 @@ STANDARD NUMBERED ACLs
     
     - Example : `R1(config)# access-list 1 remark ## BLOCK BOB FROM ACCOUNTING ##`
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 Order is important. Lower Numbers are processed FIRST
 
@@ -97,7 +97,7 @@ TO APPLY AN ACL TO AN INTERFACE
 
 `R1(config-if)# ip access-group *number* {in | out}`
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 WHY WAS THIS RULE PLACED ON G0/2 OUT ? 
 
@@ -116,24 +116,24 @@ STANDARD NAMED ACLs
     - `R1(config)# ip access-list standard *acl-name*`
     - `R1(config-std-nacl)# [*entry-number*] {deny | permit} *ip wildcard-mask*`
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 Here are the configurations for the above:
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 Note, however, how the order is when viewing the ACLs 
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 WHY THE REORDERING?
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 CISCOs PACKET TRACER does not reorder these, however.

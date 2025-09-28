@@ -2,9 +2,9 @@
 
 REVIEW OF VIRTUAL MACHINES (TYPE 1 and TYPE2 HYPERVISORS)
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 - VIRTUAL MACHINES (VMs) allow multiple OS’s to run on a single PHYISCAL SERVER
 - A HYPERVISOR is used to manage and allocate HARDWARE RESOURCES to each VM
@@ -20,13 +20,13 @@ REVIEW OF VIRTUAL MACHINES (TYPE 1 and TYPE2 HYPERVISORS)
 - VMs are easy to create, delete, move, etc.
     - A VM can be easily saved and moved between different physical SERVERS.
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 ---
 
 CONTAINERS
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 - CONTAINERS are software packages that contain an APP and all dependencies (*Bins/Libs* in the diagram) for the contained APP to run.
     - Multiple APPS can be run in a single CONTAINER, but this is not how CONTAINERS are usually used
@@ -38,13 +38,13 @@ CONTAINERS
     - DOCKER SWARM is DOCKER’S CONTAINER ORCHESTRATION tool
 - In small numbers, MANUAL operation is possible, but large-scale systems (ie: with Microservices) can require THOUSANDS of CONTAINERS
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 ---
 
 VIRTUAL MACHINES vs. CONTAINERS
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 - VMs can TAKE MINUTES to boot up as each VM runs it’s own OS
 - CONTAINERS can boot up in milliseconds
@@ -61,4 +61,4 @@ VIRTUAL MACHINES vs. CONTAINERS
 - VMs are more isolated because each VM runs it’s own OS
 - CONTAINERS are less isolated because they all run on the same OS; if the OS crashes, all CONTAINERS running on it are effected
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)

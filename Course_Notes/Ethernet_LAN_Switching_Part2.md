@@ -4,7 +4,7 @@ An ETHERNET FRAME looks like:
 
 Ethernet Header --- DATA (Packet) --- Ethernet Trailer
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 
 The Ethernet Header contains 5 Fields:
@@ -36,7 +36,7 @@ IF the PAYLOAD is LESS than 46 BYTES then PADDING BYTES are added (padding bytes
 
 When a PC sends a packet to a device with an unknown IP address, it uses an ARP Request.
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 
 - ARP stands for 'Address Resolution Protocol'.
@@ -62,7 +62,7 @@ An ARP REPLY frame has:
 
 ARP REPLY is a known UNICAST frame = Sent only to the host that sent the ARP REQUEST.
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 
 ---
@@ -90,14 +90,14 @@ USEFUL CISCO IOS COMMANDS (from Privileged EXEC mode)
 
 PC1# show arp // shows hosts ARP table
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 
 ---
 
 SW1#show mac address-table // show the switches MAC table
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 
 Will show:
@@ -108,7 +108,7 @@ Vlan --- MAC Address --- Type --- Ports(interfaces)
 
 ---
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 
 SW1# clear mac address-table dynamic <optional MAC address>

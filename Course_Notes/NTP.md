@@ -5,11 +5,11 @@ WHY IS TIME IMPORTANT FOR NETWORK DEVICES?
 - All DEVICES have an INTERNAL CLOCK (ROUTERS, SWITCHES, PCs, etc)
 - In CISCO IOS, you can view the time with the `show clock` command
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 - If you use the `show clock detail` command, you can see the TIME SOURCE
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 - The INTERNAL HARDWARE CLOCK of a DEVICE will “drift’ over time, so it’s NOT the ideal time source.
 - From a CCNA perspective, the most important reason to have accurate time on a DEVICE is to have ACCURATE logs for troubleshooting
@@ -18,11 +18,11 @@ WHY IS TIME IMPORTANT FOR NETWORK DEVICES?
 
 Command: `show logging`
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 Note : R3’s time stamp is completely different than R2’s !!!
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 ---
 
@@ -30,7 +30,7 @@ MANUAL TIME CONFIGURATION
 
 - You can manually configure the TIME on the DEVICE with the `clock set` command
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 - Although the HARDWARE CALENDAR (built-in clock) is the DEFAULT time-source, the HARDWARE CLOCK and SOFTWARE CLOCK are separate and can be configured separately.
 
@@ -40,15 +40,15 @@ HARDWARE CLOCK (CALENDAR) CONFIGURATION
 
 - You can MANUALLY configure the HARDWARE CLOCK with the `calendar set` command
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 - Typically, you will want to SYNCHRONIZE the ‘clock’ and ‘calendar’
 - Use the command `clock update-calendar` to sync the calendar to the clock’s time
 - Use the command `clock read-calendar` to sync the clock to the calendar’s time
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 ---
 
@@ -56,13 +56,13 @@ CONFIGURING THE TIME ZONE
 
 - You can configure the time zone with the `clock timezone` command
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 DAYLIGHT SAVING TIME (SUMMER TIME)
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 Full command :
 
@@ -73,7 +73,7 @@ This covers the START of Daylight Savings and the end of Daylight Savings
 
 SUMMARY OF COMMANDS
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 ---
 
@@ -98,31 +98,31 @@ REFERENCE CLOCK
 - REFERENCE CLOCKS are **stratum 0** within the NTP hierarchy
 - NTP SERVERS directly connected to REFERENCE CLOCKS are **stratum 1**
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 (Peering with Devices is called …)
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 - An NTP CLIENT can SYNC to MULTIPLE NTP SERVERS
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 ---
 
 NTP CONFIGURATION
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 Using key argument “prefer” makes a given server the PREFERRED SERVER
 
 (To show configuration servers)
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 `sys.peer` = This is the SERVER that the current ROUTER (R1) is being synchronized to
 
@@ -130,13 +130,13 @@ Using key argument “prefer” makes a given server the PREFERRED SERVER
 
 (To show NTP Status)
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 `stratum 2` because it’s synchronizing from Google (stratum 1)
 
 (To show NTP clock details)
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 This command configures the ROUTER to update the HARDWARE CLOCK (Calendar) with the time learned via NTP
 
@@ -150,21 +150,21 @@ When the SYSTEM is restarted, the HARDWARE CLOCK is used to INITIALIZE the SOFTW
 
 CONFIGURE A LOOPBACK INTERFACE FOR AN NTP SERVER
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 Why configure a LOOPBACK DEVICE on R1 for NTP ?
 
 If one of R1’s ROUTER INTERFACES goes down, it will still be accessible via R3’s ROUTING path
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 SET NTP SERVER for R2 using the LOOPBACK INTERFACE on R1
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 SETTING R3 NTP SOURCE SERVERS using R1 and R2
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 NOTE : R1 has PREFERENCE because it’s STRATUM TIER is HIGHER than R2s
 
@@ -172,15 +172,15 @@ NOTE : R1 has PREFERENCE because it’s STRATUM TIER is HIGHER than R2s
 
 CONFIGURING NTP SERVER MODE
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 ---
 
@@ -189,9 +189,9 @@ CONFIGURING NTP SYMMETRIC ACTIVE MODE
 Command to configure NTP SYMMETRIC MODE 
 `R2(config)#ntp peer <peer ip address>`
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 ---
 
@@ -209,10 +209,10 @@ CONFIGURE NTP AUTHENTICATION
 
 EXAMPLE CONFIGURATIONS
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 ---
 
 NTP COMMAND REVIEW
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)

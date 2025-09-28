@@ -15,17 +15,17 @@ COMMON TERMINOLOGIES
 - STAR
     - When several DEVICES all connect to ONE CENTRAL DEVICE, we can draw them in a “STAR” shape like below, so this is often called a “STAR TOPOLOGY”
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 - FULL MESH
     - When each DEVICE is connected to each OTHER DEVICE
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 - PARTIAL MESH
     - When SOME DEVICES are connected to each other but not ALL
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 ---
 
@@ -47,13 +47,13 @@ COMMON TERMINOLOGIES
     - Connects to services such as Internet, WAN, etc
     - Sometimes called AGGREGATION LAYER
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 ---
 
@@ -61,13 +61,13 @@ THREE-TIER CAMPUS LAN DESIGN
 
 - In large NETWORKS with many DISTRIBUTION LAYER SWITCHES (for example in separate buildings), the number of connections required between DISTRIBUTION LAYER SWITCHES grows rapidly
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 - To help SCALE large LAN NETWORKS, you can add a CORE LAYER.
 
 ** Cisco recommends adding a CORE LAYER if there are more than THREE DISTRIBUTION LAYERS in a single location
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 - The THREE-TIER LAN DESIGN consists of THREE HIERARCHICAL LAYERS:
     - ACCESS LAYER
@@ -81,7 +81,7 @@ THREE-TIER CAMPUS LAN DESIGN
     - Connections are all LAYER 3. NO SPANNING-TREE!
     - Should maintain connectivity throughout the LAN even if DEVICES FAIL
     
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
     
 
 ---
@@ -93,7 +93,7 @@ SPINE-LEAF ARCHITECTURE (DATA CENTER)
 - Traditional DATA CENTER designs used a THREE-TIER ARCHITECTURE (ACCESS-DISTRIBUTION-CORE) like we just covered
 - This worked well when most TRAFFIC in the DATA CENTER was NORTH-SOUTH
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 - With the precedence of VIRTUAL SERVERS, applications are often deployed in a DISTRIBUTED manner (across multiple physical SERVERS) which increases the amount of EAST-WEST TRAFFIC in the DATA CENTER
 - The traditional THREE-TIER ARCHITECTURE led to bottlenecks in the BANDWIDTH as well as VARIABILITY in the SERVER-TO-SERVER latency depending on the PATH the TRAFFIC takes
@@ -107,7 +107,7 @@ RULES FOR SPINE-LEAF ARCHITECTURE
 - SPINE SWITCHES do NOT connect to other SPINE SWITCHES
 - END HOSTS (Servers, etc) ONLY connect to LEAF SWITCHES
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 - The PATH taken by TRAFFIC is randomly chosen to balance the TRAFFIC LOAD among the SPINE SWITCHES
 - Each SERVER is separated by the same number of “HOPS” (except those connected to the same LEAF) providing CONSISTENT LATENCY for EAST-WEST TRAFFIC
@@ -127,6 +127,6 @@ SOHO (SMALL OFFICE / HOME OFFICE)
     - WIRELESS ACCESS POINT
     - MODEM
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)

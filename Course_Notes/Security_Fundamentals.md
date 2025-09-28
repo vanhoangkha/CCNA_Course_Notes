@@ -67,14 +67,14 @@ DoS (Denial of Service) Attacks
     - The ATTACKER continues sending SYN messages
     - The TARGET is no longer able to make legitimate TCP connections
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 - In a DDoS (Distributed Denial of Service) Attack, the ATTACKER infects many computers with MALWARE and uses them to initiate a Denial-of-Service Attack.
 - This group of infected computers is called a BOTNET
 
 Example : A TCP SYN Flood Attack
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 ---
 
@@ -86,7 +86,7 @@ SPOOFING ATTACKS
 - An ATTACKER uses spoofed MAC ADDRESSES to flood DHCP Discover messages
 - The TARGET server’s DHCP POOL becomes full, resulting in a Denial-of-Service to other DEVICES
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 ---
 
@@ -98,7 +98,7 @@ REFLECTION / AMPLIFICATION ATTACKS
 
 - A REFLECTION attack becomes an AMPLIFICATION attack when the amount of traffic sent by the ATTACKER is small but it triggers a LARGE amount of traffic to be sent from the *reflector* to the TARGET
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 ---
 
@@ -110,7 +110,7 @@ MAN-IN-THE-MIDDLE ATTACKS
 - The TARGET of the request sends an ARP REPLY, informing the requester of it’s MAC ADDRESS
 - The ATTACKER waits and sends another ARP REPLY after it’s legitimate replier
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 - In PC1’s ARP table, the entry for 10.0.0.1 will have the ATTACKER’S MAC ADDRESS
 - When PC1 tries to send traffic to SRV1, it will be forwarded to the ATTACKER instead
@@ -118,7 +118,7 @@ MAN-IN-THE-MIDDLE ATTACKS
 - The ATTACKER can also modify the messages before forwarding them to SRV1
 - This compromises the CONFIDENTIALITY and INTEGRITY of communication between PC1 and SRV1
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 ---
 
@@ -128,7 +128,7 @@ RECONNAISSANCE ATTACKS
 - This is often publicly available information
 - IE: nslookup to learn the IP ADDRESS of a site
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 - Or a WHOIS query to learn email addresses, phone numbers, physical addresses, etc.
 

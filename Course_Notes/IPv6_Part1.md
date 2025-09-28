@@ -2,15 +2,15 @@
 
 HEXIDECIMAL (Review)
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 What about the reverse (Hex to Binary) ??? 
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 ---
 
@@ -26,7 +26,7 @@ WHY IPv6?
 - IPv4 ADDRESS assignments are controlled by IANA (Internet Assigned Number Authority)
 - IANA distributes IPv4 ADDRESS space to various RIRs (Regional Internet Registries), which then assign them to companies that need them.
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 - On September 24th, 2015, ARIN declared exhaustion of the ARIN IPv4 address pool
 - On August 21st, 2020, LACNIC announced that it had made its final IPv4 allocation
@@ -37,25 +37,25 @@ BASICS OF IPv6
 
 - An IPv6 ADDRESS is **128 bits (8 "groups", 16 bits per "group". Groups are separated by ':')**
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 - An IPv6 ADDRESS uses the / prefix number
 
 SHORTENING (Abbreviating) IPv6 ADDRESSES
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 EXPANDING (Abbreviating) IPv6 ADDRESSES
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 FINDING the IPv6 PREFIX (GLOBAL UNICAST ADDRESSES)
 
@@ -64,9 +64,9 @@ FINDING the IPv6 PREFIX (GLOBAL UNICAST ADDRESSES)
 - That means an Enterprise has 16 bits to use to make SUBNETS
 - The remaining 64 bits can be used for HOSTS
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 (Each digit is 4 bits / each 4 digit block is 16 bits)
 
@@ -78,15 +78,15 @@ Because 93 lands in the middle of a 4 bit number, we need to convert the last di
 
 :: 017 [B] :: B = 0d11 = 0b1011 = 0b1000 (the first digit is borrowed, the remainder become 0)
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 ---
 
 CONFIGURING IPv6 ADDRESSES
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 This allows the ROUTER to perform IPv6 ROUTING
 
@@ -106,7 +106,7 @@ R1(config) #no shutdown
 
 You can also type out the full address (if necessary)
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 NOTE ABBREVIATED IPv6 ADDRESSES SHOWN
 

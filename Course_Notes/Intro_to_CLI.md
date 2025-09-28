@@ -13,7 +13,7 @@ A GUI is a "Graphical User Interface"
 
 You can use a "Rollover cable" : DB9 serial connector to RJ45 OR a DB9 Serial to USB
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 ### How do you actually access the CLI?
 
@@ -54,7 +54,7 @@ PRIVILEGED EXEC MODE:
 
 USE a Question Mark (?) to view the available commands in ANY mode. Combining ? with a letter or partial command will list all the commands with those letters.
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 
 USE the TAB key to complete partially entered commands IF the command exists.
@@ -159,7 +159,7 @@ Future passwords will ALSO be *encrypted*
 
 “Enable secret” will not be effected (it’s ALWAYS encrypted)
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 
 Now you will see that the password is no longer in plaintext.
@@ -170,7 +170,7 @@ Now you will see that the password is no longer in plaintext.
 
 For BETTER / STRONGER encryption, use “enable secret”
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 
 “5” refers to MD5 encryption.
@@ -183,7 +183,7 @@ Once you use “enable secret” command, this will override “enable password�
 
 To CANCEL or delete a command you entered, use the “no” keyword
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 
 In this instance, disabling “service password-encryption”:
@@ -194,12 +194,12 @@ In this instance, disabling “service password-encryption”:
 
 ---
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)

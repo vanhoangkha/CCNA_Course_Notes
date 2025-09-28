@@ -7,7 +7,7 @@ INTRO TO PORT SECURITY
 - If an unauthorized SOURCE MAC ADDRESS enters the PORT, an ACTION will be TAKEN
     - The DEFAULT action is to place the INTERFACE in an “err-disabled” state
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 - When you enable PORT SECURITY on an INTERFACE with the DEFAULT settings, one MAC ADDRESS is allowed
     - You can configure the ALLOWED MAC ADDRESS manually
@@ -15,7 +15,7 @@ INTRO TO PORT SECURITY
 - You can CHANGE the MAXIMUM number of MAC ADDRESSES allowed
 - A COMBINATION of manually configured MAC ADDRESSES and DYNAMICALLY LEARNED ADDRESSES is possible
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 ---
 
@@ -33,25 +33,25 @@ WHY USE PORT SECURITY?
 
 ENABLING PORT SECURITY
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 `show port-security interface`
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 RE-ENABLING AN INTERFACE (MANUALLY)
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 RE-ENABLING AN INTERFACE (ERR-DISABLE RECOVERY)
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 ---
 
@@ -78,18 +78,18 @@ VIOLATION MODES
 
 VIOLATION MODE - RESTRICT
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 
 VIOLATION MODE - PROTECT
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 ---
 
 SECURE MAC ADDRESS AGING
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 - By DEFAULT, SECURE MAC ADDRESSES will not ‘age out’ (Aging Time : 0 mins)
     - Can be configured with `switchport port-security aging time *minutes*`
@@ -102,7 +102,7 @@ SECURE MAC ADDRESS AGING
             - Aging type is configured with:  `switchport port-security aging type {absolute | inactivity}`
 - Secure Static MAC AGING (address configured with `switchport port-security mac-address x.x.x`) is DISABLED by DEFAULT
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 ---
 
@@ -119,7 +119,7 @@ STICKY SECURE MAC ADDRESSES
 - When you issue the `switchport port-security mac-address sticky` command, all current dynamically-learned secure MAC addresses will be converted to STICKY SECURE MAC ADDRESSES
 - If you issue the `no switchport port-security mac-address sticky` command, all current STICKY SECURE MAC ADDRESSES will be converted to regular dynamically-learned SECURE MAC ADDRESSES
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 ---
 
@@ -131,10 +131,10 @@ MAC ADDRESS TABLE
     - You can view all SECURE MAC ADDRESSES with `show mac address-table secure`
     
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 ---
 
 COMMAND REVIEW
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)

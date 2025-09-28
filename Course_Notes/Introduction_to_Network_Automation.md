@@ -102,7 +102,7 @@ DATA PLANE
 - Deciding to forward / discard messages due to ACL’s, port-security, etc. is part of the DATA PLANE
 - The DATA PLANE is also called the ‘FORWARDING PLANE’
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 ---
 
@@ -124,7 +124,7 @@ CONTROL PLANE
     - STP itself isn’t directly involved in the process of forwarding FRAMES, but it informs the DATA PLANE about which INTERFACES should and shouldn’t be used to forward FRAMES
     - ARP messages aren’t user data but they are used to build an ARP TABLE which is used in the process of forwarding data
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 ---
 
@@ -138,7 +138,7 @@ MANAGEMENT PLANE
     - SNMP : Used to monitor the operations of the device
     - NTP : Used to maintain accurate time on the device
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 ---
 
@@ -153,7 +153,7 @@ SOFTWARE-DEFINED NETWORKING (SDN)
     - That is just an example and how much of the CONTROL PLANE is centralized varies greatly
 - The CONTROLLER can interact programmatically with the NETWORK DEVICE using APIs (Application Programming Interface)
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 ---
 
@@ -192,7 +192,7 @@ SOUTHBOUND INTERFACE (SBI)
 - DATA is sent in a structured (*serialized*) format such as JSON or XML
     - This makes it easier for programs to use the DATA
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 ---
 

@@ -14,45 +14,45 @@ THE PURPOSE OF DHCP
 
 BASIC FUNCTIONS OF DHCP
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 Note: ALL the IPs are the same because this is Jeremy’s Home ROUTER (it provides all these services)
 
 Command `ipconfig /release`
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 Wireshark capture of the `ipconfig /release` mechanism
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 ---
 
 Command `ipconfig /renew`
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 Renewing Process has FOUR messages:
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 1) DHCP DISCOVER
 
 - Are there any DHCP Servers in this NETWORK? I need an IP ADDRESS ?
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 NOTE the use of DHCP Reserved Ports 67 and 68
 
@@ -60,7 +60,7 @@ NOTE the use of DHCP Reserved Ports 67 and 68
 
 - How about THIS IP ADDRESS ?
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 - The DHCP OFFER message can be either BROADCAST or UNICAST
 - NOTE OPTIONS at the bottom : Message Type, Server ID, Lease Time, Subnet, etc.
@@ -69,18 +69,18 @@ NOTE the use of DHCP Reserved Ports 67 and 68
 
 - I want to use the IP ADDRESS that was offered
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 4) DHCP ACK
 
 - Okay! You may use THAT ADDRESS
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 ---
 DHCP RENEW PROCESS SUMMARY
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 ---
 
@@ -92,9 +92,9 @@ DHCP RELAY
 - To FIX this, you can configure a ROUTER to act as a DHCP RELAY AGENT
 - The ROUTER will forward the clients’ Broadcast DHCP messages to the remote DHCP SERVER as a Unicast messages
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 ---
 
@@ -102,19 +102,19 @@ CONFIGURING DHCP IN CISCO IOS
 
 Commands for configuring DHCP SERVERS in Cisco IOS
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 Command `show ip dhcp binding`
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 ---
 
 DHCP RELAY AGENT CONFIGURATION IN IOS
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 RELAY AGENT MUST HAVE CONNECTIVITY WITH DHCP SERVER
 
@@ -122,10 +122,10 @@ RELAY AGENT MUST HAVE CONNECTIVITY WITH DHCP SERVER
 
 DHCP CLIENT CONFIGURATION IN IOS
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 ---
 
 COMMANDS SUMMARY
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)

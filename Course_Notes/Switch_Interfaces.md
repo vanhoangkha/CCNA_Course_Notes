@@ -1,11 +1,11 @@
 # 9. SWITCH INTERFACES
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 
 CISCO CLI for SWITCHES
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 
 // enter Privileged EXEC mode
@@ -24,7 +24,7 @@ Unlike ROUTERS, SWITCHES do no DEFAULT to 'administrative down/down'(shutdown).
 
 Unconnected devices will show as "down" and "down" (not connected to another device)
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 
 // Show the status of all interfaces on SW1
@@ -43,10 +43,10 @@ This will list:
 
 ---
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 
 ---
@@ -61,7 +61,7 @@ Answer: No! There is a command to apply configurations to a range of interfaces.
 
 Inside Global Config Mode (config t):
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 
 SW1(config)#interface range f0/5 - 12   // Choose all interfaces from 0/5 to 0/12
@@ -74,7 +74,7 @@ SW1(config-if-range)#shutdown
 
 Confirm with 'show interface status' in Privileged EXEC mode or if in CONFIG mode, use 'do show interface status'
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 ---
 
@@ -118,7 +118,7 @@ SWITCHES are Layer 2 Devices - Collisions RARELY occur.
 
 ---
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 
 SPEED / DUPLEX AUTONEGOTIATION
@@ -128,7 +128,7 @@ SPEED / DUPLEX AUTONEGOTIATION
 
 WHAT if AUTONEGOTIATION is DISABLED on the device connected to the SWITCH ?
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 
 - SPEED: The SWITCH will try to send at the speed that the other device is operating at.
@@ -148,7 +148,7 @@ SW1#show interfaces <interface name>
 
 Error stats will be at the bottom.
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 
 **Packets Received / Total bytes received.**

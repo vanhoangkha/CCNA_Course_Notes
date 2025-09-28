@@ -4,17 +4,17 @@ ANOTHER WAY TO CONFIGURE NUMBERED ACLs
 
 - In DAY 34, you learned that numbered ACLs are configured in Global Config mode:
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 - You learned that named ACLs are configured with subcommands in a separate config mode:
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 - However, in modern IOS you can also configure numbered ACLs in the exact same way as named ACLs:
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 ---
 
@@ -23,15 +23,15 @@ ADVANTAGES OF NAMED ACL CONFIG MODE
 - You can easily DELETE individual entries in the ACL with NO *entry-number*
 - You can easily DELETE individual entries in the ACL with NO *sequence-number*
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 This doesn’t work with NUMBERED access lists
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 - You can insert NEW entries in-between other entries by specifying the SEQUENCE NUMBER
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 ---
 
@@ -40,7 +40,7 @@ RESEQUENCING ACLs
 - There is a *resequencing* function that helps edit ACLs
 - The command is  `R1(config)#ip access-list resequence *acl-id starting-seq-num increment*`
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 ---
 
@@ -81,7 +81,7 @@ EXTENDED NAMED ACL
 
 MATCHING THE PROTOCOL
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 IP Protocol Number is the number used in the IPv4 Header Protocol field
 
@@ -89,7 +89,7 @@ Examples: (1) ICMP, (6) TCP, (17) UDP, (88) EIGRP, (89) OSPF
 
 MATCHING THE SOURCE / DESTINATION IP ADDRESS
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 This command:
 
@@ -120,7 +120,7 @@ MATCHING THE TCP /  UDP PORT NUMBERS
 
 - When matching TCP / UDP, you can optionally specify the SOURCE and/or DESTINATION PORT NUMBERS to match
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 eq = equal than
 
@@ -134,9 +134,9 @@ range = range of ports
 
 You can use either the PORT NUMBER or the specific TYPE (that has a KNOWN PORT NUMBER)
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 ---
 
@@ -156,9 +156,9 @@ PRACTICE QUESTIONS 2:
 
 EXAMPLE NETWORK
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 REQUIREMENTS:
 
@@ -207,8 +207,8 @@ EXTENDED ACL #3 (APPLIED at R1 g0/0 OUTBOUND interface)
 
 What the EXTENDED ACLs look like
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 HOW TO SEE WHICH EXTENDED ACL’s ARE APPLIED TO AN INTERFACE
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)

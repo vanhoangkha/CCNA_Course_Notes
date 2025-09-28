@@ -10,26 +10,26 @@ BROADCAST DOMAINS
 
 Image of LAN with FOUR BROADCAST DOMAINS (192.168.1.0 / 24)
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 
 Performance :
 
 Lots of unnecessary BROADCAST traffic can reduce network performance.
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 
 BROADCAST FRAME flooding all our subnets with unnecessary traffic.
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 
 Security :
 
 Even within the same office, you want to limit who has access to what. You can apply security policies on a ROUTER / FIREWALL. Because this is one LAN, PC’s can reach each other directly, without traffic passing through the router. So, even if you configure security policies, they won’t have any effect.
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 ---
 
@@ -53,23 +53,23 @@ Network Security :
 
 - Limiting BROADCAST and unknown UNICAST traffic, also improves network security, since messages won’t be received by devices outside of the VLAN
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 
 SWITCHES do not forward traffic directly between HOSTS in different VLANS
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 
 Sending Packets to another VLAN (Routed through R1)
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 ---
 
@@ -77,7 +77,7 @@ HOW TO CONFIGURE VLANS ON CISCO SWITCHES
 
 #show vlan brief
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 
 Shows which VLANS that exist on the SWITCH and what INTERFACES are in each VLAN
@@ -88,7 +88,7 @@ VLANs 1 (DEFAULT), 1002-1005 exist by default and **cannot be deleted (5 VLANs)*
 
 HOW TO ASSIGN INTERFACES TO A VLAN
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 
 1) Use the “interface range” command to select all the interfaces at once
@@ -105,7 +105,7 @@ SWITCHPORTS which carry multiple VLANs are called “TRUNK PORTS” (more info o
 
 3) Use the “switchport access” command to assign a VLAN to a PORT
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 
 Use “#vlan <#>” to enter **Configuration Mode** for a given VLAN (this can also create a VLAN)
@@ -114,11 +114,11 @@ Use “#name <name>” to configure a NAME for your VLAN
 
 To check your VLAN configuration, use “#show vlan brief”
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 
 Testing VLAN 10
 
 Pinging from PC1 using 255.255.255.255 (FFFF:FFFF:FFFF) floods broadcast packets to R1 and VLAN10 hosts only
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)

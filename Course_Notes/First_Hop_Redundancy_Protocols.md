@@ -3,7 +3,7 @@
 THE PURPOSE OF FHRPS
 
  
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 What happens when the configured DEFAULT GATEWAY for network HOSTS goes down ?
 
@@ -38,11 +38,11 @@ HOW DOES FHRP WORK?
     - Source MAC (HOST MAC ADDRESS)
     - Destination MAC (GATEWAY VIP MAC ADDRESS)
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 IF R1 goes down, R2 will switch from STANDY to ACTIVE after not receiving “Hello” messages from R1
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 The HOST ARP TABLE doesn’t need to change since the MAC ADDRESS of the VIP is already known and traffic flows externally via R2
 
@@ -51,9 +51,9 @@ R2 DOES need to update the SWITCHES with a GRATUITOUS ARP
 - GRATUITOUS ARP is an ARP REPLY sent without being REQUESTED (no ARP REQUEST received)
 - GRATUITOUS ARP uses BROADCAST (FFFF.FFFF.FFFF) - Normal ARP REPLY is Unicast
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 What happens is R1 comes back ONLINE again?
 
@@ -88,7 +88,7 @@ HSRP (HOT STANDBY ROUTER PROTOCOL)
 
 - In a situation with MULTIPLE SUBNETS / VLANS, you can configure a DIFFERENT ACTIVE ROUTER in EACH SUBNET / VLAN to LOAD BALANCE
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 ---
 
@@ -107,7 +107,7 @@ VRRP (VIRTUAL ROUTER REDUNDANCY PROTOCOL)
 
 - In a situation with MULTIPLE SUBNETS / VLANS, you can configure a DIFFERENT MASTER ROUTER in EACH SUBNET / VLAN to LOAD BALANCE
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 ---
 
@@ -129,7 +129,7 @@ GLBP (GATEWAY LOAD BALANCING PROTOCOL)
 
 MEMORIZE THIS CHART and the differences between the FHRPs
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 ---
 
@@ -137,18 +137,18 @@ BASIC HSRP CONFIGURATION
 
 R1s configuration
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 NOTE : group number has to match ALL ROUTERS being configured in a given SUBNET
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 R2’s configuration
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 NOTE : HSRP versions are not cross-compatible. All ROUTERS must use the same HSRP Version
 
 Output of the “show standby” command
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)

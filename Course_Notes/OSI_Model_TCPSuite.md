@@ -14,7 +14,7 @@ Networking models categorize and provide a structure for networking protocols an
 - Functions are divided into 7 "Layers"
 - These layers work together to make the network work.
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 As data moves from the top layer, downward, the process is called “encapsulation”
 
@@ -22,11 +22,11 @@ As data moves from the bottom layer, upward, the process is called “de-encapsu
 
 When interactions occur on the same layer, it’s called “same-layer interaction”
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 Mnemonic to help remember the Data Layer Names / Order
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 
 ### The layers are :
@@ -120,7 +120,7 @@ When the frame is sent to the receiver, it then goes through the reverse process
 
 ### OSI MODEL - PDU's
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 A PDU is a Protocol Data Unit. Each step of the process is a PDU.
 
@@ -145,14 +145,14 @@ A PDU is a Protocol Data Unit. Each step of the process is a PDU.
 - THIS is the model actually in use in modern networks.
 - * Note : The OSI Model still influences how network engineers think and talk about networks.
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 
 ---
 
 ### Layer Interactions
 
-[Image removed]
+![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
 
 
 Adjacent-Layer Interactions:
