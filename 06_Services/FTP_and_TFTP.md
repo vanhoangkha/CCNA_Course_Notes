@@ -9,7 +9,7 @@ THE PURPOSE OF FTP / TFTP
 - As a NETWORK ENGINEER, the most common use for FTP / TFTP is in the process of UPGRADING the OPERATING SYSTEM of a NETWORK DEVICE
 - You can use FTP / TFTP to DOWNLOAD the newer version of IOS from a SERVER and then REBOOT the DEVICE with the new IOS image
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 ---
 
@@ -36,11 +36,11 @@ TFTP RELIABILITY
     - If the SERVER is transferring a FILE TO the CLIENT, the CLIENT will send ACK messages
 - TIMERS are used, and if an EXPECTED message isn’t received in time, the waiting DEVICE will RESEND its previous message.
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 TFTP “CONNECTIONS”
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 TFTP TID (Not in the CCNA exam)
 
@@ -51,7 +51,7 @@ TFTP TID (Not in the CCNA exam)
 
 UDP PORT 69 (TFTP) is only used at the initial request message
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 --- 
 
@@ -75,22 +75,22 @@ FTP CONTROL CONNECTIONS
     - An FTP CONTROL connection (TCP 21) is established and used to send FTP commands and replies
     - When FILES or DATA are to be transferred, separate FTP DATA (TCP 20) connections are established and terminated as needed
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 ACTIVE MODE FTP DATA CONNECTIONS
 
 - The DEFAULT method of establishing FTP DATA connections is ACTIVE MODE in which the SERVER initiates the TCP connection.
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 - In FTP PASSIVE MODE, the CLIENT initiates the DATA connection.
     - This is often necessary when the CLIENT is behind a FIREWALL, which could BLOCK the INCOMING CONNECTION from the SERVER
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 FTP VERSUS TFTP
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 ---
 
@@ -99,7 +99,7 @@ IOS FILE SYSTEMS
 - A FILE SYSTEM is a way of controlling how DATA is STORED and RETRIEVED
 - You can VIEW the FILE SYSTEM of a Cisco IOS DEVICE with `show file systems`
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 ---
 
@@ -107,11 +107,11 @@ USING FTP / TFTP IN IOS
 
 - You can VIEW the current version of IOS with `show version`
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 - You can VIEW the contents of flash with `show flash`
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 ---
 
@@ -119,15 +119,15 @@ COPYING FILES WITH TFTP
 
 STEP 1
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 STEP 2
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 STEP 3
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 ---
 
@@ -135,7 +135,7 @@ COPYING FILES WITH FTP
 
 STEP 1
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 STEP 2 and 3 identical to TFTP above
 
@@ -143,4 +143,4 @@ STEP 2 and 3 identical to TFTP above
 
 COMMAND SUMMARY
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*

@@ -2,13 +2,13 @@
 
 NATIVE VLAN ON A ROUTER (ROAS)
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 Native VLAN untagged frames are faster and more efficient (smaller) than tagged ones.
 
 Let’s reset all SWITCHES (SW1 and SW2) to native vlan 10
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 
 
@@ -16,19 +16,19 @@ There are **TWO methods** of configuring the native VLAN on a router:
 
 - Use the command “encapsulation dot1q <vlan-id>” on a Sub-Interface
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 
 OR
 
 - Configure the IP address for the native VLAN on the router’s physical interface (the “**encapsulation dot1q** <vlan-id> command is not necessary”
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 
 Output of “show running-config” of G0/0 Interface
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 
 ---
@@ -37,7 +37,7 @@ LAYER 3 (MULTILAYER) SWITCHES
 
 ICON APPEARANCE
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 
 - A MULTILAYER SWITCH is capable of both SWITCHING and ROUTING
@@ -47,29 +47,29 @@ ICON APPEARANCE
 - You can configure routes on it, just like a ROUTER
 - It can be used for inter-VLAN routing
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 
 SW2 Replaced with a Layer 3 Switch
 
 Multi-VLAN connections to R1 removed and replaced with a point-to-point Layer 3 connection
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 
 - SVIs (Switch Virtual Interfaces) are the virtual interfaces you can assign IP addresses to in a MULTILAYER SWITCH.
 - Configure each HOST to use the SVI (NOT the ROUTER R1) as their Gateway Address
 - To send traffic to different SUBNETS / VLANS, the PCs will send traffic to the SWITCH, and the SWITCH will route the traffic.
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 
 Clearing R1 configuration to set to work with the Layer 3 Point-to-Point connection
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 
 #no interface <sub-interface id> : removes the VLAN interface
@@ -80,7 +80,7 @@ Then configure the default R1 G0/0 interface’s to IP address : 192.168.1.194 (
 
 Configuration of SW2 to use SVI and the Layer 3 Point-to-Point connection with R1
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 
 “default interface <interface-id>” : resets settings on specified interface to defaults
@@ -91,21 +91,21 @@ Configuration of SW2 to use SVI and the Layer 3 Point-to-Point connection with R
 
 The sets the Default Route to R1 (192.168.1.194) so that all traffic leaving the network gets routed through R1’s Gateway of Last Resort (aka The Default Gateway)
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 
 SVI CONFIGURATION ON SW2 (Virtual LAYER 3 ROUTING INTERFACES)
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 
 
 SVIs are **shut down** by default, so remember to use “no shutdown”
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 
 Creating an unknown SVI (VLAN 40) and the Status/Protocol is “down/down”
@@ -117,7 +117,7 @@ What are the conditions for a SVI to be “up/up” ?
 - The VLAN must not be shutdown (you can use the “shutdown” command to disable a VLAN)
 - The SVI must not be shutdown (SVIs are disabled, by default)
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 
 The VLAN trunk has been successfully replaced by an Layer 3 SWITCH SVI.

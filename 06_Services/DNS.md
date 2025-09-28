@@ -13,39 +13,39 @@ THE PURPOSE OF DNS
 
 BASIC FUNCTIONS OF DNS
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 Command `ipconfig /all` (Show local IP configuration on current DEVICE)
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 Command `nslookup` (Shows IP information for a given DNS entry)
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 WIRESHARK CAPTURE of above  COMMANDS
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 Command `ipconfig /displaydns` (Displays DNS cache)
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 Command `ipconfig /flushdns` (Clears DNS cache)
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 HOSTS Files
 
 WINDOWS HOSTS location
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 ---
 
@@ -59,22 +59,22 @@ CONFIGURING DNS IN CISCO IOS
 
 Command `ip dns server` and `ip host <hostname> <ip address>`
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 Command `show hosts`
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 Command `ip name-server` and `ip domain lookup`
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 ---
 
 COMMAND REVIEW:
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*

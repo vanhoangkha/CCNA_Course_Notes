@@ -2,13 +2,13 @@
 
 WHAT IS DYNAMIC ROUTING?
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 - LAYER 3
 - Involves configuring a DYNAMIC ROUTING PROTOCOL on the ROUTER and letting the ROUTER take care of finding the best routes to DESTINATION NETWORKS.
 - Not Fixed (will adapt to changes in the LAN)
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 
 💡 A NETWORK ROUTE :  A ROUTE to a NETWORK or SUBNET (Mask Length < /32)
@@ -25,31 +25,31 @@ These two ROUTES were AUTOMATICALLY added to R1’s G0/0 and G1/0s INTERFACES
 
 HOW DYNAMIC ROUTING WORKS ?
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 (R4 ADVERTISES to R2 who ADVERTISES to R1 who ADVERTISES to R3 - They add the NETWORK ROUTE to R4 in their ROUTE TABLE)
 
 If the NETWORK ROUTE breaks, the ROUTE is DYNAMICALLY REMOVED from the ROUTE TABLE
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 (R1 removing the ROUTE to R4 from it’s ROUTE TABLE)
 
 IN STATIC ROUTING, a downed ROUTER will still have traffic passed to it. The ROUTE TABLES are unchanged.
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 (R1 has a STATIC ROUTE to R4 and passes traffic destined to it’s NETWORK regardless of status)
 
 DYNAMIC ROUTING is good but still requires REDUNDANCY so we add another connection between R3 and R4
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 (Secondary DYNAMIC ROUTE added to R4 from R1 via R3. ROUTE TABLE updated appropriately)
 
 A failure in the ROUTE, via R2 to R4’s G0/0 INTERFACE, automatically reroutes traffic via R3
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 Why does the path prefer using R2’s path versus R3? 
 
@@ -76,17 +76,17 @@ IGP
 
 - Used to SHARE ROUTES within a single *autonomous system* (AS), which is a single organization (ie: a company)
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 EGP
 
 - Used to SHARE ROUTES *between* different *autonomous systems (AS)*
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 Algorithms used for IGP and EGP and the PROTOCOL for each
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 💡 YOU MUST MEMORIZE WHICH ALGORITHM IS USED FOR EACH PROTOCOL FOR THE CCNA!
 
@@ -104,7 +104,7 @@ DISTANCE VECTOR ROUTING PROTOCOLS
 - This METHOD of sharing ROUTE information is often called ***‘routing by rumor’***
     - ***‘routing by rumor’*** = because the ROUTER doesn’t know about the NETWORK beyond it’s NEIGHBOURS. It only knows the information that the NEIGHBOURS tell it.
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 ---
 
@@ -120,13 +120,13 @@ A lower METRIC = BETTER! (just like STP)
 
 EACH ROUTING PROTOCOL uses a different METRIC to determine which ROUTE is best
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 The above choose the RED PATH because the “cost”, using R3 F2/0 and R4 F2/0 (FastEthernet) is HIGHER than the  R2 G1/0 and R4 G0/0 (GigabyteEthernet)
 
 What if BOTH connections were GigabyteEthernet? (ie: the same METRIC value)
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 BOTH ROUTES are added to the ROUTE TABLE
 
@@ -134,7 +134,7 @@ So …
 
 💡 If a ROUTER learns TWO (or more) ROUTES via the same ****ROUTING PROTOCOL to the same DESTINATION (same network address, same subnet mask) with the same METRIC, both will be added to the routing table. Traffic will be LOAD-BALANCED over both ROUTES
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 “O” = OSPF PROTOCOL (next to ROUTES)
 
@@ -152,13 +152,13 @@ You can have ECMP with STATIC ROUTES, as well (they don’t use METRIC, however)
 
 SUMMARY OF DIFFERENT METRICS
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 (IS-IS won’t be covered in detail)
 
 EXAMPLE
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 Using RIP, both ROUTES would be put in R1’s ROUTE TABLE
 
@@ -188,13 +188,13 @@ ADMINISTRATIVE DISTANCE
 
 ADMINISTRATIVE DISTANCE NUMBERS
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 (USE THE FLASHCARDS TO MEMORIZE THESE)
 
 💡 IF the ADMINISTRATIVE DISTANCE is 255, the ROUTER does not believe the SOURCE of that ROUTE and does not install the ROUTE in the ROUTING TABLE!
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 METRIC is used to COMPARE ROUTES learned from the SAME ROUTING PROTOCOL
 
@@ -207,9 +207,9 @@ Therefore, the BEST ROUTE is :
 - You can CHANGE the AD of a ROUTING PROTOCOL (This will be demonstrated in the lecture for OSPF CONFIGURATION)
 - You can also change the AD of a STATIC ROUTE:
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 WHY WOULD YOU WANT TO DO THIS?
 

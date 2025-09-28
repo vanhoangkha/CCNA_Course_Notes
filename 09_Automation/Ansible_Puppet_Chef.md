@@ -26,7 +26,7 @@ CONFIGURATION PROVISIONING
     - Templates
     - Variables
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 ---
 
@@ -43,7 +43,7 @@ INTRO TO CONFIGURATION MANAGEMENT TOOLS
     - Check device configurations for compliance with defined standards
     - Compare configurations between devices, and between different versions of configurations on the same device
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 ---
 
@@ -73,7 +73,7 @@ ANSIBLE
         - These values are substituted into the templates to create complete configuration files.
         - Written in YAML
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 ---
 
@@ -96,7 +96,7 @@ PUPPET
         - Similar to Ansible templates.
         - Used to generate MANIFESTS
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 ---
 
@@ -121,10 +121,10 @@ CHEF
     - RUN-LIST :
         - An ordered list of RECIPES that are run to bring a device to the desired configuration state
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 ---
 
 MEMORIZE THIS CHART FOR THE CCNA
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*

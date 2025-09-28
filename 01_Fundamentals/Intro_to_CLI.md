@@ -13,7 +13,7 @@ A GUI is a "Graphical User Interface"
 
 You can use a "Rollover cable" : DB9 serial connector to RJ45 OR a DB9 Serial to USB
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 ### How do you actually access the CLI?
 
@@ -54,7 +54,7 @@ PRIVILEGED EXEC MODE:
 
 USE a Question Mark (?) to view the available commands in ANY mode. Combining ? with a letter or partial command will list all the commands with those letters.
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 
 USE the TAB key to complete partially entered commands IF the command exists.
@@ -159,7 +159,7 @@ Future passwords will ALSO be *encrypted*
 
 “Enable secret” will not be effected (it’s ALWAYS encrypted)
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 
 Now you will see that the password is no longer in plaintext.
@@ -170,7 +170,7 @@ Now you will see that the password is no longer in plaintext.
 
 For BETTER / STRONGER encryption, use “enable secret”
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 
 “5” refers to MD5 encryption.
@@ -183,7 +183,7 @@ Once you use “enable secret” command, this will override “enable password�
 
 To CANCEL or delete a command you entered, use the “no” keyword
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 
 In this instance, disabling “service password-encryption”:
@@ -194,12 +194,12 @@ In this instance, disabling “service password-encryption”:
 
 ---
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*

@@ -15,17 +15,17 @@ COMMON TERMINOLOGIES
 - STAR
     - When several DEVICES all connect to ONE CENTRAL DEVICE, we can draw them in a “STAR” shape like below, so this is often called a “STAR TOPOLOGY”
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 - FULL MESH
     - When each DEVICE is connected to each OTHER DEVICE
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 - PARTIAL MESH
     - When SOME DEVICES are connected to each other but not ALL
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 ---
 
@@ -47,13 +47,13 @@ COMMON TERMINOLOGIES
     - Connects to services such as Internet, WAN, etc
     - Sometimes called AGGREGATION LAYER
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 ---
 
@@ -61,13 +61,13 @@ THREE-TIER CAMPUS LAN DESIGN
 
 - In large NETWORKS with many DISTRIBUTION LAYER SWITCHES (for example in separate buildings), the number of connections required between DISTRIBUTION LAYER SWITCHES grows rapidly
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 - To help SCALE large LAN NETWORKS, you can add a CORE LAYER.
 
 ** Cisco recommends adding a CORE LAYER if there are more than THREE DISTRIBUTION LAYERS in a single location
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 - The THREE-TIER LAN DESIGN consists of THREE HIERARCHICAL LAYERS:
     - ACCESS LAYER
@@ -81,7 +81,7 @@ THREE-TIER CAMPUS LAN DESIGN
     - Connections are all LAYER 3. NO SPANNING-TREE!
     - Should maintain connectivity throughout the LAN even if DEVICES FAIL
     
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
     
 
 ---
@@ -93,7 +93,7 @@ SPINE-LEAF ARCHITECTURE (DATA CENTER)
 - Traditional DATA CENTER designs used a THREE-TIER ARCHITECTURE (ACCESS-DISTRIBUTION-CORE) like we just covered
 - This worked well when most TRAFFIC in the DATA CENTER was NORTH-SOUTH
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 - With the precedence of VIRTUAL SERVERS, applications are often deployed in a DISTRIBUTED manner (across multiple physical SERVERS) which increases the amount of EAST-WEST TRAFFIC in the DATA CENTER
 - The traditional THREE-TIER ARCHITECTURE led to bottlenecks in the BANDWIDTH as well as VARIABILITY in the SERVER-TO-SERVER latency depending on the PATH the TRAFFIC takes
@@ -107,7 +107,7 @@ RULES FOR SPINE-LEAF ARCHITECTURE
 - SPINE SWITCHES do NOT connect to other SPINE SWITCHES
 - END HOSTS (Servers, etc) ONLY connect to LEAF SWITCHES
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 - The PATH taken by TRAFFIC is randomly chosen to balance the TRAFFIC LOAD among the SPINE SWITCHES
 - Each SERVER is separated by the same number of “HOPS” (except those connected to the same LEAF) providing CONSISTENT LATENCY for EAST-WEST TRAFFIC
@@ -127,6 +127,6 @@ SOHO (SMALL OFFICE / HOME OFFICE)
     - WIRELESS ACCESS POINT
     - MODEM
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*

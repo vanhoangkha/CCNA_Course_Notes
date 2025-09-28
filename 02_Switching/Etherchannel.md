@@ -8,13 +8,13 @@ A LAYER 2 ETHERCHANNEL is a group of SWITCH PORTS which operate as a SINGLE INTE
 
 A LAYER 3 ETHERCHANNEL is a group of ROUTED PORTS which operate as a SINGLE INTERFACE which you assign an IP ADDRESS to.
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 When the bandwidth of the INTERFACES connected to END HOSTS is greater than the bandwidth of the connection to the DISTRIBUTION SWITCH(es), this is called **OVERSUBSCRIPTION.** 
 
 Some OVERSUBSCRIPTION is acceptable, but too much will cause congestion.
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 - If you connect TWO SWITCHES together with multiple links, ALL except ONE will be DISABLED by SPANNING TREE PROTOCOL (Green Lights vs. Orange Lights above on ASW1)
 
@@ -25,12 +25,12 @@ WHY?
 
 An ETHERCHANNEL (in network topology diagrams) is represented like THIS (circle around multi-connections)
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 - ETHERCHANNEL groups multiple channels together to act as a SINGLE INTERFACE
 - STP will treat this GROUP as a SINGLE INTERFACE
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 (All INTERFACES Green!)
 
@@ -47,7 +47,7 @@ Some other names for an ETHERCHANNEL are:
 
 HOW DOES AN ETHERCHANNEL LOAD-BALANCE?
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 - ETHERCHANNEL load-balances based on **“flows”**
 - A “flow” is a communication between TWO NODES in the NETWORK
@@ -64,13 +64,13 @@ HOW DOES AN ETHERCHANNEL LOAD-BALANCE?
 
 How to see the configuration for LOAD-BALANCING method
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 How to CHANGE the LOAD-BALANCING method
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 ---
 
@@ -100,11 +100,11 @@ Up to 8 INTERFACES can be formed into a single ETHERCHANNEL (LACP allows up to 1
 
 PAgP CONFIGURATION
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 💡 NOTE that “auto” and “desirable” are the ONLY available modes for PAgP
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 PAgP negotiations to form an ETHERCHANNEL
 
@@ -114,7 +114,7 @@ Creating a port-channel interface Port-channel1
 
 Shows up in the interface as “Port-channel1”
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 The “channel-group” number has to MATCH for member INTERFACES on the same SWITCH.
 
@@ -126,11 +126,11 @@ It DOESN’T have to MATCH the “channel-group” number on the OTHER SWITCH!
 
 LACP CONFIGURATION
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 💡 NOTE that “active” and “passive” are the ONLY available modes for LACP
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 LACP negotiations for form an ETHERCHANNEL
 
@@ -144,7 +144,7 @@ It DOESN’T have to MATCH the “channel-group” number on the OTHER SWITCH!
 
 STATIC ETHERCHANNEL CONFIGURATION
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 💡 NOTE that “on” is the ONLY available mode for STATIC ETHERCHANNEL
 
@@ -158,7 +158,7 @@ ON + active = DOES NOT WORK
 
 HOW TO MANUALLY CONFIGURE THE NEGOTIATION PROTOCOL
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 TWO OPTIONS: 
 
@@ -175,11 +175,11 @@ AFTER CONFIGURING THE ETHERCHANNEL MODE
 
 CONFIGURING THE PORT INTERFACE
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 “show running-config” shows “interface Port-channel1” in the configuration
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 💡 NOTE the PHYSICAL INTERFACES (g0/0-g0/3) were auto-configured by the Port-channel1 configuration!
 
@@ -201,7 +201,7 @@ VERIFYING STATUS OF ETHERCHANNEL
 
 💡 “show etherchannel summary”
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 NOTE information at bottom. (”SU” means S - Layer2 + U - in use)
 
@@ -211,11 +211,11 @@ Protocol = What protocol the Etherchannel is using (in this case, LACP)
 
 OTHER FLAGS
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 “D” = Down
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 Changing one of the Member interfaces using “switchport mode access” has made it different than the other members so it is now appearing as “s” = suspended
 
@@ -223,37 +223,37 @@ Another useful command
 
 💡 “show etherchannel port-channel”
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 💡 “show spanning-tree” will show the single EtherChannel port interface
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 ---
 
 LAYER 3 ETHERCHANNELS
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 HOW TO CONFIGURE A LAYER 3 ETHERCHANNEL (from a clean configuration)
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 💡 “show running-config”
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 NOTE : No SWITCHPORT and NO IP INTERFACE.
 
 Where do we configure the IP Address?  Directly on the PORT INTERFACE !
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 (”RU” - “R” = Layer 3, “U” = in use)
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 ---
 
@@ -279,4 +279,4 @@ SW# show etherchannel port-channel
 ```
 Displays information about the virtual port-channel interfaces on a SWITCH
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*

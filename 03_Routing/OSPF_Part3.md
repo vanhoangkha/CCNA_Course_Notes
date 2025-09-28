@@ -7,7 +7,7 @@ LOOPBACK INTERFACES
 - It is NOT dependent on a PHYSICAL INTERFACE
 - So, it provides a consistent IP ADDRESS that can be used to REACH / IDENTIFY the ROUTER
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 ---
 
@@ -35,14 +35,14 @@ OSPF NETWORK TYPES
 
 OSPF BROADCAST NETWORK TYPE
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 - Enabled on ETHERNET and FDDI interfaces by DEFAULT
 - ROUTERS *dynamically discover* neighbors by SENDING / LISTENING for OSPF “Hello” messages using the multicast address 224.0.0.5
 - A **DR (DESIGNATED ROUTER)** and **BDR (BACKUP DESIGNATION ROUTER)** must be elected on each subnet (only DR if there are no OSPF neighbors, ie: R1’s G1/0 INTERFACE)
 - ROUTERS which aren’t the DR or BDR become a **DROther**
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 The DR / BDR election order of priority:
 
@@ -66,7 +66,7 @@ The command to change the OSPF PRIORITY of an INTERFACE is :
 
 </aside>
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 <aside>
 💡 IF an OSPF PRIORITY is set to “0”, the ROUTER CANNOT be the DR / BDR for the SUBNET!
@@ -82,9 +82,9 @@ Once the DR / DBR are selected, they will keep their role until OSPF is:
 - Is shut down
 - etc.
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 <aside>
 💡 In the BROADCAST NETWORK TYPE, ROUTERS will only form a FULL OSPF ADJACENCY with the DR and the BDR of the SEGMENT!
@@ -106,13 +106,13 @@ The DR and BDR will form a FULL ADJACENCY with ALL ROUTERS in the SUBNET
 
 DROthers will form a FULL ADJACENCY ONLY with the DR / BDR !
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 ---
 
 OSPF POINT-TO-POINT NETWORK TYPE
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 - ENABLED on **SERIAL** INTERFACES using the **PPP** and **HDLC** encapsulations, by DEFAULT
 - ROUTERS dynamically discover neighbors by SENDING / LISTENING for OSPF “Hello” messages using the multicast address 224.0.0.5
@@ -127,7 +127,7 @@ OSPF POINT-TO-POINT NETWORK TYPE
 
 SERIAL INTERFACES
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 - One side of SERIAL CONNECTION functions as DCE (Data Communications Equipment)
 - The OTHER side functions as DTE (Data Terminal Equipment)
@@ -137,15 +137,15 @@ ETHERNET INTERFACES use the “speed” command to configure the operating speed
 
 SERIAL INTERFACES use the “clock rate” command
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 If you change the ENCAPSULATION, it must MATCH on BOTH ENDS or the INTERFACE will go down.
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 R1 and R2 sharing the SAME Encapsulation Type 
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 
 SERIAL INTERFACES SUMMARY
@@ -176,9 +176,9 @@ SERIAL INTERFACES SUMMARY
 
 ---
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 - You can configure the OSPF NETWORK TYPE on an INTERFACE with :
 
@@ -191,7 +191,7 @@ For example, if TWO ROUTES are directly connected with an ETHERNET link, there i
 
 NOTE: Not all NETWORK TYPES work on ALL LINK TYPES (for example, a serial link cannot use the BROADCAST NETWORK type)
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 <aside>
 💡 NON-BROADCAST NETWORK type Default Timers : Hello 30, Dead 120
@@ -208,17 +208,17 @@ OSPF NEIGHBOUR / ADJACENCY REQUIREMENTS
 
 3) OSPF PROCESS must not be **SHUTDOWN**
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 4) OSPF ROUTER ID must be unique
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 5) HELLO and DEAD Timers must MATCH
 
 6) AUTHENTICATION settings must MATCH
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 *** SPECIAL REQUIREMENTS *** 
 

@@ -4,7 +4,7 @@ BASICS OF LAYER 4
 
 - Provides TRANSPARENT transfer of DATA between END HOSTS (Host To Host communication)
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 - Provides (or DOESN’T provide) various SERVICES to APPLICATIONS:
     - Reliable DATA Transfer
@@ -21,7 +21,7 @@ WHAT IS A SESSION ?
 
 - A SESSION is an EXCHANGE of DATA between TWO or MORE communicating DEVICES
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 The FOLLOWING ranges have been designated by IANA (Internet Assigned Numbers Authority) 
 
@@ -29,7 +29,7 @@ The FOLLOWING ranges have been designated by IANA (Internet Assigned Numbers Aut
 - **Registered** Port Numbers : 1024 - 49151
 - **Ephemeral** / Private / Dynamic port numbers : 49152 - 65535
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 ---
 
@@ -38,42 +38,42 @@ TCP (TRANSMISSION CONTROL PROTOCOL)
 - A CONNECTION-ORIENTED protocol
     - Before actually SENDING DATA to the DESTINATION HOST, the TWO HOSTS communicate to establish a CONNECTION. Once the CONNECTION is established, DATA exchange begins.
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 Establishing connections
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 Terminating connections
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 - TCP provides RELIABLE communication
     - The DESTINATION HOST must acknowledge that it RECEIVED each TCP SEGMENT (Layer 4 PDU)
     - If a SEGMENT isn’t ACKNOWLEDGED, it is sent again
     
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 - TCP provides SEQUENCING
     - SEQUENCE numbers in the TCP HEADER allow DESTINATION HOSTS to put SEGMENTS in the correct ORDER even if they arrive out of ORDER
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 - TCP provides FLOW CONTROL
     - The DESTINATION HOST can tell the SOURCE HOST to increase / decrease the RATE that DATA is sent
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 ---
 
 UDP (USER DATAGRAM PROTOCOL)
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 - UDP is NOT a CONNECTION-ORIENTED PROTOCOL
     - The SENDING HOST does NOT establish a CONNECTION with the DESTINATION HOST before sending DATA. The DATA is simply SENT
@@ -98,7 +98,7 @@ COMPARING TCP AND UDP
 
 Number of Fields in their Headers
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 - TCP provides MORE FEATURES than UDP but at a COST of ADDITIONAL OVERHEAD
 - For applications that require RELIABLE communications (for example, downloading a file), TCP is PREFERRED
@@ -106,8 +106,8 @@ Number of Fields in their Headers
 - There are SOME applications that use UDP, but provide RELIABILITY, etc. within the APPLICATION itself.
 - Some applications use BOTH TCP and UDP, depending on the situation.
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 IMPORTANT PORT NUMBERS
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*

@@ -5,11 +5,11 @@ WHY IS TIME IMPORTANT FOR NETWORK DEVICES?
 - All DEVICES have an INTERNAL CLOCK (ROUTERS, SWITCHES, PCs, etc)
 - In CISCO IOS, you can view the time with the `show clock` command
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 - If you use the `show clock detail` command, you can see the TIME SOURCE
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 - The INTERNAL HARDWARE CLOCK of a DEVICE will “drift’ over time, so it’s NOT the ideal time source.
 - From a CCNA perspective, the most important reason to have accurate time on a DEVICE is to have ACCURATE logs for troubleshooting
@@ -18,11 +18,11 @@ WHY IS TIME IMPORTANT FOR NETWORK DEVICES?
 
 Command: `show logging`
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 Note : R3’s time stamp is completely different than R2’s !!!
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 ---
 
@@ -30,7 +30,7 @@ MANUAL TIME CONFIGURATION
 
 - You can manually configure the TIME on the DEVICE with the `clock set` command
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 - Although the HARDWARE CALENDAR (built-in clock) is the DEFAULT time-source, the HARDWARE CLOCK and SOFTWARE CLOCK are separate and can be configured separately.
 
@@ -40,15 +40,15 @@ HARDWARE CLOCK (CALENDAR) CONFIGURATION
 
 - You can MANUALLY configure the HARDWARE CLOCK with the `calendar set` command
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 - Typically, you will want to SYNCHRONIZE the ‘clock’ and ‘calendar’
 - Use the command `clock update-calendar` to sync the calendar to the clock’s time
 - Use the command `clock read-calendar` to sync the clock to the calendar’s time
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 ---
 
@@ -56,13 +56,13 @@ CONFIGURING THE TIME ZONE
 
 - You can configure the time zone with the `clock timezone` command
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 DAYLIGHT SAVING TIME (SUMMER TIME)
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 Full command :
 
@@ -73,7 +73,7 @@ This covers the START of Daylight Savings and the end of Daylight Savings
 
 SUMMARY OF COMMANDS
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 ---
 
@@ -98,31 +98,31 @@ REFERENCE CLOCK
 - REFERENCE CLOCKS are **stratum 0** within the NTP hierarchy
 - NTP SERVERS directly connected to REFERENCE CLOCKS are **stratum 1**
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 (Peering with Devices is called …)
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 - An NTP CLIENT can SYNC to MULTIPLE NTP SERVERS
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 ---
 
 NTP CONFIGURATION
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 Using key argument “prefer” makes a given server the PREFERRED SERVER
 
 (To show configuration servers)
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 `sys.peer` = This is the SERVER that the current ROUTER (R1) is being synchronized to
 
@@ -130,13 +130,13 @@ Using key argument “prefer” makes a given server the PREFERRED SERVER
 
 (To show NTP Status)
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 `stratum 2` because it’s synchronizing from Google (stratum 1)
 
 (To show NTP clock details)
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 This command configures the ROUTER to update the HARDWARE CLOCK (Calendar) with the time learned via NTP
 
@@ -150,21 +150,21 @@ When the SYSTEM is restarted, the HARDWARE CLOCK is used to INITIALIZE the SOFTW
 
 CONFIGURE A LOOPBACK INTERFACE FOR AN NTP SERVER
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 Why configure a LOOPBACK DEVICE on R1 for NTP ?
 
 If one of R1’s ROUTER INTERFACES goes down, it will still be accessible via R3’s ROUTING path
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 SET NTP SERVER for R2 using the LOOPBACK INTERFACE on R1
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 SETTING R3 NTP SOURCE SERVERS using R1 and R2
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 NOTE : R1 has PREFERENCE because it’s STRATUM TIER is HIGHER than R2s
 
@@ -172,15 +172,15 @@ NOTE : R1 has PREFERENCE because it’s STRATUM TIER is HIGHER than R2s
 
 CONFIGURING NTP SERVER MODE
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 ---
 
@@ -189,9 +189,9 @@ CONFIGURING NTP SYMMETRIC ACTIVE MODE
 Command to configure NTP SYMMETRIC MODE 
 `R2(config)#ntp peer <peer ip address>`
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 ---
 
@@ -209,10 +209,10 @@ CONFIGURE NTP AUTHENTICATION
 
 EXAMPLE CONFIGURATIONS
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 ---
 
 NTP COMMAND REVIEW
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*

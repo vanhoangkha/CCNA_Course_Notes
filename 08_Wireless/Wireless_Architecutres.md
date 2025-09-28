@@ -2,7 +2,7 @@
 
 802.11 MESSAGE / FRAME FORMAT
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 - 802.11 FRAMES have a different format than 802.3 ETHERNET FRAMES
 - For the CCNA, you don’t have to learn it in as much detail as the ETHERNET and IP HEADERS
@@ -50,7 +50,7 @@
 
 - The STATION must be AUTHENTICATED and ASSOCIATED with the AP to send traffic through it
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 ---
 
@@ -98,7 +98,7 @@ AUTONOMOUS APs
 
 - There is NO CENTRAL MONITORING or MANAGEMENT of APs
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 - AUTONOMOUS APs connect to the WIRED NETWORK with a TRUNK link
 - DATA traffic from WIRELESS CLIENTS have a very direct PATH to the WIRED NETWORK or to other WIRELESS CLIENTS associated with the same AP
@@ -140,7 +140,7 @@ LIGHTWEIGHT APs
 - The WLC and the lightweight APs AUTHENTICATE each other using DIGITAL CERTIFICATES installed on each DEVICE ( X.509 STANDARD CERTIFICATES )
     - This ensures that only AUTHORIZED APs can join the NETWORK
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 - THE WLC and lightweight APs use a PROTOCOL called CAPWAP (CONTROL AND PROVISIONING OF WIRELESS ACCESS POINTS) to communicate
     - Based on an older PROTOCOL called LWAPP (LIGHTWEIGHT ACCESS POINT PROTOCOL)
@@ -157,7 +157,7 @@ LIGHTWEIGHT APs
 
 - Because ALL traffic from WIRELSS CLIENTS is TUNNELED to the WLC with CAPWAP, APs connect to the SWITCH ACCESS PORTS - NOT TRUNK PORTS
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 ---
 
@@ -190,7 +190,7 @@ There are some KEY BENEFITS to SPLIT-MAC ARCHITECTURE
         - Like a LIGHTWEIGHT AP in LOCAL mode, it offers ONE or MORE BSSs for CLIENTS to associate with
         - HOWEVER, FLEXCONNECT allows the AP to locally SWITCH traffic between the WIRED (TRUNK) and WIRELESS NETWORKS (ACCESS) if the TUNNELS to the WLC go down
     
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
     
 
 - SNIFFER
@@ -221,7 +221,7 @@ There are some KEY BENEFITS to SPLIT-MAC ARCHITECTURE
     - Allows WIRELESS ACCESS POINTS to locally forward traffic even if connectivity to the WLC is lost
     
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 ---
 
@@ -235,9 +235,9 @@ CLOUD-BASED APs
 - However, DATA TRAFFIC is not sent to the CLOUD. It is sent directly to the WIRED NETWORK like when using AUTONOMOUS APs
     - Only management / control traffic is sent to the CLOUD
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 ---
 
@@ -262,7 +262,7 @@ UNIFIED WLC
 - A UNIFIED WLC can support up to about 6000 APs
 - If more than 6000 APs are needed, additional WLCs can be added to the NETWORK
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 ---
 
@@ -272,7 +272,7 @@ CLOUD-BASED
 - CLOUD-BASED WLCs can typically support up to about 3000 APs
 - If more than 3000 APs are needed, more WLC VMs can be deployed
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 ---
 
@@ -282,7 +282,7 @@ EMBEDDED WLC
 - An EMBEDDED WLC can support up to about 200 APs
 - If more than 200 APs are needed, more SWITCHES with EMBEDDED WLCs can be added
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 ---
 
@@ -292,4 +292,4 @@ CISCO MOBILITY EXPRESS WLC
 - A MOBILITY EXPRESS WLC can support up to about 100 APs
 - If more than 100 APs are needed, more APs with EMBEDDED MOBILITY  EXPRESS WLCs can be added
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*

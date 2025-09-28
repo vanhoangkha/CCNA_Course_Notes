@@ -6,7 +6,7 @@ IPv6 ADDRESS CONFIGURATION (EUI-64)
 - (Modified) EUI-64 is a method of converting a MAC address (48-bits) into a 64-bit INTERFACE identifier
 - This INTERFACE identifier can then become the “HOST portion” of a /64 IPv6 ADDRESS
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 EUI-64 PRACTICE:
 ```
@@ -19,16 +19,16 @@ EUI-64 PRACTICE:
 so the EUI-64 Interface Identifier is :  7A2B CBFF FEAC 0867
 ```
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 ---
 CONFIGURING IPv6 ADDRESSES with EUI-64
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 NOTE the “2001:DB8…” Address has “E” changed to “c”. This is the 7th bit getting flipped (1110 to 1100 = 12 = hex ‘C’)
 
@@ -65,7 +65,7 @@ IPv6 ADDRESS TYPES
 
 Remember THESE THREE PARTS of a GLOBAL UNICAST ADDRESS
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 ---
 
@@ -87,7 +87,7 @@ Remember THESE THREE PARTS of a GLOBAL UNICAST ADDRESS
 
 (*) The GLOBAL ID should be UNIQUE so that ADDRESSES don’t overlap when companies MERGE
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 ---
 
@@ -113,7 +113,7 @@ Remember THESE THREE PARTS of a GLOBAL UNICAST ADDRESS
     
     Network using Link-Local Addresses for “next-hop” routing
     
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
     
 
 ---
@@ -139,7 +139,7 @@ YOU MUST KNOW THE MULTICAST ADDRESS FOR EACH ROUTER TYPE
 
 NOTE that the IPv6 and IPv4 Addresses share the same last digit
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 MULTICAST ADDRESS SCOPES
 
@@ -165,7 +165,7 @@ MULTICAST ADDRESS SCOPES
     - No boundaries
     - Possible to be ROUTED over the INTERNET
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 5) ANYCAST ADDRESS
 
@@ -178,7 +178,7 @@ MULTICAST ADDRESS SCOPES
     - Use a regular UNICAST (Global Unicast, Unique Local) and specify THAT as an ANYCAST ADDRESS
     - `R1(config-if)# ipv6 address 2000:db8:1:1::99/128 anycast`
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 6) OTHER IPv6 ADDRESSES
 

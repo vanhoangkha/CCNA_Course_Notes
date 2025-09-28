@@ -2,7 +2,7 @@
 
 *COMPARISON OF STP VERSIONS (Standard vs. Cisco)*
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 
 We are only concerned with 802.1w for MOST use cases.
@@ -28,14 +28,14 @@ DIFFERENCES BETWEEN STP AND RSTP:
 
 **PORT COSTS**
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 
 (STUDY AND MEMORIZE PORT COSTS OF STP AND RSTP)
 
 RSTP PORT STATES
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 - If a PORT has been ADMINISTRATIVELY DISABLED (”shutdown” command) = DISCARDING STATE
 - If a PORT is ENABLED but BLOCKING traffic to prevent LAYER 2 LOOPS = DISCARDING STATE
@@ -58,18 +58,18 @@ RSTP ROLES
 - The RSTP ALTERNATE PORT ROLE is a DISCARDING PORT that receives a superior BPDU from another SWITCH
 - This is the same as what you’ve learned about BLOCKING PORTS in classic STP
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 - An ALTERNATE PORT (labelled “A” above) functions as a backup to the ROOT PORT
 - If the ROOT PORT fails, the SWITCH can immediately move it’s best alternate port to FORWARDING
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 💡 This immediate move to FORWARDING STATE functions like a classic STP optional feature called **UplinkFast.** Because it is built into RSTP, you do not need to activate UplinkFast when using RSTP/Rapid PVST+
 
 One more STP optional feature that was built into RSTP is **BackboneFast**
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 - **BackboneFast** allows SW3 to expire the MAX AGE TIMERS on it’s INTERFACE and rapidly FORWARD the superior BPDUs to SW2
 - This FUNCTIONALITY is built into RSTP, so it does not need to be configured.
@@ -93,16 +93,16 @@ UPLINKFAST and BACKBONE FAST (SUMMARY)
 
 💡 The INTERFACE with the LOWERS PORT ID will be selected as the DESIGNATED PORT, and the other will be the BACKUP port.
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 WHICH Switch will be ROOT BRIDGE?
 What about the OTHER ports ?
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 💡 RAPID STP *is* compatible with CLASSIC STP.
 💡 The INTERFACE(S) on the RAPID STP-enabled SWITCH connected to the CLASSIC STP-enabled SWITCH will operate in CLASSIC STP MODE (Timers, BLOCKING >>> LISTENING >>> LEARNING >>> FORWARDING, etc.)
@@ -113,7 +113,7 @@ RAPID STP BPDU
 
 CLASSIC RSTP (LEFT) vs RAPID STP BPDU (RIGHT)
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 
 💡 NOTE:
@@ -144,13 +144,13 @@ RAPID SPANNING TREE PROTOCOL
     - In CLASSIC STP, a SWITCH waits 10 “hello” intervals (20 seconds)
     - In RAPID STP, a SWITCH considers a neighbour lost if it misses 3 BPDUs (6 seconds). It will then “flush” ALL MAC ADDRESSES learned on that interface
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 ---
 
 RSTP LINK TYPES
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 ```
 <E> = EDGE
@@ -194,7 +194,7 @@ SHARED PORTS
 
 QUIZ:
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 SW1 :
 
@@ -235,4 +235,4 @@ Connections from SW2 to HUB = SHARED
 
 ANSWER
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*

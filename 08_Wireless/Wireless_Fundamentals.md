@@ -10,7 +10,7 @@ WIRELESS NETWORKS
 
 - WIRELESS NETWORKS have some issues that we need to deal with
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 1)  ALL DEVICES within range receive ALL FRAMES, like DEVICES connected to an ETHERNET HUB
 
@@ -21,7 +21,7 @@ WIRELESS NETWORKS
 
 - When using CSMA / CA, a DEVICE will wait for other DEVICES to STOP TRANSMITTING before it TRANSMITS DATA itself.
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 2)  WIRELESS COMMUNICATIONS are regulated by various INTERNATIONAL and NATIONAL bodies
 
@@ -36,35 +36,35 @@ SIGNAL ABSORPTION
 
 - ABSOPTION happens when a WIRELESS SIGNAL PASSES THROUGH a material and is converted into HEAT, weakening the SIGNAL
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 SIGNAL REFLECTION
 
 - REFLECTION happens when a SIGNAL BOUNCES off a material (like metal)
     - This is why WI-FI reception is usually POOR in elevators. The SIGNAL bounces off the metal and very little penetrates into the elevator
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 SIGNAL REFRACTION
 
 - REFRACTION happens when a WAVE is BENT when entering a medium where the SIGNAL travels at a different speed
     - For example, glass and water can refract waves
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 SIGNAL DIFFRACTION
 
 - DIFFRACTION happens when a WAVE encounters an OBSTACLE and travels AROUND it
     - This can result in “BLIND SPOTS” behind the obstacle
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 SIGNAL SCATTERING
 
 - SCATTERING happens when a material causes a SIGNAL to SCATTER in all directions
     - Dust, smog, uneven surfaces, etc. can cause scattering
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 ---
 
@@ -81,7 +81,7 @@ RADIO FREQUENCY (RF)
 - ELECTROMAGENETIC WAVES can be measured in multiple ways - for example AMPLITUDE and FREQUENCY
 - AMPLITUDE is the MAXIMUM STRENGTH of the ELECTRIC and MAGNETIC FIELDS
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 - FREQUENCY measures the number of UP / DOWN CYCLES per a GIVEN UNIT of TIME
 - The most COMMON measurement of FREQUENCE is HERTZ
@@ -94,19 +94,19 @@ RADIO FREQUENCY (RF)
 
 4 CYCLES per 1 SECOND = 4 HERTZ
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 - Another important term is PERIOD, the amount of TIME of ONE CYCLE
     - If the FREQUENCY is 4 Hz, the PERIOD is 0.25 SECONDS
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 - The VISIBLE FREQUENCY RANGE is ~400 THz to 790 THz
 - The RADIO FREQUENCY RANGE is 30 Hz to 300 GHz and is used for many purposes.
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 ---
 
@@ -139,19 +139,19 @@ CHANNELS
 - However, in larger WLANs with multiple APs, it’s important that adjacent APs don’t use OVERLAPPING CHANNELS. This helps avoid INTERFERENCE
 - In the 2.4 GHz BAND, it is recommended to use CHANNELS 1, 6 and 11
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 - The 5 GHz BAND consists of NON-OVERLAPPING channels so it’s much EASIER to avoid INTERFERENCE between adjacent APs
 
 - Using CHANNELS 1, 6, 11, you can place APs in a “HONEYCOMB” pattern to provide COMPLETE coverage of an area without INTERFERENCE between CHANNELS
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 ---
 
 WI-FI STANDARDS (802.11)
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 ---
 
@@ -173,7 +173,7 @@ SERVICE SETS : IBSS
 - Can be used for FILE TRANSFER (ie: AirDrop)
 - Not scalable beyond a few DEVICES
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 SERVICE SETS : BSS
 
@@ -185,7 +185,7 @@ SERVICE SETS : BSS
 - WIRELESS DEVICES that have associated with the BSS are called “CLIENTS” or “STATIONS”
 - The AREA around an AP where its SIGNAL is usable is called a BSA (BASIC SERVICE AREA)
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 SERVICE SETS: ESS
 
@@ -198,7 +198,7 @@ SERVICE SETS: ESS
     - This is called ROAMING
 - The BSAs should overlap about 10-15%
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 SERVICE SETS: MBSS
 
@@ -210,7 +210,7 @@ SERVICE SETS: MBSS
 - The OTHER APs are called MAPs (MESH ACCESS POINTS)
 - A PROTOCOL is used to determine the BEST PATH through the MESH (similar to how DYNAMIC ROUTING PROTOCOLS are used to determine the BEST PATH to a DESTINATION)
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 ---
 
@@ -221,13 +221,13 @@ DISTRIBUTION SYSTEM
 - In 802.11, the UPSTREAM WIRED NETWORK is called the DS (DISTRIBUTION SYSTEM)
 - Each WIRELESS BSS or ESS is mapped to a VLAN in the WIRED NETWORK
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 - It is possible for an AP to provide MULTIPLE WIRELESS LANs, each with a unique SSID
 - Each WLAN is mapped to a separate VLAN and connected to the WIRED NETWORK via a TRUNK
 - Each WLAN uses a UNIQUE BSSID, usually by INCREMENTING the LAST digit of the BBSID by one
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 ---
 
@@ -241,22 +241,22 @@ ADDITIONAL AP OPERATIONAL MODES
     - A REPEATER with a SINGLE RADIO must operate on the SAME CHANNEL as the AP, but this can drastically reduce the overall THROUGHPUT on the CHANNEL
     - A REPEATER with TWO RADIOS can receive on ONE CHANNEL and then retransmit on ANOTHER CHANNEL
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 - A WORKGROUP BRIDGE (WGB) operates as a WIRELESS CLIENT of another AP and can be used to CONNECT WIRED DEVICES to the WIRELESS NETWORK
 - In the example below, PC1 does NOT have WIRELESS CAPABILITIES, and also DOES NOT have ACCESS to WIRED CONNECTIONS to SW1
 - PC1 has a WIRED CONNECTION to the WGB, which has a WIRELESS CONNECTION to the AP
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 - AN OUTDOOR BRIDGE can be used to connect NETWORKS over LONG DISTANCES without a PHYSICAL CABLE connecting them
 - The APs will use SPECIALIZED ANTENNAS that focus most of the SIGNAL POWER in one direction, which allows the WIRELESS CONNECTION to be made over LONGER DISTANCES than normally possible
 - The CONNECTION can be POINT-TO-POINT as in the diagram below, or POINT-TO-MULTIPOINT in which MULTIPLE SITES connect to on CENTRAL SITE
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 ---
 
 REVIEW
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 

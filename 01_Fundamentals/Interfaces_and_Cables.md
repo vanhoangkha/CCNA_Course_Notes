@@ -59,7 +59,7 @@ Most use 8 wires (4 pairs) however ...
 
 10/100BASE-T = 2 pairs (4 wires)
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 
 ---
@@ -68,7 +68,7 @@ How do devices communicate via their connections?
 
 Each ethernet cable has a RJ-45 plug with 8 pins on the ends.
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 
 - PCs Transmit(TX) data on Pins #1-2
@@ -82,7 +82,7 @@ This allows Full-Duplex transmission of data.
 
 What if a Router / Switch connect?
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 
 - Routers Transmit(TX) data on Pins #1-2
@@ -103,7 +103,7 @@ We MUST use a "Crossover" cable.
 
 This cable swaps the pins on one end to allow connection to work.
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 
 PIN#1 -----> PIN#3
@@ -129,7 +129,7 @@ Most modern equipment now has AUTO MDI-X which **automatically detects** which p
 
 Each wire pair is **bidirectional** so can transmit/receive much faster than 10/100BASE-T.
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 
 ---
@@ -144,14 +144,14 @@ SFP Transceiver (Small Form-Factor Pluggable) allows fiber-optic cables to conne
 
 4 parts to a fiber-optic cable.
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 
 There are TWO types of fiberoptic cable.
 
 Single-Mode:
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 
 - Narrower than multimode
@@ -161,7 +161,7 @@ Single-Mode:
 
 Multimode:
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 
 - Core is wider than Single-mode

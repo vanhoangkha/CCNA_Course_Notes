@@ -17,7 +17,7 @@ Example:
 192.168.1.0/24 (255.255.255.0)
 192.168.2.0/24 (255.255.255.0)
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 
 ROUTERS have unique IP Addresses for EACH of their interface connections, depending on their location.
@@ -28,7 +28,7 @@ The IP Address for the ROUTER's G0/0 Interface is:
 The IP Address for the ROUTER's G0/1 Interface is:
 192.168.2.254/24
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 
 The IP Address depends on network address of the LAN it is connects to.
@@ -49,7 +49,7 @@ When a BROADCAST message hits a ROUTER, it does NOT continue onward. It stays wi
 
 IPv4 HEADER
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 
 IP (or Internet Protocol) is the primary Layer 3 protocol in use today. Version 4 is the version in use in most networks.
@@ -74,7 +74,7 @@ Since Binary is difficult to read for people, we use the Dotted Decimal format.
 
 REVIEW of DECIMAL and HEXADECIMAL
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 
 Decimal (base 10)
@@ -212,7 +212,7 @@ So we now know that IP Addresses are the Dotted Decimal conversion of a series o
 
 But what does the /24 stand for?
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 
 It means the FIRST 24 BITS of this address represent the NETWORK portion of the address.
@@ -221,7 +221,7 @@ It means the FIRST 24 BITS of this address represent the NETWORK portion of the 
 
 .254 is the HOST PORTION (the last OCTET)
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 
 ---
@@ -281,7 +281,7 @@ From the above chart, if the FIRST OCTECT STARTS with 0, the numeric RANGE of po
 
 The CLASSES we will be focusing on are CLASS A to CLASS C.
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 
 D CLASS are reserved for 'MULTICAST' ADDRESSES
@@ -300,7 +300,7 @@ Because 127 is usually reserved for 'loopback addresses'
 
 ---
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 
 The PREFIX LENGTH is the LENGTH of the NETWORK PORTION of the Address.
@@ -319,7 +319,7 @@ Because the NETWORK portion of CLASS C is so long, it means fewer potential Host
 
 NETMASK
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 
 A NETMASK is written like a Dotted Decimal IP Address
@@ -334,7 +334,7 @@ CLASS C: /24 = 255.255.255.0
 
 NETWORK ADDRESSES
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 
 If the HOST PORTION of an IP ADDRESS is ALL 0's, it means it is the NETWORK ADDRESS = the identifier of the network itself.
@@ -344,7 +344,7 @@ Example: 192.168.1.0/24 = THIS is a NETWORK ADDRESS.
 A NETWORK ADDRESS cannot be assigned to a HOST.
 A NETWORK ADDRESS is the FIRST ADDRESS.
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 
 If the HOST PORTION of an IP ADDRESS is ALL 1's, it means it is the BROADCAST ADDRESS for the network.

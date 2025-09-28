@@ -1,11 +1,11 @@
 # 9. SWITCH INTERFACES
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 
 CISCO CLI for SWITCHES
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 
 // enter Privileged EXEC mode
@@ -24,7 +24,7 @@ Unlike ROUTERS, SWITCHES do no DEFAULT to 'administrative down/down'(shutdown).
 
 Unconnected devices will show as "down" and "down" (not connected to another device)
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 
 // Show the status of all interfaces on SW1
@@ -43,10 +43,10 @@ This will list:
 
 ---
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 
 ---
@@ -61,7 +61,7 @@ Answer: No! There is a command to apply configurations to a range of interfaces.
 
 Inside Global Config Mode (config t):
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 
 SW1(config)#interface range f0/5 - 12   // Choose all interfaces from 0/5 to 0/12
@@ -74,7 +74,7 @@ SW1(config-if-range)#shutdown
 
 Confirm with 'show interface status' in Privileged EXEC mode or if in CONFIG mode, use 'do show interface status'
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 ---
 
@@ -118,7 +118,7 @@ SWITCHES are Layer 2 Devices - Collisions RARELY occur.
 
 ---
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 
 SPEED / DUPLEX AUTONEGOTIATION
@@ -128,7 +128,7 @@ SPEED / DUPLEX AUTONEGOTIATION
 
 WHAT if AUTONEGOTIATION is DISABLED on the device connected to the SWITCH ?
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 
 - SPEED: The SWITCH will try to send at the speed that the other device is operating at.
@@ -148,7 +148,7 @@ SW1#show interfaces <interface name>
 
 Error stats will be at the bottom.
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 
 **Packets Received / Total bytes received.**

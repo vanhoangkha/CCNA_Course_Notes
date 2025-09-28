@@ -11,7 +11,7 @@ SD REVIEW
 
 SDN ARCHITECTURE
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 ---
 
@@ -22,20 +22,20 @@ CISCO SD-ACCESS
     - SD-WAN is their SDN solution for automating WANs
 - Cisco DNA (Digital Network Architecture) Center is the controller at the center of SD-Access
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 - The UNDERLAY is the underlying physical network of devices and connections (including wired and wireless) which provide IP connectivity (ie: using IS-IS)
     - Multilayer Switches and their connections
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 - The OVERLAY is the virtual network built on top of the physical underlay network
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 - The FABRIC is the combination of the OVERLAY and UNDERLAY; the physical and virtual network as a whole
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 ---
 
@@ -56,9 +56,9 @@ SD-ACCESS UNDERLAY
     - All Links between Switches are ROUTED PORTS. This means STP is not needed
     - EDGE NODES (ACCESS SWITCHES) act as the the DEFAULT GATEWAY of END HOSTS *(Routed Access Layer)*
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 ---
 
@@ -74,11 +74,11 @@ SD-ACCESS OVERLAY
 
 - VXLAN provides the DATA PLANE of SD-ACCESS
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 ---
 
@@ -103,7 +103,7 @@ CISCO DNA CENTER
         - THIS group can access THIS server but not THAT server
     - DNA CENTER will take care of the exact details of implementing this policy
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 ---
 
@@ -129,4 +129,4 @@ DNA CENTER-based Network Management :
 - Software versions are also centrally managed. DNA CENTER can monitor cloud servers for new versions and then update the managed devices
 - New network deployments are much quicker. New devices can automatically receive their configurations from DNA CENTER without manual configuration
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*

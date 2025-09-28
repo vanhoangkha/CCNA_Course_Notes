@@ -15,11 +15,11 @@ OSPF METRIC (Cost)
 
 FastEthernet COST
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 Gigabit Ethernet COST
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 You can (and SHOULD) change the REFERENCE BANDWIDTH with this command:
 
@@ -42,7 +42,7 @@ THE OSPF COST to a DESTINATION is the TOTAL COST of the ‘outgoing/exit INTERFA
 
 LOOPBACK INTERFACES have a COST of 1
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 To CHANGE the OSPF COST of an INTERFACE, you use the command :
 
@@ -70,7 +70,7 @@ It is RECOMMENDED that you CHANGE the REFERENCE BANDWIDTH
 
 THEN use the **“ip ospf cost”** command to change the COST of the individual INTERFACES, if you want.
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 ---
 
@@ -96,7 +96,7 @@ THREE WAYS to modify the OSPF COST:
 💡 R1(config-router)# **bandwidth <***kilobits-per-second>*
 </aside>
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 ---
 
@@ -115,7 +115,7 @@ DOWN STATE
 - It sends an OSPF “hello” message to 224.0.0.5
 - It doesn’t know about any OSPF neighbors yet, so the current neighbor state is DOWN
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 INIT STATE
 
@@ -123,7 +123,7 @@ INIT STATE
 - In R2’s neighbor table, the relationship with R1 is now in the INIT state
 - INIT state = “hello” packet received, but own ROUTER ID is not in the “hello” packet
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 2-WAY STATE
 
@@ -132,7 +132,7 @@ INIT STATE
 - R1 will send another “hello” message, this time containing R2’s RID
 - Both ROUTERS are now in the 2-WAY state
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 - The 2-WAY state means the ROUTER has received a “hello” packet with its own RID in it
 - If both ROUTERS reach the 2-WAY state, it means that ALL of the conditions have been met for them to become OSPF neighbors.
@@ -148,7 +148,7 @@ EXSTART STATE
     - The ROUTER with the lower RID will become the SLAVE
 - To decide the MASTER and SLAVE, they exchange DBD (Database Description) packets
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 EXCHANGE STATE
 
@@ -156,7 +156,7 @@ EXCHANGE STATE
 - These DBDs do NOT include detailed information about the LSAs, just BASIC INFORMATION
 - The ROUTERS compare the information in the DBD they received to the information in their OWN LSDB to determine which LSAs they must receive from their neighbor
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 LOADING STATE
 
@@ -164,7 +164,7 @@ LOADING STATE
 - LSAs are sent in **Link State Update (LSU)** messages
 - The ROUTERS send **LSAck** messages to acknowledge that they received the LSAs
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 FULL STATE
 
@@ -174,13 +174,13 @@ FULL STATE
 - If the DEAD timer counts down to 0 and no “hello” message is received, the neighbor is REMOVED
 - The ROUTERS will continue to share LSAs as the network changes to make sure each ROUTER has a COMPLETE and ACCURATE map of the NETWORK (LSDB)
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 ---
 
 OSPF NEIGHBORS SUMMARY:
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 1 ) BECOME NEIGHBORS
 
@@ -199,7 +199,7 @@ OSPF NEIGHBORS SUMMARY:
 
 SUMMARY OF OSPF MESSAGE TYPES
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 ---
 
@@ -212,7 +212,7 @@ Activate OSPF DIRECTLY on an INTERFACE with this command:
 
 </aside>
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 Configure ALL INTERFACES as OSPF Passive Interfaces
 
@@ -221,7 +221,7 @@ Configure ALL INTERFACES as OSPF Passive Interfaces
 
 </aside>
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 Can then REMOVE specific INTERFACES from being passive using:
 
@@ -232,10 +232,10 @@ Can then REMOVE specific INTERFACES from being passive using:
 
 Activating OSPF DIRECTLY on INTERFACES will show a different output in “show ip protocols”
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
 
 They will appear under “Routing on Interfaces Configured Explicitly (Area #) :” (as above)
 
 Showing the OSPF LSDB of a Device
 
-![image](https://github.com/vanhoangkha/CCNA_Course_Notes/assets/images/placeholder.png)
+📊 **[Diagram]** - *Network diagram illustrating the concept*
