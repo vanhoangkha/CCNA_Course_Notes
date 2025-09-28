@@ -7,21 +7,21 @@
 
 > **Comprehensive study notes for the Cisco CCNA 200-301 certification exam**
 
-This repository contains detailed, well-structured notes covering all topics in Jeremy's IT Lab Complete CCNA 200-301 course. Each day's content is organized into individual chapters for easy navigation and focused study sessions.
+This repository contains detailed, well-structured notes covering all topics required for the CCNA 200-301 certification. Each chapter is organized for easy navigation and focused study sessions.
 
 ## 🎯 About This Repository
 
-These notes were meticulously compiled by **Kha Van** while following Jeremy's IT Lab's comprehensive CCNA course. The content is organized to match the course structure, making it an ideal companion for students preparing for the CCNA 200-301 certification.
+These notes were created by **vanhoangkha** as a comprehensive study resource for CCNA 200-301 certification preparation. The content covers all exam objectives and provides practical examples for hands-on learning.
 
-## 📖 Course Resources
+## 📖 Study Resources
 
-### Primary Course
+### Video Course Reference
 - 🎥 [Jeremy's IT Lab - Complete CCNA 200-301 Course](https://www.youtube.com/watch?v=H8W9oMNSuwo&list=PLxbwE86jKRgMpuZuLBivzlM8s2Dk5lXBQ)
 
 ### Hands-On Practice
-- 🧪 [Course Labs Playlist](https://www.youtube.com/watch?v=a1Im6GYaSno&list=PLeKkafR2n05H0FZNgcz2z56pMPooaskFr)
-- 🔬 [Additional Practice Labs](https://www.youtube.com/watch?v=XgcGcrLKu1A&list=PLxbwE86jKRgMQ4HTuaJ7yQgA2BoNwY9ct)
-- 🚀 [Jeremy's MEGA Lab](https://www.youtube.com/watch?v=2p7-MluKAgE&list=PLeKkafR2n05G-C6sd19ZMKq7et__aDR1S)
+- 🧪 [Course Labs](https://www.youtube.com/watch?v=a1Im6GYaSno&list=PLeKkafR2n05H0FZNgcz2z56pMPooaskFr)
+- 🔬 [Practice Labs](https://www.youtube.com/watch?v=XgcGcrLKu1A&list=PLxbwE86jKRgMQ4HTuaJ7yQgA2BoNwY9ct)
+- 🚀 [MEGA Lab](https://www.youtube.com/watch?v=2p7-MluKAgE&list=PLeKkafR2n05G-C6sd19ZMKq7et__aDR1S)
 
 ## 🚀 Quick Start
 
@@ -31,9 +31,9 @@ git clone https://github.com/vanhoangkha/CCNA_Course_Notes.git
 cd CCNA_Course_Notes
 ```
 
-### File Format Conversion
-- **Browser-based PDF conversion**: [Dillinger.io](https://dillinger.io/)
-- **Local conversion to multiple formats**: [Calibre](https://calibre-ebook.com/) *(supports bulk processing for mobile/iPad)*
+### File Conversion Tools
+- **PDF conversion**: [Dillinger.io](https://dillinger.io/)
+- **Multiple formats**: [Calibre](https://calibre-ebook.com/)
 
 ## 📋 Course Content Overview
 
@@ -157,7 +157,7 @@ cd CCNA_Course_Notes
 
 ## 🤝 Contributing
 
-Contributions are welcome! If you find any errors, have suggestions for improvements, or want to add supplementary content:
+Contributions are welcome! If you find any errors or have suggestions for improvements:
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/improvement`)
@@ -168,12 +168,6 @@ Contributions are welcome! If you find any errors, have suggestions for improvem
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
-
-- **Jeremy Martin** ([Jeremy's IT Lab](https://www.youtube.com/@JeremysITLab)) for creating the comprehensive CCNA course
-- The networking community for continuous learning and knowledge sharing
-- All contributors who help improve these notes
 
 ## 📞 Support
 
@@ -187,4 +181,4 @@ If you find these notes helpful, please consider:
 
 **Happy studying and good luck with your CCNA certification! 🎉**
 
-*Last updated: September 2025*
+*Created by vanhoangkha - Last updated: September 2025*
