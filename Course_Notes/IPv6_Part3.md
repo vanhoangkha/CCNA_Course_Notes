@@ -20,7 +20,7 @@ RFC Requirements for IPv6 Address Representation
 
 IPv6 HEADER
 
-![image](https://github.com/psaumur/CCNA/assets/106411237/5bba7262-60aa-4348-9b7a-55dc354f4ed3)
+[Image removed]
 
 Length is ALWAYS 40 bytes (Fixed Header)
 
@@ -69,11 +69,11 @@ SOLICITED-NODE MULTICAST ADDRESS
 
 How to generate a SOLICITED-NODE Multicast Address
 
-![image](https://github.com/psaumur/CCNA/assets/106411237/eef6815b-405b-485d-884d-ff08bbbf16d3)
+[Image removed]
 
 Note the automatically joined group addresses for this IPv6 Interface
 
-![image](https://github.com/psaumur/CCNA/assets/106411237/4f981645-7488-4f0c-8ec5-d7c1b878acba)
+[Image removed]
 
 ---
 
@@ -90,13 +90,13 @@ NEIGHBOR DISCOVERY PROTOCOL (NDP)
     - 2) NEIGHBOR ADVERTISEMENT (NA)
         - ICMPv6 Type 136
 
-![image](https://github.com/psaumur/CCNA/assets/106411237/88b9dde5-bc94-49ce-ba4a-b38c47f4670d)
+[Image removed]
 
-![image](https://github.com/psaumur/CCNA/assets/106411237/cc9010cb-eb67-4fcb-8c6a-7a0aa11c7057)
+[Image removed]
 
 IPv6 NEIGHBOR TABLE
 
-![image](https://github.com/psaumur/CCNA/assets/106411237/085bb9df-8015-4c2f-bfc8-2d6336436fe2)
+[Image removed]
 
 - Another function of NDP allows HOSTS to automatically discover ROUTERS on the LOCAL NETWORK
 
@@ -116,7 +116,7 @@ IPv6 NEIGHBOR TABLE
         - They are also sent periodically, even if the ROUTER hasn’t received an RS
         
     
-![image](https://github.com/psaumur/CCNA/assets/106411237/f7861fda-e893-4fd1-b5c3-5deed57de2f0)
+[Image removed]
     
 
 ---
@@ -129,7 +129,7 @@ SLAAC
 - Using the `ipv6 address autoconfig` command, you DON’T need to enter the prefix. The device uses NDP to learn the prefix used on the local link
 - The device will use EUI-64 to generate the INTERFACE ID or it will be randomly generated (depending on the device / maker)
 
-![image](https://github.com/psaumur/CCNA/assets/106411237/e1cc9b26-1a81-48fb-8538-77f97d456eff)
+[Image removed]
 
 ---
 
@@ -154,15 +154,15 @@ IPv6 STATIC ROUTING
     - MUST BE ENABLED with the `ipv6 unicast-routing` command
 - If IPv6 ROUTING is disabled, the ROUTER will be able to SEND and RECEIVE IPv6 traffic, but will not *route* IPv6 traffic (ie: will NOT FORWARD it between NETWORKS)
 
-![image](https://github.com/psaumur/CCNA/assets/106411237/e082920f-3a76-438d-b43d-8eac968dcd55)
+[Image removed]
 
-![image](https://github.com/psaumur/CCNA/assets/106411237/90acb6ca-2703-47d1-907f-1878490c78f6)
+[Image removed]
 
 - A CONNECTED NETWORK ROUTE is automatically added for EACH CONNECTED NETWORK
 - A LOCAL HOST ROUTE is automatically added for each ADDRESS configured on the ROUTER
 - Routes for Link-Local ADDRESSES are not added to the ROUTING TABLE
 
-![image](https://github.com/psaumur/CCNA/assets/106411237/d01849d3-c031-45a0-8e31-efd9dba61df6)
+[Image removed]
 
 Everything is configured similar to normal static routes in IPv4
 
@@ -225,7 +225,7 @@ FLOATING STATIC ROUTES:
 
 LINK-LOCAL NEXT HOPS:
 
-![image](https://github.com/psaumur/CCNA/assets/106411237/52cf09e2-2b37-4319-a2b9-15213524530c)
+[Image removed]
 
 You HAVE to specify the INTERFACE name when using Link-Local Next-Hops
 

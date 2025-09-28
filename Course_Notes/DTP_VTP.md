@@ -18,7 +18,7 @@ We’ve been manually configuring SWITCHPORTS using :
 ```
 For security purposes, **manual configuration** is recommended. DTP should be disabled on ALL SWITCHPORTS
 
-![image](https://github.com/psaumur/CCNA/assets/106411237/bf716a33-8e11-4c09-bb0b-336ba48ef26d)
+[Image removed]
 
 
 DYNAMIC DESIRABLE:
@@ -46,7 +46,7 @@ This configuration does NOT work and SHOULD result in an error. Traffic will NOT
 
 TABLE SHOWING THE DIFFERENT MODES AND COMPATIBILITY IN FORMING A TRUNK
 
-![image](https://github.com/psaumur/CCNA/assets/106411237/93d5e4f4-cb24-4d3f-ba62-fd002581cfbb)
+[Image removed]
 
 ---
 
@@ -133,7 +133,7 @@ In Privileged EXEC mode:
 
 ---
 
-![image](https://github.com/psaumur/CCNA/assets/106411237/87dcd7ff-f3d3-4441-841c-a0506c249f03)
+[Image removed]
 
 ---
 

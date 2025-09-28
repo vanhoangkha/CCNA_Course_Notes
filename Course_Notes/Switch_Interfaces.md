@@ -1,11 +1,11 @@
 # 9. SWITCH INTERFACES
 
-![image](https://github.com/psaumur/CCNA/assets/106411237/5d0d80dc-74d1-4656-841c-fcaa2b89c760)
+[Image removed]
 
 
 CISCO CLI for SWITCHES
 
-![image](https://github.com/psaumur/CCNA/assets/106411237/e3947ef5-9100-426f-8d62-fd4ce5224351)
+[Image removed]
 
 
 // enter Privileged EXEC mode
@@ -24,7 +24,7 @@ Unlike ROUTERS, SWITCHES do no DEFAULT to 'administrative down/down'(shutdown).
 
 Unconnected devices will show as "down" and "down" (not connected to another device)
 
-![image](https://github.com/psaumur/CCNA/assets/106411237/e0fdc339-21d9-4313-b7d8-78303a7ba1ea)
+[Image removed]
 
 
 // Show the status of all interfaces on SW1
@@ -43,10 +43,10 @@ This will list:
 
 ---
 
-![image](https://github.com/psaumur/CCNA/assets/106411237/12a33be7-795f-467a-87a4-42c5b218960b)
+[Image removed]
 
 
-![image](https://github.com/psaumur/CCNA/assets/106411237/7b5953f7-77d3-4826-8efc-072498a7f9c0)
+[Image removed]
 
 
 ---
@@ -61,7 +61,7 @@ Answer: No! There is a command to apply configurations to a range of interfaces.
 
 Inside Global Config Mode (config t):
 
-![image](https://github.com/psaumur/CCNA/assets/106411237/06e2e267-1e07-48a1-8c8c-8edbd5bd48ae)
+[Image removed]
 
 
 SW1(config)#interface range f0/5 - 12   // Choose all interfaces from 0/5 to 0/12
@@ -74,7 +74,7 @@ SW1(config-if-range)#shutdown
 
 Confirm with 'show interface status' in Privileged EXEC mode or if in CONFIG mode, use 'do show interface status'
 
-![image](https://github.com/psaumur/CCNA/assets/106411237/8d1d49d3-e000-4570-ab7e-b994b959ebd5)
+[Image removed]
 
 ---
 
@@ -118,7 +118,7 @@ SWITCHES are Layer 2 Devices - Collisions RARELY occur.
 
 ---
 
-![image](https://github.com/psaumur/CCNA/assets/106411237/feff3816-1449-4282-bc44-71575333a1e0)
+[Image removed]
 
 
 SPEED / DUPLEX AUTONEGOTIATION
@@ -128,7 +128,7 @@ SPEED / DUPLEX AUTONEGOTIATION
 
 WHAT if AUTONEGOTIATION is DISABLED on the device connected to the SWITCH ?
 
-![image](https://github.com/psaumur/CCNA/assets/106411237/30519cf7-0a79-4996-a8d8-dfac689f4005)
+[Image removed]
 
 
 - SPEED: The SWITCH will try to send at the speed that the other device is operating at.
@@ -148,7 +148,7 @@ SW1#show interfaces <interface name>
 
 Error stats will be at the bottom.
 
-![image](https://github.com/psaumur/CCNA/assets/106411237/20d6affd-6014-427d-9ad9-c638ace358f8)
+[Image removed]
 
 
 **Packets Received / Total bytes received.**

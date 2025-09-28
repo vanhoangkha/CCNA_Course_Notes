@@ -25,7 +25,7 @@ AUTHENTICATION
     - USERNAME / PASSWORD
     - CERTIFICATES
 
-![image](https://github.com/psaumur/CCNA/assets/106411237/00d34740-8da7-428d-8b36-f8998ec2f0cd)
+[Image removed]
 
 ---
 
@@ -46,7 +46,7 @@ INTEGRITY
 - The message that is sent by the SOURCE HOST should be the same as the message that is received by the DESTINATION HOST
 - A MIC (Message Integrity Check) is added to the message to help protect their INTEGRITY.
 
-![image](https://github.com/psaumur/CCNA/assets/106411237/b632c321-36e5-4a03-b08c-d0a2c2e215da)
+[Image removed]
 
 ---
 
@@ -68,7 +68,7 @@ The original 802.11 STANDARD included TWO OPTIONS for AUTHENTICATION:
     - WEP can be used for AUTHENTICATION like this:
     
 
-![image](https://github.com/psaumur/CCNA/assets/106411237/86e4f243-1692-41a6-9b15-6b2e99942e50)
+[Image removed]
 
 ---
 
@@ -91,7 +91,7 @@ There are **THREE MAIN ENTITIES** in 802.1X:
 - AUTHENTICATOR : The DEVICE that provides access to the NETWORK
 - AUTHENTICATION SERVER (AS) : The DEVICE that receives CLIENT credentials and PERMITS / DENIES ACCESS
 
-![image](https://github.com/psaumur/CCNA/assets/106411237/5565e646-696f-4245-b1e5-d728fe0e3380)
+[Image removed]
 
 - LEAP (Lightweight EAP)
     - LEAP was developed by Cisco an an improvement over WEP
@@ -100,7 +100,7 @@ There are **THREE MAIN ENTITIES** in 802.1X:
     - DYNAMIC WEP KEYS are used, meaning that the WEP KEYS are changed frequently
     - Like WEP, LEAP is considered vulnerable and should not be used anymore
 
-![image](https://github.com/psaumur/CCNA/assets/106411237/0b9ecce2-4219-42d0-8275-086b92134cda)
+[Image removed]
 
 - EAP-FAST (EAP FLEXIBLE AUTHENTICATION via SECURE TUNNELING)
     - EAP-FAST was also developed by Cisco
@@ -110,7 +110,7 @@ There are **THREE MAIN ENTITIES** in 802.1X:
         - Inside of the SECURE (ENCRYPTED) TLS TUNNEL, the CLIENT and SERVER communicated further to AUTHENTICATE / AUTHORIZE the CLIENT
     
 
-![image](https://github.com/psaumur/CCNA/assets/106411237/f17d6f7b-9f87-4cb2-be24-5d8c95dc0cfc)
+[Image removed]
 
 - PEAP (PROTECTED EAP)
     - Like EAP-FAST, PEAP involves establishing a SECURE TLS TUNNEL between the CLIENT and SERVER
@@ -120,7 +120,7 @@ There are **THREE MAIN ENTITIES** in 802.1X:
     - Because only the SERVER provides a CERTIFICATE for AUTHENTICATION, the CLIENT must still be AUTHENTICATED within the SECURE TUNNEL
         - Example: MS-CHAP (Microsoft Challenge-Handshake Authentication Protocol)
 
-![image](https://github.com/psaumur/CCNA/assets/106411237/0f9babe7-d86f-49c8-b732-20f31ea26437)
+[Image removed]
 
 - EAP-TLS (EAP TRANSPORT LAYER SECURITY)
     - Whereas PEAP only requires the AS to have a CERTIFICATE, EAP-TLS requires a CERTIFICATE on the AS and on every single CLIENT
@@ -128,7 +128,7 @@ There are **THREE MAIN ENTITIES** in 802.1X:
     - Because the CLIENT and SERVER AUTHENTICATE each other with DIGITAL CERTIFICATES, there is no need to AUTHENTICATE the CLIENT within the TLS TUNNEL
     - The TLS TUNNEL is still used to exchange ENCRYPTION KEY information (ENCRYPTION methods will be discussed next)
 
-![image](https://github.com/psaumur/CCNA/assets/106411237/c6c57595-fd75-4761-8760-29fab8dbf698)
+[Image removed]
 
 ---
 

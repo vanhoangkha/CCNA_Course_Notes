@@ -6,11 +6,11 @@ CONSOLE PORT SECURITY
 - You can CONFIGURE a PASSWORD on the *console line*
     - A USER will have to enter a PASSWORD to ACCESS the CLI via the CONSOLE PORT
 
-![image](https://github.com/psaumur/CCNA/assets/106411237/9609b0af-0fb1-4563-89e4-82b58b29325e)
+[Image removed]
 
 - Alternatively, you can configure the CONSOLE LINE to require USERS to LOGIN using one of the configured USERNAMES on the DEVICE
 
-![image](https://github.com/psaumur/CCNA/assets/106411237/04588b3a-3640-41af-b19e-41768f63b2bc)
+[Image removed]
 
 ---
 
@@ -19,7 +19,7 @@ LAYER 2 SWITCH MANAGEMENT IP
 - LAYER 2 SWITCHES do not perform PACKET ROUTING and build a ROUTING TABLE. They are NOT IP ROUTING aware
 - However, you CAN assign an IP ADDRESS to an SVI to allow REMOTE CONNECTIONS to the CLI of the SWITCH (using Telnet or SSH)
 
-![image](https://github.com/psaumur/CCNA/assets/106411237/64a9e983-f353-4670-8a99-1e22129eb661)
+[Image removed]
 
 ---
 
@@ -35,13 +35,13 @@ TELNET
 
 </aside>
 
-![image](https://github.com/psaumur/CCNA/assets/106411237/9dffe7fb-4fa4-4ee9-90bf-d27461bb5190)
+[Image removed]
 
 ---
 
 VERIFY TELNET CONFIGURATION
 
-![image](https://github.com/psaumur/CCNA/assets/106411237/e077b5fd-3130-4fb0-9b17-d28bdef665df)
+[Image removed]
 
 ---
 
@@ -54,23 +54,23 @@ SSH
 
 CHECK SSH SUPPORT
 
-![image](https://github.com/psaumur/CCNA/assets/106411237/441c38b7-4b79-4c80-8eca-0463960124b6)
+[Image removed]
 
 RSA KEYS
 
 - To ENABLE and use SSH, you must first generate an RSA PUBLIC and PRIVATE KEY PAIR
 - The KEYS are used for DATA ENCRYPTION / DECRYPTION, AUTHENTICATION, etc.
 
-![image](https://github.com/psaumur/CCNA/assets/106411237/73bd5a86-32da-4ec6-b385-fe5425a72808)
+[Image removed]
 
 VTY LINES
 
-![image](https://github.com/psaumur/CCNA/assets/106411237/04e9072f-ccde-476d-a84d-3034e0b39d19)
+[Image removed]
 
 ---
 
 SUMMARY ABOUT SSH CONFIGURATIONS
 
-![image](https://github.com/psaumur/CCNA/assets/106411237/bb6d358f-e742-434b-835c-5c7cd762abdb)
+[Image removed]
 
-![image](https://github.com/psaumur/CCNA/assets/106411237/bb2e760b-90c3-42a7-93f6-0ccc7e472d00)
+[Image removed]

@@ -2,7 +2,7 @@
 
 STP STATES
 
-![image](https://github.com/psaumur/CCNA/assets/106411237/5c9a17ff-b0d6-455c-8677-5144dd5a0048)
+[Image removed]
 
 
 - ROOT / DESIGNATED PORTS remain STABLE in a FORWARDING state
@@ -44,14 +44,14 @@ STP STATES
 
 SUMMARY : 
 
-![image](https://github.com/psaumur/CCNA/assets/106411237/f4cea5ca-b90a-423e-9160-f206b8b1621d)
+[Image removed]
 
 
 ---
 
 STP TIMERS
 
-![image](https://github.com/psaumur/CCNA/assets/106411237/a174469f-9e75-4645-aff8-d4bfe46fb207)
+[Image removed]
 
 
 💡 SWITCHES do NOT forward the BPDUs out of their ROOT PORTS and NON-DESIGNATED PORTS - ONLY their DESIGNATED PORTS !!!
@@ -78,7 +78,7 @@ STP BPDU (BRIDGE PROTOCOL DATA UNIT)
 
 Ethernet Header of a BPDU
 
-![image](https://github.com/psaumur/CCNA/assets/106411237/0e68839f-c4ec-448b-8876-791212462009)
+[Image removed]
 
 
 💡 PVST+ uses the MAC ADDRESS : 
@@ -108,7 +108,7 @@ PORTFAST:
 - If used, it MUST be ENABLED only on PORTS connected to END HOSTS
 - If ENABLED on a PORT connected to another SWITCH, it could cause a LAYER 2 LOOP
 
-![image](https://github.com/psaumur/CCNA/assets/106411237/43c91f09-0d9f-4b81-b5a2-f02003e25b88)
+[Image removed]
 
 
 You can also ENABLE PORTFAST with the following command:
@@ -121,7 +121,7 @@ BPDU GUARD:
 
 - If an INTERFACE with BPDU GUARD ENABLED receives a BPDU from another SWITCH, the INTERFACE will be SHUT DOWN to prevent loops from forming.
 
-![image](https://github.com/psaumur/CCNA/assets/106411237/00c61767-72b4-4d51-b964-f76b6f4f6ae9)
+[Image removed]
 
 
 You can also ENABLE BPDU GUARD with the following command:
@@ -133,7 +133,7 @@ This ENABLES BPDU GUARD on all PORTFAST-enabled INTERFACES
 
 ROOT GUARD / LOOP GUARD:
 
-![image](https://github.com/psaumur/CCNA/assets/106411237/bb38aedc-df38-4d76-b6cb-30319e74ecc1)
+[Image removed]
 
 
 You probably do NOT have to know these STP optional features (or others such as UplinkFast, Backbone Fast, etcetera) for the CCNA. 
@@ -148,7 +148,7 @@ STP CONFIGURATION
 
 Command to CONFIGURE Spanning-Tree mode on a SWITCH
 
-![image](https://github.com/psaumur/CCNA/assets/106411237/f29e2f41-3fac-463c-ab14-bb2d2f49816d)
+[Image removed]
 
 
 Modern Cisco SWITCHES run **rapid-pvst**, by default
@@ -159,7 +159,7 @@ CONFIGURE THE PRIMARY ROOT BRIDGE
 
 Command to CONFIGURE Spanning-Tree PRIMARY ROOT BRIDGE on a SWITCH
 
-![image](https://github.com/psaumur/CCNA/assets/106411237/e90f16ad-c85c-4868-bbf4-9095c0abd581)
+[Image removed]
 
 
 Confirm with “(do) show spanning-tree”
@@ -174,7 +174,7 @@ SECONDARY ROOT BRIGE (backup ROOT BRIDGE)
 
 Command to CONFIGURE Spanning-Tree SECONDARY ROOT BRIDGE on a SWITCH
 
-![image](https://github.com/psaumur/CCNA/assets/106411237/7d28f782-4673-4bc8-9aae-999aeac90685)
+[Image removed]
 
 
 
@@ -184,7 +184,7 @@ Command to CONFIGURE Spanning-Tree SECONDARY ROOT BRIDGE on a SWITCH
 
 VLAN 1 TOPOLOGY running PVST+
 
-![image](https://github.com/psaumur/CCNA/assets/106411237/880a4cc7-e472-4764-a68b-a62288066796)
+[Image removed]
 
 
 SW1 WAS the PRIMARY ROOT BRIDGE but : 
@@ -194,7 +194,7 @@ SW1 WAS the PRIMARY ROOT BRIDGE but :
 
 The TOPOLOGY for VLAN 2, however, won’t be the same. It will be the OLD Topology.
 
-![image](https://github.com/psaumur/CCNA/assets/106411237/2cedeb36-27f1-4984-96e7-28ab70957c51)
+[Image removed]
 
 
 WHY?
@@ -204,7 +204,7 @@ Because we made changes ONLY to the TOPOLOGY found in VLAN 1 (see the commands w
 
 CONFIGURE STP PORT SETTINGS
 
-![image](https://github.com/psaumur/CCNA/assets/106411237/58af0a8d-eeb4-4c34-8b54-6b8ff511695c)
+[Image removed]
 
 
 “cost” = “ROOT COST”

@@ -102,7 +102,7 @@ DATA PLANE
 - Deciding to forward / discard messages due to ACL’s, port-security, etc. is part of the DATA PLANE
 - The DATA PLANE is also called the ‘FORWARDING PLANE’
 
-![image](https://github.com/psaumur/CCNA/assets/106411237/6a72186b-2956-45f6-8643-801caa2cb28e)
+[Image removed]
 
 ---
 
@@ -124,7 +124,7 @@ CONTROL PLANE
     - STP itself isn’t directly involved in the process of forwarding FRAMES, but it informs the DATA PLANE about which INTERFACES should and shouldn’t be used to forward FRAMES
     - ARP messages aren’t user data but they are used to build an ARP TABLE which is used in the process of forwarding data
 
-![image](https://github.com/psaumur/CCNA/assets/106411237/4c21b082-5d6e-4388-94c5-bebf33b50c8d)
+[Image removed]
 
 ---
 
@@ -138,7 +138,7 @@ MANAGEMENT PLANE
     - SNMP : Used to monitor the operations of the device
     - NTP : Used to maintain accurate time on the device
 
-![image](https://github.com/psaumur/CCNA/assets/106411237/3cfffa40-f4cb-4042-8778-139605c2eb26)
+[Image removed]
 
 ---
 
@@ -153,7 +153,7 @@ SOFTWARE-DEFINED NETWORKING (SDN)
     - That is just an example and how much of the CONTROL PLANE is centralized varies greatly
 - The CONTROLLER can interact programmatically with the NETWORK DEVICE using APIs (Application Programming Interface)
 
-![image](https://github.com/psaumur/CCNA/assets/106411237/05c4c5d9-5ba4-480c-9c13-72fa1f7937db)
+[Image removed]
 
 ---
 
@@ -192,7 +192,7 @@ SOUTHBOUND INTERFACE (SBI)
 - DATA is sent in a structured (*serialized*) format such as JSON or XML
     - This makes it easier for programs to use the DATA
 
-![image](https://github.com/psaumur/CCNA/assets/106411237/d980626f-f731-46a4-ba14-72c3d21f2fd3)
+[Image removed]
 
 ---
 

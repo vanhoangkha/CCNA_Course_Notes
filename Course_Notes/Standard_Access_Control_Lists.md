@@ -14,7 +14,7 @@ WHAT ARE ACLs
 
 HOW ACLs WORK
 
-![image](https://github.com/psaumur/CCNA/assets/106411237/92d663ec-33a8-4ba4-b0a7-5d3942a9b67e)
+[Image removed]
 
 <aside>
 💡 REQUIREMENTS:
@@ -27,7 +27,7 @@ ACLs are configured GLOBALLY on the ROUTER (Global Config Mode)
 
 - They are an ordered sequence of ACEs (Access Control Entries)
 
-![image](https://github.com/psaumur/CCNA/assets/106411237/2eb0c042-21d0-4a40-ade3-9715bd2b3bcb)
+[Image removed]
 
 - Configuring an ACL in Global Config Mode will not make the ACL take effect
 - The ACL must be applied to an interface
@@ -36,9 +36,9 @@ ACLs are configured GLOBALLY on the ROUTER (Global Config Mode)
 - When a ROUTER checks a PACKET against the ACL, it processes the ACEs in order, from top to bottom
 - If the PACKET matches one of the ACEs in the ACL, the ROUTER takes the action and stops processing the ACL. All entries below the matching entry will be ignored
 
-![image](https://github.com/psaumur/CCNA/assets/106411237/a4a86a8e-f73c-476b-b0e5-15bfb4f4748d)
+[Image removed]
 
-![image](https://github.com/psaumur/CCNA/assets/106411237/6e4148e0-e908-4a44-9f23-358c9d7ade11)
+[Image removed]
 
 ---
 
@@ -52,7 +52,7 @@ IMPLICIT DENY
 
 ACL TYPES
 
-![image](https://github.com/psaumur/CCNA/assets/106411237/4856845e-80b2-45dc-b30c-cc3b170db69c)
+[Image removed]
 
 ---
 
@@ -88,7 +88,7 @@ STANDARD NUMBERED ACLs
     
     - Example : `R1(config)# access-list 1 remark ## BLOCK BOB FROM ACCOUNTING ##`
 
-![image](https://github.com/psaumur/CCNA/assets/106411237/3e20e40c-6755-4638-9ef3-15fa747f93b6)
+[Image removed]
 
 Order is important. Lower Numbers are processed FIRST
 
@@ -97,7 +97,7 @@ TO APPLY AN ACL TO AN INTERFACE
 
 `R1(config-if)# ip access-group *number* {in | out}`
 
-![image](https://github.com/psaumur/CCNA/assets/106411237/eed38afa-f067-4153-80bb-b07c52a21e53)
+[Image removed]
 
 WHY WAS THIS RULE PLACED ON G0/2 OUT ? 
 
@@ -116,24 +116,24 @@ STANDARD NAMED ACLs
     - `R1(config)# ip access-list standard *acl-name*`
     - `R1(config-std-nacl)# [*entry-number*] {deny | permit} *ip wildcard-mask*`
 
-![image](https://github.com/psaumur/CCNA/assets/106411237/94e9b58d-07f6-4ad6-9c92-b00c01ce311d)
+[Image removed]
 
-![image](https://github.com/psaumur/CCNA/assets/106411237/a8a10f5f-8e5c-4e19-981f-862bf94b2788)
+[Image removed]
 
-![image](https://github.com/psaumur/CCNA/assets/106411237/3b641f99-4c99-4d5f-a32b-1a626d1a02b4)
+[Image removed]
 
-![image](https://github.com/psaumur/CCNA/assets/106411237/17a7d767-1052-4bc0-8a04-7278f16caeb6)
+[Image removed]
 
 Here are the configurations for the above:
 
-![image](https://github.com/psaumur/CCNA/assets/106411237/bbdcff70-1fd4-46a4-a4c2-5d5485fe5695)
+[Image removed]
 
 Note, however, how the order is when viewing the ACLs 
 
-![image](https://github.com/psaumur/CCNA/assets/106411237/74ad9dd4-d56f-4845-83b1-44366b4b94f6)
+[Image removed]
 
 WHY THE REORDERING?
 
-![image](https://github.com/psaumur/CCNA/assets/106411237/e5ed273d-1c24-4b78-884f-712e1cf6922a)
+[Image removed]
 
 CISCOs PACKET TRACER does not reorder these, however.
