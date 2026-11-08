@@ -22,7 +22,7 @@ SYSLOG MESSAGE FORMAT
 `seq: time stamp: %facility-severity-MNEMONIC:description`
 
 <aside>
-💡 These TWO FIELDS may or may not be displayed, depending on the DEVICE’S configuration
+These TWO FIELDS may or may not be displayed, depending on the DEVICE’S configuration
 
 </aside>
 
@@ -37,14 +37,14 @@ SYSLOG MESSAGE FORMAT
 Official RFC for SYSLOG severity levels
 
 <aside>
-💡 LEVELS and KEYWORDS need to be MEMORIZED for the CCNA
+LEVELS and KEYWORDS need to be MEMORIZED for the CCNA
 
 </aside>
 
 ![image](https://github.com/psaumur/CCNA/assets/106411237/9ce46c98-a2b8-462b-ac6f-9bf13bfb3a99)
 
 <aside>
-💡 MEMORIZATION MNEMONIC : 
+MEMORIZATION MNEMONIC :
 (E)very (A)wesome (C)isco (E)ngineer (W)ill (N)eed (I)ce cream (D)aily
 
 </aside>

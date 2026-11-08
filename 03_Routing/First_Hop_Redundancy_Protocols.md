@@ -62,7 +62,7 @@ It becomes a STANDBY ROUTER
 R2 remains the ACTIVE ROUTER
 
 <aside>
-💡 FPRPs are “non-preemptive”. The current ACTIVE ROUTER will not automatically give up its role, even if the former ACTIVE ROUTER returns.
+FPRPs are “non-preemptive”. The current ACTIVE ROUTER will not automatically give up its role, even if the former ACTIVE ROUTER returns.
 
 *** You CAN change this setting to make R1 ‘preempt’ R2 and take back it’s ACTIVE role, automatically ***
 

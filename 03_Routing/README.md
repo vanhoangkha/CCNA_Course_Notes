@@ -1,10 +1,10 @@
-# 🛣️ Routing
+# Routing
 
 **Layer 3 routing and protocols**
 
 This section covers IP addressing, subnetting, and routing protocols. Subnetting is one of the most important skills for the CCNA exam.
 
-## 📚 Topics Covered
+## Topics Covered
 
 1. **[IPv4 Addressing - Part 1](./IPv4_Addressing_Part1.md)** - IP address classes and basics
 2. **[IPv4 Addressing - Part 2](./IPv4_Addressing_Part2.md)** - Subnetting introduction
@@ -20,7 +20,7 @@ This section covers IP addressing, subnetting, and routing protocols. Subnetting
 12. **[OSPF - Part 3](./OSPF_Part3.md)** - Advanced OSPF concepts
 13. **[First Hop Redundancy Protocols](./First_Hop_Redundancy_Protocols.md)** - HSRP, VRRP, GLBP
 
-## 🎯 Learning Objectives
+## Learning Objectives
 
 After completing this section, you should understand:
 - IPv4 addressing and subnetting
@@ -29,10 +29,10 @@ After completing this section, you should understand:
 - OSPF operation and configuration
 - First hop redundancy protocols
 
-## ⏰ Estimated Study Time
+## Estimated Study Time
 **3-4 weeks** - Spend extra time on subnetting practice.
 
-## 📝 Study Tips
+## Study Tips
 - **CRITICAL**: Master subnetting - practice daily
 - Use subnetting calculators to verify your work
 - Understand OSPF LSA types and area concepts

@@ -30,7 +30,7 @@ THREE Versions:
 
 ![image](https://github.com/psaumur/CCNA/assets/106411237/2a6a126b-74f1-49e2-96be-fc411c8812fd)
 
-💡 LSA’s have an AGING TIMER of 30 Minutes, by Default). The LSA will be FLOODED again after the timer expires
+LSA’s have an AGING TIMER of 30 Minutes, by Default). The LSA will be FLOODED again after the timer expires
 
 In OSPF, there are THREE MAIN STEPS in the process of sharing LSAs and determining the BEST ROUTE to each DESTINATION in the network
 
@@ -63,11 +63,11 @@ WHAT IS AN OSPF AREA?
 - ROUTERS with INTERFACES in MULTIPLE AREAS are called **AREA BORDER ROUTERS** (ABRs)
     
 
-💡 ABRs maintain a SEPARATE LSDB for each AREA they are connected to.
+ABRs maintain a SEPARATE LSDB for each AREA they are connected to.
 
-💡 It is recommended that you connect an ABR to a MAXIMUM of TWO AREAS.
+It is recommended that you connect an ABR to a MAXIMUM of TWO AREAS.
 
-💡 Connecting an ABR to 3+ AREAS can overburden the ROUTER
+Connecting an ABR to 3+ AREAS can overburden the ROUTER
 
 - ROUTERS connected to the BACKBONE AREA (Area 0) are called **BACKBONE ROUTERS**
 - An **INTRA-AREA ROUTE** is a ROUTE to a DESTINATION inside the same OSPF AREA

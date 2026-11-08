@@ -91,14 +91,14 @@ CONFIGURING IPv6 ADDRESSES
 This allows the ROUTER to perform IPv6 ROUTING
 
 <aside>
-💡 R1(config) #ipv6 unicast-routing
+R1(config) #ipv6 unicast-routing
 
 </aside>
 
 Configuring an INTERFACE with an IPv6 Address
 
 <aside>
-💡 R1(config) #int g0/0
+R1(config) #int g0/0
 R1(config-if) #ipv6 address 2001:db8:0:0::1/64
 R1(config) #no shutdown
 

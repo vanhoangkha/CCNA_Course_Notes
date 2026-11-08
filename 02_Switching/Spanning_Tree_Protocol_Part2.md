@@ -54,7 +54,7 @@ STP TIMERS
 ![image](https://github.com/psaumur/CCNA/assets/106411237/a174469f-9e75-4645-aff8-d4bfe46fb207)
 
 
-💡 SWITCHES do NOT forward the BPDUs out of their ROOT PORTS and NON-DESIGNATED PORTS - ONLY their DESIGNATED PORTS !!!
+SWITCHES do NOT forward the BPDUs out of their ROOT PORTS and NON-DESIGNATED PORTS - ONLY their DESIGNATED PORTS !!!
 
 
 MAX AGE TIMER:
@@ -67,9 +67,9 @@ MAX AGE TIMER:
 
  HOWEVER …
 
-💡 A FORWARDING interface can move DIRECTLY to a BLOCKING state (there is no worry about creating a loop)
+A FORWARDING interface can move DIRECTLY to a BLOCKING state (there is no worry about creating a loop)
 
-💡 A BLOCKING interface can NOT move DIRECTLY to a FORWARDING state. It MUST go through the LISTENING and LEARNING states first!
+A BLOCKING interface can NOT move DIRECTLY to a FORWARDING state. It MUST go through the LISTENING and LEARNING states first!
 
 
 ---
@@ -81,7 +81,7 @@ Ethernet Header of a BPDU
 ![image](https://github.com/psaumur/CCNA/assets/106411237/0e68839f-c4ec-448b-8876-791212462009)
 
 
-💡 PVST+ uses the MAC ADDRESS : 
+PVST+ uses the MAC ADDRESS :
 
 01 : 00 : 0c : cc : cc : cd
 
@@ -89,11 +89,11 @@ PVST = ONLY ISL Trunk Encapsulation
 
 PVST+ = Supports 802.1Q
 
-💡 Regular STP (not Cisco’s PVST+) uses the MAC ADDRESS : 
+Regular STP (not Cisco’s PVST+) uses the MAC ADDRESS :
 
 01 : 80 : c2 : 00 : 00 : 00
 
-💡 The STP TIMERS on the ROOT BRIDGE determine ALL STP TIMERS for the entire network!
+The STP TIMERS on the ROOT BRIDGE determine ALL STP TIMERS for the entire network!
 
 ---
 
@@ -103,7 +103,7 @@ PORTFAST:
 
 - Can be Enabled on INTERFACES which are connected to END HOSTS
 
-💡 PORTFAST allows a PORT to move immediately to the FORWARDING state, bypassing LISTENING and LEARNING
+PORTFAST allows a PORT to move immediately to the FORWARDING state, bypassing LISTENING and LEARNING
 
 - If used, it MUST be ENABLED only on PORTS connected to END HOSTS
 - If ENABLED on a PORT connected to another SWITCH, it could cause a LAYER 2 LOOP
@@ -113,7 +113,7 @@ PORTFAST:
 
 You can also ENABLE PORTFAST with the following command:
 
-💡 SW1(config)# spanning-tree portfast default
+SW1(config)# spanning-tree portfast default
 
 This ENABLES PORTFAST on ALL ACCESS PORTS (not TRUNK PORTS)
 
@@ -126,7 +126,7 @@ BPDU GUARD:
 
 You can also ENABLE BPDU GUARD with the following command:
 
-💡 SW1(config)# spanning-tree portfast bpduguard default
+SW1(config)# spanning-tree portfast bpduguard default
 
 
 This ENABLES BPDU GUARD on all PORTFAST-enabled INTERFACES
@@ -140,7 +140,7 @@ You probably do NOT have to know these STP optional features (or others such as 
 
 BUT…
 
-💡 Make sure you know PORTFAST and BPDU GUARD.
+Make sure you know PORTFAST and BPDU GUARD.
 
 ---
 

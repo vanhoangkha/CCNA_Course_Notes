@@ -31,7 +31,7 @@ TELNET
 - TELNET sends data in PLAIN TEXT. NO ENCRYPTION(!)
 
 <aside>
-💡 TELNET SERVERS listen for TELNET traffic on TCP PORT 23
+TELNET SERVERS listen for TELNET traffic on TCP PORT 23
 
 </aside>
 

@@ -175,7 +175,7 @@ DIRECTLY ATTACHED Static Route:
 - Example : `~~R1(config)# ipv6 route 2001:db8:0:3:: /64 g0/0~~`
 
 <aside>
-💡 In IPv6, you CANNOT use DIRECTLY ATTACHED Static Routes if the INTERFACE is an ETHERNET INTERFACE
+In IPv6, you CANNOT use DIRECTLY ATTACHED Static Routes if the INTERFACE is an ETHERNET INTERFACE
 
 </aside>
 

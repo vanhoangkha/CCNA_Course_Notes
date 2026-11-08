@@ -65,7 +65,7 @@ RSTP ROLES
 
 ![image](https://github.com/psaumur/CCNA/assets/106411237/41f3be85-6225-4749-83b4-f76952c5756a)
 
-💡 This immediate move to FORWARDING STATE functions like a classic STP optional feature called **UplinkFast.** Because it is built into RSTP, you do not need to activate UplinkFast when using RSTP/Rapid PVST+
+This immediate move to FORWARDING STATE functions like a classic STP optional feature called **UplinkFast.** Because it is built into RSTP, you do not need to activate UplinkFast when using RSTP/Rapid PVST+
 
 One more STP optional feature that was built into RSTP is **BackboneFast**
 
@@ -76,7 +76,7 @@ One more STP optional feature that was built into RSTP is **BackboneFast**
 
 UPLINKFAST and BACKBONE FAST (SUMMARY)
 
-💡 **UplinkFast** and **BackboneFast** are two optional features in Classic STP. They must be configured to operate on the SWITCH (not necessary to know for the CCNA)
+**UplinkFast** and **BackboneFast** are two optional features in Classic STP. They must be configured to operate on the SWITCH (not necessary to know for the CCNA)
 
 - Both features are built into RSTP, so you do NOT have to configure them. They operate, by DEFAULT
 - You do NOT need to have a detailed understanding of them for the CCNA. Know their names and their BASIC purpose (to help BLOCKING / DISCARDING PORTS rapidly move to FORWARDING)
@@ -91,7 +91,7 @@ UPLINKFAST and BACKBONE FAST (SUMMARY)
 - Hubs are NOT used in modern networks, so you will probably NOT encounter an RSTP BACKUP PORT.
 - Functions as a BACKUP for a DESIGNATED PORT
 
-💡 The INTERFACE with the LOWERS PORT ID will be selected as the DESIGNATED PORT, and the other will be the BACKUP port.
+The INTERFACE with the LOWERS PORT ID will be selected as the DESIGNATED PORT, and the other will be the BACKUP port.
 
 ![image](https://github.com/psaumur/CCNA/assets/106411237/61aefc04-b3a9-484a-bbfa-1efe792c73c7)
 
@@ -104,8 +104,8 @@ What about the OTHER ports ?
 
 ![image](https://github.com/psaumur/CCNA/assets/106411237/1930a17b-6c74-4756-b89d-4148008f586b)
 
-💡 RAPID STP *is* compatible with CLASSIC STP.
-💡 The INTERFACE(S) on the RAPID STP-enabled SWITCH connected to the CLASSIC STP-enabled SWITCH will operate in CLASSIC STP MODE (Timers, BLOCKING >>> LISTENING >>> LEARNING >>> FORWARDING, etc.)
+RAPID STP *is* compatible with CLASSIC STP.
+The INTERFACE(S) on the RAPID STP-enabled SWITCH connected to the CLASSIC STP-enabled SWITCH will operate in CLASSIC STP MODE (Timers, BLOCKING >>> LISTENING >>> LEARNING >>> FORWARDING, etc.)
 
 ---
 
@@ -116,7 +116,7 @@ CLASSIC RSTP (LEFT) vs RAPID STP BPDU (RIGHT)
 ![image](https://github.com/psaumur/CCNA/assets/106411237/2d2deb45-3f81-4c60-b9fa-0f6c3fe7c060)
 
 
-💡 NOTE:
+NOTE:
 
 Classic STP BPDU has a “Protocol Version Identifier: Spanning Tree (0)
 
@@ -168,7 +168,7 @@ EDGE PORTS
 - Because there is NO RISK of creating a LOOP, they can move straight to the FORWARDING STATE without the negotiation process!
 - They function like a CLASSIC STP PORT with PORTFAST ENABLED
 
-💡 SW1(config-if)# spanning-tree portfast
+SW1(config-if)# spanning-tree portfast
 
 ---
 
@@ -178,7 +178,7 @@ POINT-TO-POINT PORTS
 - They function in FULL-DUPLEX
 - You don’t need to configure the INTERFACE as POINT-TO-POINT (it should be detected)
 
-💡 SW1(config-if)# spanning-tree link-type point-to-point
+SW1(config-if)# spanning-tree link-type point-to-point
 
 ---
 
@@ -188,7 +188,7 @@ SHARED PORTS
 - They function in HALF-DUPLEX
 - You don’t need to configure the INTERFACE as SHARED (it should be detected)
 
-💡 SW1(config-if)# spanning-tree link-type shared
+SW1(config-if)# spanning-tree link-type shared
 
 ---
 

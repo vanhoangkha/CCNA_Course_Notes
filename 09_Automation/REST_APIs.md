@@ -62,7 +62,7 @@ Check the list at  https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers
 
 - When a REST client makes an API call (request) to a REST server, it will send an HTTP request like the one above
 
-> 💡 REST APIs do NOT have to use HTTP for communication, although HTTP is the most common choice 
+> REST APIs do NOT have to use HTTP for communication, although HTTP is the most common choice
 
 ---
 

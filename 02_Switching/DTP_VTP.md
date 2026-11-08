@@ -14,7 +14,7 @@ We’ve been manually configuring SWITCHPORTS using :
 - “switchport mode trunk”
 
 ```
-💡 'show interfaces <interface-id> switchport' will show you a switchport’s settings.
+'show interfaces <interface-id> switchport' will show you a switchport’s settings.
 ```
 For security purposes, **manual configuration** is recommended. DTP should be disabled on ALL SWITCHPORTS
 
@@ -89,7 +89,7 @@ TRUNK encapsulation can use DTP to negotiate the encapsulation they will use.
 - Negotiation is Enabled by default
 
 ```
-💡 'switchport trunk encapsulation negotiate'
+'switchport trunk encapsulation negotiate'
 ```    
 
 - ISL is favored over 802.1Q
@@ -105,7 +105,7 @@ VTP (VLAN Trunking Protocol)
 In Privileged EXEC mode:
 
 ```
-💡 #show vtp status
+#show vtp status
 ```
 
 - Protocol for configuring VLANs on a Central SWITCH
@@ -148,7 +148,7 @@ VTP SERVERS:
     - **THEREFORE, a VTP SERVER will synchronize to another VTP SERVER with a higher Revision Number**
 
 <aside>
-🚨 One danger of VTP:
+One danger of VTP:
 Connecting an old SWITCH with higher Revision Number to network (and if the VTP Domain Name matches), all SWITCHES in Domain will synchronize their VLAN dBase to SWITCH
 
 </aside>
@@ -157,7 +157,7 @@ Connecting an old SWITCH with higher Revision Number to network (and if the VTP 
 VTP CLIENTS:
 
 ```
-💡 (config)# vtp mode client
+(config)# vtp mode client
 ```
 
 - Cannot Add / Modify / Delete VLANs
@@ -169,7 +169,7 @@ VTP CLIENTS:
 VTP TRANSPARENT MODE:
 
 ```
-💡 (config)# vtp mode transparent
+(config)# vtp mode transparent
 ```
 
 - Does NOT participate in VTP Domain (does NOT sync VLAN database)
@@ -200,7 +200,7 @@ There are TWO ways to RESET a REVISION NUMBER to 0:
 VTP VERSION NUMBER
 
 ```
-💡 (config)#vtp version <version number>
+(config)#vtp version <version number>
 ```
   
 Changing the Version # will force sync/update all connected SWITCHES to the latest Version #

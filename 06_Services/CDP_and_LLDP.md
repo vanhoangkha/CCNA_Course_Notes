@@ -25,7 +25,7 @@ CISCO DISCOVERY PROTOCOL (CDP)
 - It is enabled on Cisco devices (routers, switches, firewalls, IP Phones, etc) by DEFAULT
 
 <aside>
-💡 CDP Messages are periodically sent to Multicast MAC ADDRESS `0100.0CCC.CCCC`
+CDP Messages are periodically sent to Multicast MAC ADDRESS `0100.0CCC.CCCC`
 
 </aside>
 
@@ -96,7 +96,7 @@ LINK LAYER DISCOVERY PROTOCOL (LLDP)
 - A device can run CDP and LLDP at the same time
 
 <aside>
-💡 LLDP Messages are periodically sent to Multicast MAC ADDRESS `0180.c200.000E`
+LLDP Messages are periodically sent to Multicast MAC ADDRESS `0180.c200.000E`
 
 </aside>
 

@@ -58,7 +58,7 @@ IPv6 ADDRESS TYPES
 - Must REGISTER to use them.
 - They are PUBLIC ADDRESSES so need to be GLOBALLY UNIQUE
 
-💡 Originally defined as the 2000 :: /3 block
+Originally defined as the 2000 :: /3 block
 (2000:: to 3FFF : FFFF : FFFF : FFFF : FFFF : FFFF : FFFF : FFFF)
 
 - NOW defined as ALL ADDRESSES which are not RESERVED for other purposes
@@ -78,7 +78,7 @@ Remember THESE THREE PARTS of a GLOBAL UNICAST ADDRESS
 - CANNOT be ROUTED over the INTERNET
 
 <aside>
-💡 Uses the ADDRESS block FC00 ::/7
+Uses the ADDRESS block FC00 ::/7
 (FC00:: to FDFF : FFFF : FFFF : FFFF : FFFF : FFFF : FFFF : FFFF)
 
 </aside>
@@ -97,7 +97,7 @@ Remember THESE THREE PARTS of a GLOBAL UNICAST ADDRESS
 - Use command `R1(config-if)# ipv6 enable` on an interface to enable IPv6 on an INTERFACE
 
 <aside>
-💡 Uses the ADDRESS block FE80::/10
+Uses the ADDRESS block FE80::/10
 (FE80:: to FEBF : FFFF : FFFF : FFFF : FFFF : FFFF : FFFF : FFFF)
 
 </aside>
@@ -128,7 +128,7 @@ Remember THESE THREE PARTS of a GLOBAL UNICAST ADDRESS
     - ONE SOURCE to MULTIPLE DESTINATIONS (that have joined the specific ***multicast*** group)
 
 <aside>
-💡 IPv6 uses range FF00::/8 for multicast
+IPv6 uses range FF00::/8 for multicast
 (FF00:: to FFFF : FFFF : FFFF : FFFF : FFFF : FFFF : FFFF : FFFF)
 
 </aside>
