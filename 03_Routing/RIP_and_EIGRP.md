@@ -192,7 +192,7 @@ EIGRP METRIC
 - Default “K” values are:
     - K1 = 1, K2 = 0, K3 = 1, K4 = 0, K5 = 0
 
-💡 Simplified calculation : METRIC = BANDWIDTH (Slowest Link) + DELAY (of ALL LINKS)
+Simplified calculation : METRIC = BANDWIDTH (Slowest Link) + DELAY (of ALL LINKS)
 
 ---
 
@@ -224,4 +224,4 @@ Variance 1 = only ECMP (Equal-Cost Multiple Path) load-balancing will be perform
 
 Variance 2 = ***feasible successor*** routes with an FD up to 2x the ***successor*** route’s FD can be used to load-balance
 
-💡 EIGRP will only perform UNEQUAL-COST LOAD-BALANCING over ***feasible successor*** ROUTES. If a ROUTE doesn’t meet the ***feasibility condition***, it will NEVER be selected for load-balancing, regardless of **variance**
+EIGRP will only perform UNEQUAL-COST LOAD-BALANCING over ***feasible successor*** ROUTES. If a ROUTE doesn’t meet the ***feasibility condition***, it will NEVER be selected for load-balancing, regardless of **variance**

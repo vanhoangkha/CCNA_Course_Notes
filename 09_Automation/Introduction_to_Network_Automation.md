@@ -211,4 +211,4 @@ AUTOMATION IN TRADITIONAL NETWORKS VS SDN
     - However, APIs allow third-party applications to interact with the CONTROLLER, which can be very powerful
 
 
->💡 Although SDN and automation aren’t the same thing, the SDN architecture greatly facilitates the automation of various tasks in the network via the SDN CONTROLLER and APIs
+>Although SDN and automation aren’t the same thing, the SDN architecture greatly facilitates the automation of various tasks in the network via the SDN CONTROLLER and APIs

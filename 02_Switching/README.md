@@ -1,10 +1,10 @@
-# 🔀 Switching
+# Switching
 
 **Layer 2 switching and VLANs**
 
 This section covers Ethernet switching, VLANs, and Layer 2 protocols. These concepts are heavily tested on the CCNA exam.
 
-## 📚 Topics Covered
+## Topics Covered
 
 1. **[Ethernet LAN Switching - Part 1](./Ethernet_LAN_Switching_Part1.md)** - Basic switching concepts
 2. **[Ethernet LAN Switching - Part 2](./Ethernet_LAN_Switching_Part2.md)** - Advanced switching features
@@ -18,7 +18,7 @@ This section covers Ethernet switching, VLANs, and Layer 2 protocols. These conc
 10. **[Rapid Spanning Tree Protocol](./Rapid_Spanning_Tree_Protocol.md)** - RSTP improvements
 11. **[EtherChannel](./Etherchannel.md)** - Link aggregation
 
-## 🎯 Learning Objectives
+## Learning Objectives
 
 After completing this section, you should understand:
 - How Ethernet switches operate
@@ -28,10 +28,10 @@ After completing this section, you should understand:
 - Spanning Tree Protocol operation
 - EtherChannel configuration and benefits
 
-## ⏰ Estimated Study Time
+## Estimated Study Time
 **2-3 weeks** - VLANs and STP are critical exam topics.
 
-## 📝 Study Tips
+## Study Tips
 - Practice VLAN configuration extensively
 - Understand STP root bridge election process
 - Draw STP topology diagrams

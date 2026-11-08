@@ -11,11 +11,11 @@ WHAT IS DYNAMIC ROUTING?
 ![image](https://github.com/psaumur/CCNA/assets/106411237/deb9abf6-6e21-4c94-a407-bfc501a1d739)
 
 
-💡 A NETWORK ROUTE :  A ROUTE to a NETWORK or SUBNET (Mask Length < /32)
+A NETWORK ROUTE : A ROUTE to a NETWORK or SUBNET (Mask Length < /32)
 
 Ex: **10.0.12.0/30** and **10.0.13.0/30** (above) are NETWORK ROUTES
 
-💡 A HOST ROUTE : A ROUTE to a specific HOST (/32 Mask)
+A HOST ROUTE : A ROUTE to a specific HOST (/32 Mask)
 
 Ex: **10.0.12.1/32** and **10.0.13.1/32** (above) are HOST ROUTES
 
@@ -88,7 +88,7 @@ Algorithms used for IGP and EGP and the PROTOCOL for each
 
 ![image](https://github.com/psaumur/CCNA/assets/106411237/36729569-0e56-4eb2-91ee-e7cd25a8c234)
 
-💡 YOU MUST MEMORIZE WHICH ALGORITHM IS USED FOR EACH PROTOCOL FOR THE CCNA!
+YOU MUST MEMORIZE WHICH ALGORITHM IS USED FOR EACH PROTOCOL FOR THE CCNA!
 
 ---
 
@@ -132,7 +132,7 @@ BOTH ROUTES are added to the ROUTE TABLE
 
 So …
 
-💡 If a ROUTER learns TWO (or more) ROUTES via the same ****ROUTING PROTOCOL to the same DESTINATION (same network address, same subnet mask) with the same METRIC, both will be added to the routing table. Traffic will be LOAD-BALANCED over both ROUTES
+If a ROUTER learns TWO (or more) ROUTES via the same ****ROUTING PROTOCOL to the same DESTINATION (same network address, same subnet mask) with the same METRIC, both will be added to the routing table. Traffic will be LOAD-BALANCED over both ROUTES
 
 ![image](https://github.com/psaumur/CCNA/assets/106411237/79662f99-a847-457b-8080-76f77c25c5e6)
 
@@ -144,7 +144,7 @@ So …
 - the “110” part is ADMINISTRATIVE DISTANCE (covered later)
 
 
-💡 Since BOTH ROUTES share the same METRIC, this is called ECMP (EQUAL COST MULTI-PATH)
+Since BOTH ROUTES share the same METRIC, this is called ECMP (EQUAL COST MULTI-PATH)
 
 You can have ECMP with STATIC ROUTES, as well (they don’t use METRIC, however)
 
@@ -192,7 +192,7 @@ ADMINISTRATIVE DISTANCE NUMBERS
 
 (USE THE FLASHCARDS TO MEMORIZE THESE)
 
-💡 IF the ADMINISTRATIVE DISTANCE is 255, the ROUTER does not believe the SOURCE of that ROUTE and does not install the ROUTE in the ROUTING TABLE!
+IF the ADMINISTRATIVE DISTANCE is 255, the ROUTER does not believe the SOURCE of that ROUTE and does not install the ROUTE in the ROUTING TABLE!
 
 ![image](https://github.com/psaumur/CCNA/assets/106411237/33dbbe2b-7471-4c17-ae27-4d363d115a4c)
 

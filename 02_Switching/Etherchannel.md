@@ -83,7 +83,7 @@ There are THREE methods of ETHERCHANNEL configuration on Cisco SWITCHES
 - Cisco proprietary protocol
 - Dynamically negotiates the creation/maintenance of the ETHERCHANNEL (like DTP does for trunks)
 
-💡 **LACP (Link Aggregation Control Protocol)**
+**LACP (Link Aggregation Control Protocol)**
 - Industry standard protocol (IEEE 802.3ad)
 - Dynamically negotiates the creation/maintenance of the ETHERCHANNEL (like DTP does for trunks)
 
@@ -102,14 +102,14 @@ PAgP CONFIGURATION
 
 ![image](https://github.com/psaumur/CCNA/assets/106411237/d0c734e2-79ad-43ad-a50b-c17ced608021)
 
-💡 NOTE that “auto” and “desirable” are the ONLY available modes for PAgP
+NOTE that “auto” and “desirable” are the ONLY available modes for PAgP
 
 ![image](https://github.com/psaumur/CCNA/assets/106411237/9eabb76a-1846-48d3-abb1-bd6898a432e7)
 
 PAgP negotiations to form an ETHERCHANNEL
 
 
-💡 AWS1(config-if-range)# channel-group 1 mode desirable.
+AWS1(config-if-range)# channel-group 1 mode desirable.
 Creating a port-channel interface Port-channel1
 
 Shows up in the interface as “Port-channel1”
@@ -120,7 +120,7 @@ The “channel-group” number has to MATCH for member INTERFACES on the same SW
 
 It DOESN’T have to MATCH the “channel-group” number on the OTHER SWITCH!
 
-💡 (channel-group 1 on AWS1 can form an ETHERCHANNEL with channel-group 2 on DSW1)
+(channel-group 1 on AWS1 can form an ETHERCHANNEL with channel-group 2 on DSW1)
 
 ---
 
@@ -128,7 +128,7 @@ LACP CONFIGURATION
 
 ![image](https://github.com/psaumur/CCNA/assets/106411237/ba4adcf6-dec5-456f-b8d7-ab4e6b722cbf)
 
-💡 NOTE that “active” and “passive” are the ONLY available modes for LACP
+NOTE that “active” and “passive” are the ONLY available modes for LACP
 
 ![image](https://github.com/psaumur/CCNA/assets/106411237/0a314613-d398-49f1-a4d3-1b50fb96ab7d)
 
@@ -138,7 +138,7 @@ The “channel-group” number has to MATCH for member INTERFACES on the same SW
 
 It DOESN’T have to MATCH the “channel-group” number on the OTHER SWITCH!
 
-💡 (channel-group 1 on AWS1 can form an ETHERCHANNEL with channel-group 2 on DSW1)
+(channel-group 1 on AWS1 can form an ETHERCHANNEL with channel-group 2 on DSW1)
 
 ---
 
@@ -146,7 +146,7 @@ STATIC ETHERCHANNEL CONFIGURATION
 
 ![image](https://github.com/psaumur/CCNA/assets/106411237/92db26e7-21ae-40c6-89ee-abe0197ed8ad)
 
-💡 NOTE that “on” is the ONLY available mode for STATIC ETHERCHANNEL
+NOTE that “on” is the ONLY available mode for STATIC ETHERCHANNEL
 
 ON mode only works with ON Mode
 
@@ -181,7 +181,7 @@ CONFIGURING THE PORT INTERFACE
 
 ![image](https://github.com/psaumur/CCNA/assets/106411237/6adda3dd-6408-445f-bb3f-61847b3920b6)
 
-💡 NOTE the PHYSICAL INTERFACES (g0/0-g0/3) were auto-configured by the Port-channel1 configuration!
+NOTE the PHYSICAL INTERFACES (g0/0-g0/3) were auto-configured by the Port-channel1 configuration!
 
 ---
 
@@ -199,7 +199,7 @@ IMPORTANT NOTES ABOUT ETHERCHANNEL CONFIGURATION
 
 VERIFYING STATUS OF ETHERCHANNEL
 
-💡 “show etherchannel summary”
+“show etherchannel summary”
 
 ![image](https://github.com/psaumur/CCNA/assets/106411237/9e0edb15-2806-4d51-afc9-ad67ed465a97)
 
@@ -221,11 +221,11 @@ Changing one of the Member interfaces using “switchport mode access” has mad
 
 Another useful command
 
-💡 “show etherchannel port-channel”
+“show etherchannel port-channel”
 
 ![image](https://github.com/psaumur/CCNA/assets/106411237/61731b0c-1cc5-4a7e-b92c-d0afbea0ac2d)
 
-💡 “show spanning-tree” will show the single EtherChannel port interface
+“show spanning-tree” will show the single EtherChannel port interface
 
 ![image](https://github.com/psaumur/CCNA/assets/106411237/df0b9cc8-0448-4bbd-aefa-62fadf2b6089)
 
@@ -239,7 +239,7 @@ HOW TO CONFIGURE A LAYER 3 ETHERCHANNEL (from a clean configuration)
 
 ![image](https://github.com/psaumur/CCNA/assets/106411237/c4520b2f-1e3b-49b8-85b1-458cdb6fc865)
 
-💡 “show running-config”
+“show running-config”
 
 ![image](https://github.com/psaumur/CCNA/assets/106411237/8638f32d-47c3-4c64-b68e-a9e2e0070ac9)
 

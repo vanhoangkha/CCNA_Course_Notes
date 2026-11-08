@@ -17,7 +17,7 @@ HOW ACLs WORK
 ![image](https://github.com/psaumur/CCNA/assets/106411237/92d663ec-33a8-4ba4-b0a7-5d3942a9b67e)
 
 <aside>
-💡 REQUIREMENTS:
+REQUIREMENTS:
 
 - Hosts in 192.168.1.0/24 should have ACCESS to the 10.0.1.0/24 NETWORK
 - Hosts in 192.168.2.0/24 should not have ACCESS to the 10.0.10/24 NETWORK
@@ -63,7 +63,7 @@ STANDARD NUMBERED ACLs
 - Different TYPES of ACLs have a different range of numbers that can be used
     
     <aside>
-    💡 STANDARD ACLs can use 1-99 and 1300-1999
+    STANDARD ACLs can use 1-99 and 1300-1999
     
     </aside>
     
@@ -102,7 +102,7 @@ TO APPLY AN ACL TO AN INTERFACE
 WHY WAS THIS RULE PLACED ON G0/2 OUT ? 
 
 <aside>
-💡 STANDARD ACLs should be applied as CLOSE to the DESTINATION as possible!
+STANDARD ACLs should be applied as CLOSE to the DESTINATION as possible!
 
 </aside>
 

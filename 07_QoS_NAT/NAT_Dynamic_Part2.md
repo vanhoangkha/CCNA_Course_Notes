@@ -21,7 +21,7 @@ DYNAMIC NAT
     - If the SOURCE IP is DENIED; the SOURCE IP will NOT be translated
         
         <aside>
-        💡 However, Packet Traffic will NOT be dropped
+        However, Packet Traffic will NOT be dropped
         
         </aside>
         

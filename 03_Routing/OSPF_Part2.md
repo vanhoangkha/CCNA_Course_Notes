@@ -23,7 +23,7 @@ Gigabit Ethernet COST
 
 You can (and SHOULD) change the REFERENCE BANDWIDTH with this command:
 
-💡 R1(config-router)# **auto-cost reference-bandwidth** *megabits-per-second*
+R1(config-router)# **auto-cost reference-bandwidth** *megabits-per-second*
 
 The command is entered in “megabits per second” (DEFAULT is “100”)
 
@@ -47,7 +47,7 @@ LOOPBACK INTERFACES have a COST of 1
 To CHANGE the OSPF COST of an INTERFACE, you use the command :
 
 <aside>
-💡 R1(config-if)# ip ospf cost <cost>
+R1(config-if)# ip ospf cost <cost>
 </aside>
 
 MANUAL COSTS take precedent over AUTOMATIC CALCULATED COST
@@ -57,7 +57,7 @@ One more option to change the OSPF COST of an INTERFACE is to change the BANDWID
 The FORMULA to CALCULATE OSPF COST is :
 
 <aside>
-💡 **reference bandwidth / interface bandwidth**
+**reference bandwidth / interface bandwidth**
 
 </aside>
 
@@ -81,19 +81,19 @@ THREE WAYS to modify the OSPF COST:
 1) Change the ***reference bandwidth***
 
 <aside>
-💡 R1(config-router)# **auto-cost reference-bandwidth** *megabits-per-second*
+R1(config-router)# **auto-cost reference-bandwidth** *megabits-per-second*
 </aside>
 
 2) Manual configuration:
 
 <aside>
-💡 R1(config-router)# ip ospf cost <cost>
+R1(config-router)# ip ospf cost <cost>
 </aside>
 
 3) Change the ***interface bandwidth***
 
 <aside>
-💡 R1(config-router)# **bandwidth <***kilobits-per-second>*
+R1(config-router)# **bandwidth <***kilobits-per-second>*
 </aside>
 
 ![image](https://github.com/psaumur/CCNA/assets/106411237/aba02fbc-174c-41a1-a8e3-0ffdda3a6cbd)
@@ -208,7 +208,7 @@ MORE OSPF CONFIGURATIONS
 Activate OSPF DIRECTLY on an INTERFACE with this command:
 
 <aside>
-💡 R1(config-if)# ip ospf *process-id* area *area*
+R1(config-if)# ip ospf *process-id* area *area*
 
 </aside>
 
@@ -217,7 +217,7 @@ Activate OSPF DIRECTLY on an INTERFACE with this command:
 Configure ALL INTERFACES as OSPF Passive Interfaces
 
 <aside>
-💡 R1(config-router) #passive-interface default
+R1(config-router) #passive-interface default
 
 </aside>
 
@@ -226,7 +226,7 @@ Configure ALL INTERFACES as OSPF Passive Interfaces
 Can then REMOVE specific INTERFACES from being passive using:
 
 <aside>
-💡 R1(config-router) #no passive-interface *interface-id*
+R1(config-router) #no passive-interface *interface-id*
 
 </aside>
 

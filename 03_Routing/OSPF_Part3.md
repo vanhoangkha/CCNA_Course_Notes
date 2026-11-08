@@ -27,7 +27,7 @@ OSPF NETWORK TYPES
     - Enabled by DEFAULT on **FRAME RELAY** and **X.25** INTERFACES
 
 <aside>
-💡  CCNA focuses on BROADCAST and POINT-TO-POINT types
+CCNA focuses on BROADCAST and POINT-TO-POINT types
 
 </aside>
 
@@ -55,21 +55,21 @@ The DR / BDR election order of priority:
 “Second Place” because the BDR
 
 <aside>
-💡 DEFAULT OSPF INTERFACE PRIORITY is “1” on ALL INTERFACES!
+DEFAULT OSPF INTERFACE PRIORITY is “1” on ALL INTERFACES!
 
 </aside>
 
 The command to change the OSPF PRIORITY of an INTERFACE is :
 
 <aside>
-💡 R2(config-if)# ip ospf priority <priority number>
+R2(config-if)# ip ospf priority <priority number>
 
 </aside>
 
 ![image](https://github.com/psaumur/CCNA/assets/106411237/cd98b06f-3730-4b2d-8dfe-a6387fdb66a1)
 
 <aside>
-💡 IF an OSPF PRIORITY is set to “0”, the ROUTER CANNOT be the DR / BDR for the SUBNET!
+IF an OSPF PRIORITY is set to “0”, the ROUTER CANNOT be the DR / BDR for the SUBNET!
 
 </aside>
 
@@ -87,7 +87,7 @@ Once the DR / DBR are selected, they will keep their role until OSPF is:
 ![image](https://github.com/psaumur/CCNA/assets/106411237/82eb1f11-4aed-456b-b2b1-1679cae06743)
 
 <aside>
-💡 In the BROADCAST NETWORK TYPE, ROUTERS will only form a FULL OSPF ADJACENCY with the DR and the BDR of the SEGMENT!
+In the BROADCAST NETWORK TYPE, ROUTERS will only form a FULL OSPF ADJACENCY with the DR and the BDR of the SEGMENT!
 
 </aside>
 
@@ -98,7 +98,7 @@ DROthers will NOT exchange LSAs with each other.
 ALL ROUTERS will still have the same LSDB but THIS reduces the amount of LSAs flooding the NETWORK
 
 <aside>
-💡 MESSAGES to the DR / BDR are MULTICAST to 224.0.0.6
+MESSAGES to the DR / BDR are MULTICAST to 224.0.0.6
 
 </aside>
 
@@ -154,7 +154,7 @@ SERIAL INTERFACES SUMMARY
 - You can configure PPP encapsulation with this command:
     
     <aside>
-    💡 R1(config-if)# **encapsulation ppp**
+    R1(config-if)# **encapsulation ppp**
     
     </aside>
     
@@ -162,14 +162,14 @@ SERIAL INTERFACES SUMMARY
 - Identify which side is DCE / DTE :
     
     <aside>
-    💡 R1# **show controllers** *interface-id*
+    R1# **show controllers** *interface-id*
     
     </aside>
     
 - You must configure the CLOCK RATE on the DCE side:
     
     <aside>
-    💡 R1(config-if)# clock rate *bits-per-second*
+    R1(config-if)# clock rate *bits-per-second*
     
     </aside>
     
@@ -183,7 +183,7 @@ SERIAL INTERFACES SUMMARY
 - You can configure the OSPF NETWORK TYPE on an INTERFACE with :
 
 <aside>
-💡 R1(config-if)# ip ospf network <network type>
+R1(config-if)# ip ospf network <network type>
 
 </aside>
 
@@ -194,7 +194,7 @@ NOTE: Not all NETWORK TYPES work on ALL LINK TYPES (for example, a serial link c
 ![image](https://github.com/psaumur/CCNA/assets/106411237/8688e7ef-d166-4433-9f65-b918917f385f)
 
 <aside>
-💡 NON-BROADCAST NETWORK type Default Timers : Hello 30, Dead 120
+NON-BROADCAST NETWORK type Default Timers : Hello 30, Dead 120
 
 </aside>
 

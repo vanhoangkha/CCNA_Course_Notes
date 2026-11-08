@@ -88,7 +88,7 @@ NTP BASICS
 - Some NTP SERVERS are ‘better’ than others. The ‘distance’ of an NTP SERVER from the original **reference clock** is called **stratum**
 
 <aside>
-💡 NTP uses UDP port 123 to communicate
+NTP uses UDP port 123 to communicate
 
 </aside>
 

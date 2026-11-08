@@ -65,7 +65,7 @@ SNMP VERSIONS
     - A much more SECURE version of SNMP that supports STRONG ENCRYPTION and AUTHENTICATION.
         
         <aside>
-        💡 WHENEVER POSSIBLE, this version should be used!
+        WHENEVER POSSIBLE, this version should be used!
         
         </aside>
         

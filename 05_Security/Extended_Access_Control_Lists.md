@@ -61,19 +61,19 @@ EXTENDED NUMBERS AND NAMED ACLs
 EXTENDED NUMBERED ACL
 
 <aside>
-💡 `R1(config)# access-list *number* [permit | deny] *protocol src-ip dest-ip*`
+`R1(config)# access-list *number* [permit | deny] *protocol src-ip dest-ip*`
 
 </aside>
 
 EXTENDED NAMED ACL
 
 <aside>
-💡 `R1(config)# ip access-list extended {name | number}`
+`R1(config)# ip access-list extended {name | number}`
 
 </aside>
 
 <aside>
-💡 `R1(config-ext-nacl)# {seq-num} {permit | deny} *protocol src-ip dest-ip*`
+`R1(config-ext-nacl)# {seq-num} {permit | deny} *protocol src-ip dest-ip*`
 
 </aside>
 
@@ -94,7 +94,7 @@ MATCHING THE SOURCE / DESTINATION IP ADDRESS
 This command:
 
 <aside>
-💡 `R1(config-ext-nacl)#deny tcp any 10.0.0.0 0.0.0.255`
+`R1(config-ext-nacl)#deny tcp any 10.0.0.0 0.0.0.255`
 
 </aside>
 
